@@ -79,4 +79,38 @@ internal struct JSONStubValues {
         ]
     }
 """
+    
+    let batchJokesJSONWithMissingKeys = """
+    {
+        "type": "success",
+        "value": [
+        {
+        "id": 563,
+        "categories": [
+        "nerdy"
+        ]
+        },
+        {
+        "id": 2,
+        "joke": "Random Joke 2",
+        "categories": []
+        }
+        ]
+    }
+"""
+    
+    let invalidBatchJokesJSONs = """
+    {
+        "type": "success",
+        "value": [
+        {
+        "id": 563,
+        "categories": [
+        "nerd,,,,,,,,,,,,,,,,,,,
+        "joke": "Random Joke 2",
+        "categories": []
+        }
+        ]
+    }
+"""
 }

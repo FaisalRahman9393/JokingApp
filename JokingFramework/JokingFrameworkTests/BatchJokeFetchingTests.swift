@@ -59,6 +59,53 @@ class BatchJokeFetchingTests: XCTestCase {
         XCTAssertEqual(jokesFetched[3].joke, "Random Joke 4")
         XCTAssertEqual(jokesFetched[4].joke, "Random Joke 5")
         
+    }
+    
+    func testwhenABatchJokeResponse_HasInvalidJSON_thenFailureIsReported() {
+        givenTheJokesToolkitIsInitialisedWithANetworkClient()
+        andTheNetworkClientIsMappedWithAnInvalidJSONResponse()
+        
+        
+        let expectation = self.expectation(description: "fetchingJoke")
+        var failureMessage: String?
+        var failureReason: JokeFetchinngFailureReason?
+        
+        jokesToolkit.fetchRandomJoke(success: { _ in
+            
+        }) { (failiure) in
+            failureMessage = failiure.message
+            failureReason = failiure.reason
+            expectation.fulfill()
+            
+        }
+        
+        waitForExpectations(timeout: 1, handler: nil)
+        XCTAssertEqual(failureMessage, "Missing Keys or Invalid Json")
+        XCTAssertEqual(failureReason, JokeFetchinngFailureReason.MissingKeysOrInvalidJson)
+        
+    }
+    
+    func testwhenABatchJokeResponse_HasMissingKeys_thenFailureIsReported() {
+        givenTheJokesToolkitIsInitialisedWithANetworkClient()
+        andTheNetworkClientIsMappedWithAMissingKeysResponse()
+        
+        
+        let expectation = self.expectation(description: "fetchingJoke")
+        var failureMessage: String?
+        var failureReason: JokeFetchinngFailureReason?
+        
+        jokesToolkit.fetchRandomJoke(success: { _ in
+            
+        }) { (failiure) in
+            failureMessage = failiure.message
+            failureReason = failiure.reason
+            expectation.fulfill()
+            
+        }
+        
+        waitForExpectations(timeout: 1, handler: nil)
+        XCTAssertEqual(failureMessage, "Missing Keys or Invalid Json")
+        XCTAssertEqual(failureReason, JokeFetchinngFailureReason.MissingKeysOrInvalidJson)
         
     }
 }
@@ -80,7 +127,7 @@ extension BatchJokeFetchingTests {
     }
     
     fileprivate func andTheNetworkClientIsMappedWithAMissingKeysResponse() {
-        networkClient.mapResponsePayload(responseData: jsonStubs.missingKeysRandomJokeJSON.data(using: .utf8)!, for: endpoints.RANDOM_JOKE_ENDPOINT)
+        networkClient.mapResponsePayload(responseData: jsonStubs.batchJokesJSONWithMissingKeys.data(using: .utf8)!, for: endpoints.RANDOM_JOKE_ENDPOINT)
     }
     
     fileprivate func andTheNetworkClientIsMappedWithAnInvalidJSONResponse() {

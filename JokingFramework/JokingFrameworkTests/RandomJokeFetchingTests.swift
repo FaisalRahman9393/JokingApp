@@ -56,7 +56,7 @@ class RandomJokeFetchingTests: XCTestCase {
     
     func testwhenARandomJokeResponse_HasInvalidJSON_thenFailureIsReported() {
         givenTheJokesToolkitIsInitialisedWithANetworkClient()
-        andTheNetworkClientIsMappedWithAMissingKeysResponse()
+        andTheNetworkClientIsMappedWithAnInvalidJSONResponse()
         
         
         let expectation = self.expectation(description: "fetchingFailure")
@@ -121,7 +121,7 @@ extension RandomJokeFetchingTests {
     }
     
     fileprivate func andTheNetworkClientIsMappedWithAnInvalidJSONResponse() {
-        networkClient.mapResponsePayload(responseData: jsonStubs.invalidRandomJokeJSON.data(using: .utf8)!, for: endpoints.RANDOM_JOKE_ENDPOINT)
+        networkClient.mapResponsePayload(responseData: jsonStubs.invalidBatchJokesJSONs.data(using: .utf8)!, for: endpoints.RANDOM_JOKE_ENDPOINT)
     }
     
     // MARK: When

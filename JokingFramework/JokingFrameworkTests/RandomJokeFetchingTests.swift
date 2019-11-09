@@ -14,14 +14,14 @@ class RandomJokeFetchingTests: XCTestCase {
     var jokesToolkit : JokesToolkit!
     var networkClient: ResponseMappingNetworkClient!
     var endpoints: JokesEndpoints!
-    var jsonStubs: JSONStubs!
+    var jsonStubs: JSONStubValues!
     
     
     override func setUp() {
         jokesToolkit = JokesToolkit()
         networkClient = ResponseMappingNetworkClient()
         endpoints = JokesEndpoints()
-        jsonStubs = JSONStubs()
+        jsonStubs = JSONStubValues()
     }
 
     func testwhenARandomJokeIsRequested_aCallIsMadeToTheJokesAPI() {
@@ -34,7 +34,7 @@ class RandomJokeFetchingTests: XCTestCase {
     
 
     
-    func testwhenARandomJokeResponseIsValid_aRandomJokeIsReturned() {
+    func testwhenARandomJokeResponse_IsValid_aRandomJokeIsReturned() {
         givenTheJokesToolkitIsInitialisedWithANetworkClient()
         andTheNetworkClientIsMappedWithAValidResponse()
         
@@ -44,7 +44,6 @@ class RandomJokeFetchingTests: XCTestCase {
         
         jokesToolkit.fetchRandomJoke(success: { joke in
             jokeFetched = joke
-            
             expectation.fulfill()
         }) { (_) in
             
@@ -53,10 +52,55 @@ class RandomJokeFetchingTests: XCTestCase {
         waitForExpectations(timeout: 0.2, handler: nil)
         XCTAssertEqual(jokeFetched?.joke, "Example Joke")
         
-   
+    }
+    
+    func testwhenARandomJokeResponse_HasInvalidJSON_thenFailureIsReported() {
+        givenTheJokesToolkitIsInitialisedWithANetworkClient()
+        andTheNetworkClientIsMappedWithAMissingKeysResponse()
         
+        
+        let expectation = self.expectation(description: "fetchingFailure")
+        var failureMessage: String?
+        var failureReason: JokeFetchinngFailureReason?
+        
+        jokesToolkit.fetchRandomJoke(success: { _ in
+            
+        }) { (failiure) in
+            failureMessage = failiure.message
+            failureReason = failiure.reason
+            expectation.fulfill()
+            
+        }
+        
+        waitForExpectations(timeout: 1, handler: nil)
+        XCTAssertEqual(failureMessage, "Missing Keys or Invalid Json")
+        XCTAssertEqual(failureReason, JokeFetchinngFailureReason.MissingKeysOrInvalidJson)
         
     }
+    
+    func testwhenARandomJokeResponse_HasMissingKeys_thenFailureIsReported() {
+        givenTheJokesToolkitIsInitialisedWithANetworkClient()
+        andTheNetworkClientIsMappedWithAMissingKeysResponse()
+        
+        
+        let expectation = self.expectation(description: "fetchingFailure")
+        var failureMessage: String?
+        var failureReason: JokeFetchinngFailureReason?
+        
+        jokesToolkit.fetchRandomJoke(success: { _ in
+
+        }) { (failiure) in
+            failureMessage = failiure.message
+            failureReason = failiure.reason
+            expectation.fulfill()
+        }
+        
+        waitForExpectations(timeout: 1, handler: nil)
+        XCTAssertEqual(failureMessage, "Missing Keys or Invalid Json")
+        XCTAssertEqual(failureReason, JokeFetchinngFailureReason.MissingKeysOrInvalidJson)
+        
+    }
+    
 }
 
 // MARK: Helper functions
@@ -70,6 +114,14 @@ extension RandomJokeFetchingTests {
     
     fileprivate func andTheNetworkClientIsMappedWithAValidResponse() {
         networkClient.mapResponsePayload(responseData: jsonStubs.validRandomJokeJSON.data(using: .utf8)!, for: endpoints.RANDOM_JOKE_ENDPOINT)
+    }
+    
+    fileprivate func andTheNetworkClientIsMappedWithAMissingKeysResponse() {
+        networkClient.mapResponsePayload(responseData: jsonStubs.missingKeysRandomJokeJSON.data(using: .utf8)!, for: endpoints.RANDOM_JOKE_ENDPOINT)
+    }
+    
+    fileprivate func andTheNetworkClientIsMappedWithAnInvalidJSONResponse() {
+        networkClient.mapResponsePayload(responseData: jsonStubs.invalidRandomJokeJSON.data(using: .utf8)!, for: endpoints.RANDOM_JOKE_ENDPOINT)
     }
     
     // MARK: When

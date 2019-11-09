@@ -30,9 +30,9 @@ class JokeFetcher {
             
             if let jokeResponse = try? JSONDecoder().decode(JokeResponse.self, from: responseData) {
                       success(Joke(jokeID: jokeResponse.value.id, joke: jokeResponse.value.joke, jokeCategory: jokeResponse.value.categories))
+            } else {
+                failure(JokeFetchingError(reason: .MissingKeysOrInvalidJson, message: "Missing Keys or Invalid Json"))
             }
-            
-            
         }
         
     }
@@ -60,6 +60,7 @@ struct JokeFetchingError {
 
 enum JokeFetchinngFailureReason {
     case EndpointUnreachable
+    case MissingKeysOrInvalidJson
     case Unknown
 }
 

@@ -24,8 +24,6 @@ class ResponseMappingNetworkClient: NetworkClientPort {
         init() {
             client = ResponseMappingNetworkClient()
         }
-        
-        
     }
     
     class FailureBuilder {

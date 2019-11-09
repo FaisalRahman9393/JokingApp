@@ -1,5 +1,0 @@
-2019-11-09 16:45:12 +0000: Received worker from worker provider: 0x7fef383a7c30 [0: iPhone Xʀ (49A34017-6B33-41D1-9499-22BCB3108ECF)]
-2019-11-09 16:45:14 +0000: Worker 0x7fef383a7c30 [24922: iPhone Xʀ (49A34017-6B33-41D1-9499-22BCB3108ECF)] finished bootstrapping
-2019-11-09 16:45:14 +0000: Parallelization disabled; test execution driven by the test process
-2019-11-09 16:45:14 +0000: Worker 0x7fef383a7c30 [24922: iPhone Xʀ (49A34017-6B33-41D1-9499-22BCB3108ECF)] finished successfully
-2019-11-09 16:45:14 +0000: Finished executing tests (cancelled: No)

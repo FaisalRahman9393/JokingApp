@@ -3974,6 +3974,38 @@
 			<key>uniqueIdentifier</key>
 			<string>73E67E3E-BA51-433C-9D65-9ED88B020F8C</string>
 		</dict>
+		<key>761B522C-6664-46AA-937F-C26B5A5789BF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>761B522C-6664-46AA-937F-C26B5A5789BF.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595016905.43389595</real>
+			<key>timeStoppedRecording</key>
+			<real>595016905.64759398</real>
+			<key>title</key>
+			<string>Build JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>761B522C-6664-46AA-937F-C26B5A5789BF</string>
+		</dict>
 		<key>76597746-DAEA-40DB-8A3C-FF12897B95DB</key>
 		<dict>
 			<key>className</key>
@@ -8102,6 +8134,38 @@
 			<key>uniqueIdentifier</key>
 			<string>F2DAA95E-F0AC-4969-B33E-DA51470E044D</string>
 		</dict>
+		<key>F3A2D265-52A3-4BDE-98BA-3E19B2B42B2E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F3A2D265-52A3-4BDE-98BA-3E19B2B42B2E.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595017036.22733402</real>
+			<key>timeStoppedRecording</key>
+			<real>595017037.56447899</real>
+			<key>title</key>
+			<string>Build JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>F3A2D265-52A3-4BDE-98BA-3E19B2B42B2E</string>
+		</dict>
 		<key>F4476FE1-4CAC-4233-849B-13AD61D1F95C</key>
 		<dict>
 			<key>className</key>
@@ -8421,6 +8485,38 @@
 			<string>Build JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>F8A2C493-9F95-48E7-BB4C-69403D5D8573</string>
+		</dict>
+		<key>F90762D7-310E-46B3-84F8-F4B76DCC0F79</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F90762D7-310E-46B3-84F8-F4B76DCC0F79.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595017176.53332698</real>
+			<key>timeStoppedRecording</key>
+			<real>595017177.67657399</real>
+			<key>title</key>
+			<string>Build JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>F90762D7-310E-46B3-84F8-F4B76DCC0F79</string>
 		</dict>
 		<key>F95D9BF7-02C6-455F-BEED-AA077ADF29ED</key>
 		<dict>

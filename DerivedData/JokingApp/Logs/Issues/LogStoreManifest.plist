@@ -6,33 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>4BA70198-C8E5-4D18-AD27-281DC8C64FC3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
-			<key>fileName</key>
-			<string>4BA70198-C8E5-4D18-AD27-281DC8C64FC3.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>JokingFrameworkTests-avbqbbbfnqhnfuctryxwptzqjnnb</string>
-			<key>timeStartedRecording</key>
-			<real>595016525.78089404</real>
-			<key>timeStoppedRecording</key>
-			<real>595016526.64618504</real>
-			<key>title</key>
-			<string>Build target JokingFrameworkTests</string>
-			<key>uniqueIdentifier</key>
-			<string>4BA70198-C8E5-4D18-AD27-281DC8C64FC3</string>
-		</dict>
-		<key>8634E196-E3DC-476C-94A8-BE25A523CA60</key>
+		<key>13DD9C72-F58B-455B-AB2A-3EC6D59CBD2C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -41,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>8634E196-E3DC-476C-94A8-BE25A523CA60.xcactivitylog</string>
+			<string>13DD9C72-F58B-455B-AB2A-3EC6D59CBD2C.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -50,13 +24,39 @@
 			<key>signature</key>
 			<string>JokingFramework-avbqbbbfnqhnfuctryxwptzqjnnb</string>
 			<key>timeStartedRecording</key>
-			<real>595016471.83579099</real>
+			<real>595017176.60288799</real>
 			<key>timeStoppedRecording</key>
-			<real>595016472.45834303</real>
+			<real>595017177.23130095</real>
 			<key>title</key>
 			<string>Build target JokingFramework</string>
 			<key>uniqueIdentifier</key>
-			<string>8634E196-E3DC-476C-94A8-BE25A523CA60</string>
+			<string>13DD9C72-F58B-455B-AB2A-3EC6D59CBD2C</string>
+		</dict>
+		<key>38FC38D8-1E18-425F-B86C-D54ED79715E8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<key>fileName</key>
+			<string>38FC38D8-1E18-425F-B86C-D54ED79715E8.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>JokingFrameworkTests-avbqbbbfnqhnfuctryxwptzqjnnb</string>
+			<key>timeStartedRecording</key>
+			<real>595017177.231372</real>
+			<key>timeStoppedRecording</key>
+			<real>595017177.66265202</real>
+			<key>title</key>
+			<string>Build target JokingFrameworkTests</string>
+			<key>uniqueIdentifier</key>
+			<string>38FC38D8-1E18-425F-B86C-D54ED79715E8</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

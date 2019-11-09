@@ -1,11 +1,11 @@
 version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
 options: "be9d4cf5b6a15dbcad47f0d9e1e27e42"
-build_time: [1573323671, 832410000]
+build_time: [1573324376, 629235000]
 inputs:
   "/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFramework/JokesToolkit.swift": [1573321931, 290861532]
   "/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFramework/NetworkClientPort.swift": [1573308080, 284561366]
   "/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFramework/NetworkClient.swift": [1573308404, 348742410]
   "/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFramework/JokesEndpoints.swift": [1573314187, 576509984]
-  "/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFramework/JokeFetcher.swift": [1573323671, 749598239]
+  "/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFramework/JokeFetcher.swift": [1573324356, 789936193]
   "/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFramework/JokeResponse.swift": [1573323522, 387520004]
   "/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFramework/Joke.swift": [1573322366, 116376223]

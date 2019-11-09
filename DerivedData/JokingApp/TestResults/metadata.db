@@ -42,7 +42,7 @@
 				<key>testwhenARandomJokeIsRequested_aCallIsMadeToTheJokesAPI()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>0.0028320550918579102</real>
+					<real>0.002453923225402832</real>
 				</dict>
 				<key>testwhenARandomJokeIsRequested_callIsMadeToTheJokesAPI()</key>
 				<dict>

@@ -24,7 +24,7 @@ class RandomJokeFetchingTests: XCTestCase {
         jsonStubs = JSONStubValues()
     }
 
-    func testwhenARandomJokeIsRequested_aCallIsMadeToTheJokesEndpoint() {
+    func testWhenARandomJokeIsRequested_aCallIsMadeToTheJokesEndpoint() {
         givenTheJokesToolkitIsInitialisedWithANetworkClient()
         
         whenARandomJokeIsRequested()
@@ -34,7 +34,7 @@ class RandomJokeFetchingTests: XCTestCase {
     
 
     
-    func testwhenARandomJokeResponse_IsValid_aRandomJokeIsReturned() {
+    func testWhenARandomJokeResponse_IsValid_aRandomJokeIsReturned() {
         givenTheJokesToolkitIsInitialisedWithANetworkClient()
         andTheNetworkClientIsMappedWithAValidResponse()
         
@@ -54,7 +54,7 @@ class RandomJokeFetchingTests: XCTestCase {
         
     }
     
-    func testwhenARandomJokeResponse_HasInvalidJSON_thenFailureIsReported() {
+    func testWhenARandomJokeResponse_HasInvalidJSON_thenFailureIsReported() {
         givenTheJokesToolkitIsInitialisedWithANetworkClient()
         andTheNetworkClientIsMappedWithAnInvalidJSONResponse()
         
@@ -65,9 +65,9 @@ class RandomJokeFetchingTests: XCTestCase {
         
         jokesToolkit.fetchRandomJoke(success: { _ in
             
-        }) { (failiure) in
-            failureMessage = failiure.message
-            failureReason = failiure.reason
+        }) { (failure) in
+            failureMessage = failure.message
+            failureReason = failure.reason
             expectation.fulfill()
             
         }
@@ -78,7 +78,7 @@ class RandomJokeFetchingTests: XCTestCase {
         
     }
     
-    func testwhenARandomJokeResponse_HasMissingKeys_thenFailureIsReported() {
+    func testWhenARandomJokeResponse_HasMissingKeys_thenFailureIsReported() {
         givenTheJokesToolkitIsInitialisedWithANetworkClient()
         andTheNetworkClientIsMappedWithAMissingKeysResponse()
         
@@ -89,9 +89,9 @@ class RandomJokeFetchingTests: XCTestCase {
         
         jokesToolkit.fetchRandomJoke(success: { _ in
 
-        }) { (failiure) in
-            failureMessage = failiure.message
-            failureReason = failiure.reason
+        }) { (failure) in
+            failureMessage = failure.message
+            failureReason = failure.reason
             expectation.fulfill()
         }
         

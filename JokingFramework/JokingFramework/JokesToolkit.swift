@@ -27,12 +27,26 @@ class JokesToolkit {
         self.jokeFetcher = JokeFetcher(networkClient: networkClient)
     }
     
-    func fetchRandomJoke(success: @escaping (Joke) -> Void, failure: @escaping (JokeFetchingError) -> Void) {
+    func fetchRandomJoke(success: @escaping (Joke) -> Void,
+                         failure: @escaping (JokeFetchingError) -> Void) {
+        
         return jokeFetcher.fetchRandomJoke(success: success, failure: failure)
     }
     
-    func batchFetchRandomJokes(numberOfJokes: Int, success: @escaping ([Joke]) -> Void, failure: @escaping (JokeFetchingError) -> Void) {
-        return jokeFetcher.batchFetchRandomJokes(numberOfJokes: numberOfJokes, success: success, failure: failure)
+    func batchFetchRandomJokes(numberOfJokes: Int,
+                               success: @escaping ([Joke]) -> Void,
+                               failure: @escaping (JokeFetchingError) -> Void) {
+        
+        return jokeFetcher.batchFetchRandomJokes(
+            numberOfJokes: numberOfJokes,
+            success: success,
+            failure: failure)
+    }
+    
+    func fetchCustomJoke(firstName: String, lastName: String, success: @escaping (Joke) -> Void,
+                               failure: @escaping (JokeFetchingError) -> Void) {
+        
+        return jokeFetcher.fetchCustomJoke(firstName: firstName, lastName: lastName, success: success, failure: failure)
     }
 }
 

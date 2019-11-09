@@ -1,5 +1,5 @@
 //
-//  JokeResponse.swift
+//  SingleJokeResponse.swift
 //  JokingFramework
 //
 //  Created by Faisal Rahman on 09/11/2019.
@@ -8,16 +8,13 @@
 
 import Foundation
 
-struct JokeResponse: Decodable {
+struct SingleJokeResponse: Decodable {
     let type: String
-    let value: [JokeValue]
+    let value: SingleJokeValue
 }
 
-struct JokeValue: Decodable {
+struct SingleJokeValue: Decodable {
     let id: Int
     let joke: String
     let categories: [String]
 }
-
-
-

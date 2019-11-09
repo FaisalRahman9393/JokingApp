@@ -16,23 +16,32 @@ depends-top-level:
 - "JokesToolkit"
 - !private "NetworkClient"
 - "NetworkClientPort"
+- "String"
 - "Void"
 depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "batchFetchRandomJokes"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchCustomJoke"]
 - !private ["s28CustomDebugStringConvertibleP", "fetchRandomJoke"]
 - !private ["s17CustomReflectableP", "batchFetchRandomJokes"]
+- !private ["s17CustomReflectableP", "fetchCustomJoke"]
 - !private ["s17CustomReflectableP", "fetchRandomJoke"]
 - !private ["Se", "batchFetchRandomJokes"]
+- !private ["Se", "fetchCustomJoke"]
 - !private ["Se", "fetchRandomJoke"]
 - !private ["SE", "batchFetchRandomJokes"]
+- !private ["SE", "fetchCustomJoke"]
 - !private ["SE", "fetchRandomJoke"]
 - !private ["SQ", "batchFetchRandomJokes"]
+- !private ["SQ", "fetchCustomJoke"]
 - !private ["SQ", "fetchRandomJoke"]
 - !private ["s23ExpressibleByNilLiteralP", "batchFetchRandomJokes"]
+- !private ["s23ExpressibleByNilLiteralP", "fetchCustomJoke"]
 - !private ["s23ExpressibleByNilLiteralP", "fetchRandomJoke"]
 - !private ["SH", "batchFetchRandomJokes"]
+- !private ["SH", "fetchCustomJoke"]
 - !private ["SH", "fetchRandomJoke"]
 - !private ["15JokingFramework11JokeFetcherC", "batchFetchRandomJokes"]
+- !private ["15JokingFramework11JokeFetcherC", "fetchCustomJoke"]
 - !private ["15JokingFramework11JokeFetcherC", "fetchRandomJoke"]
 - !private ["15JokingFramework11JokeFetcherC", "init"]
 - !private ["15JokingFramework14JokesEndpointsV", "init"]
@@ -43,8 +52,10 @@ depends-member:
 - ["15JokingFramework12JokesToolkitC", "JokesEndpoints"]
 - !private ["15JokingFramework12JokesToolkitC", "NetworkClient"]
 - ["15JokingFramework12JokesToolkitC", "NetworkClientPort"]
+- ["15JokingFramework12JokesToolkitC", "String"]
 - ["15JokingFramework12JokesToolkitC", "Void"]
 - ["15JokingFramework12JokesToolkitC", "batchFetchRandomJokes"]
+- ["15JokingFramework12JokesToolkitC", "fetchCustomJoke"]
 - ["15JokingFramework12JokesToolkitC", "fetchRandomJoke"]
 - ["15JokingFramework12JokesToolkitC", "init"]
 - ["15JokingFramework12JokesToolkitC", "initialise"]
@@ -55,8 +66,10 @@ depends-member:
 - !private ["15JokingFramework13NetworkClientC", "init"]
 - !private ["15JokingFramework17NetworkClientPortP", "init"]
 - !private ["Sq", "batchFetchRandomJokes"]
+- !private ["Sq", "fetchCustomJoke"]
 - !private ["Sq", "fetchRandomJoke"]
 - !private ["s21_ObjectiveCBridgeableP", "batchFetchRandomJokes"]
+- !private ["s21_ObjectiveCBridgeableP", "fetchCustomJoke"]
 - !private ["s21_ObjectiveCBridgeableP", "fetchRandomJoke"]
 depends-nominal:
 - !private "s28CustomDebugStringConvertibleP"
@@ -101,4 +114,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "877f1f9f8a9d89431b74cab0eb26f85f"
+interface-hash: "bab5cff29a377eb2c5e4b6dc8e629012"

@@ -12,29 +12,23 @@ internal struct JSONStubValues {
     let validRandomJokeJSON = """
             {
               "type": "success",
-              "value": [
-                {
-                  "id": 507,
-                  "joke": "Example Joke",
-                  "categories": [
-                    "nerdy"
-                  ]
-                }
-              ]
+              "value": {
+                "id": 123,
+                "joke": "Example Joke",
+                "categories": []
+              }
             }
         """
     
     let missingKeysRandomJokeJSON = """
             {
               "type": "success",
-              "value": [
+              "value":
                 {
                   "id": 507,
-                  "categories": [
+                  "categories":
                     "nerdy"
-                  ]
                 }
-              ]
             }
         """
     

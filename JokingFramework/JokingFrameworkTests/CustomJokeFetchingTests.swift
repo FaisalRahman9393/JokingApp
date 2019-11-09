@@ -1,5 +1,5 @@
 //
-//  RandomJokeFetchingTests.swift
+//  CustomJokeFetchingTests.swift
 //  JokingFrameworkTests
 //
 //  Created by Faisal Rahman on 09/11/2019.
@@ -9,8 +9,8 @@
 import XCTest
 @testable import JokingFramework
 
-class BatchJokeFetchingTests: XCTestCase {
-    
+class CustomJokeFetchingTests: XCTestCase {
+
     var jokesToolkit : JokesToolkit!
     var networkClient: ResponseMappingNetworkClient!
     var endpoints: JokesEndpoints!
@@ -24,27 +24,28 @@ class BatchJokeFetchingTests: XCTestCase {
         jsonStubs = JSONStubValues()
     }
     
-    func testWhenBatchFetchRandomJokesIsCalled_thenACallIsMadeToTheBatchJokesEndpoint() {
+    func testWhenFetchCustomJokeIsCalled_thenACallIsMadeToTheCustomJokesEndpoint() {
         //given
         givenTheJokesToolkitIsInitialisedWithANetworkClient()
         
         //when
-        whenTenRandomJokesAreRequested()
+        whenACustomJokeWithChuckNorrisIsRequested()
         
         //then
-        thenARequestIsMadeToTheICNDBWithTenJokes()
+        thenARequestIsMadeToTheICNDBWithChuckNorris()
     }
     
-    func testWhenBatchFetchRandomJokesIsCalled_thenMultipleJokesAreRetrived() {
+    func testWhenACustomJokeResponse_IsValid_aCustomJokeIsReturned() {
         let expectation = self.expectation(description: "fetchingJoke")
-        var jokesFetched = [Joke]()
+        var jokeFetched: Joke?
+        
         //given
         givenTheJokesToolkitIsInitialisedWithANetworkClient()
         andTheNetworkClientIsMappedWithAValidResponse()
-
+        
         //when
-        jokesToolkit.batchFetchRandomJokes(numberOfJokes: 5, success: { jokes in
-            jokesFetched = jokes
+        jokesToolkit.fetchCustomJoke(firstName: "Chuck", lastName: "Norris", success: { joke in
+            jokeFetched = joke
             expectation.fulfill()
         }) { (_) in
             
@@ -52,16 +53,12 @@ class BatchJokeFetchingTests: XCTestCase {
         
         //then
         waitForExpectations(timeout: 0.2, handler: nil)
-        XCTAssertEqual(jokesFetched[0].joke, "Random Joke 1")
-        XCTAssertEqual(jokesFetched[1].joke, "Random Joke 2")
-        XCTAssertEqual(jokesFetched[2].joke, "Random Joke 3")
-        XCTAssertEqual(jokesFetched[3].joke, "Random Joke 4")
-        XCTAssertEqual(jokesFetched[4].joke, "Random Joke 5")
+        XCTAssertEqual(jokeFetched?.joke, "Example Joke")
         
     }
     
-    func testWhenABatchJokeResponse_HasInvalidJSON_thenFailureIsReported() {
-        let expectation = self.expectation(description: "fetchingJoke")
+    func testWhenACustomJokeResponse_HasInvalidJSON_thenFailureIsReported() {
+        let expectation = self.expectation(description: "fetchingFailure")
         var failureMessage: String?
         var failureReason: JokeFetchinngFailureReason?
         
@@ -70,8 +67,7 @@ class BatchJokeFetchingTests: XCTestCase {
         andTheNetworkClientIsMappedWithAnInvalidJSONResponse()
         
         //when
-        jokesToolkit.fetchRandomJoke(success: { _ in
-            
+        jokesToolkit.fetchCustomJoke(firstName: "Chuck", lastName: "Norris", success: { joke in
         }) { (failure) in
             failureMessage = failure.message
             failureReason = failure.reason
@@ -86,8 +82,8 @@ class BatchJokeFetchingTests: XCTestCase {
         
     }
     
-    func testWhenABatchJokeResponse_HasMissingKeys_thenFailureIsReported() {
-        let expectation = self.expectation(description: "fetchingJoke")
+    func testWhenARandomJokeResponse_HasMissingKeys_thenFailureIsReported() {
+        let expectation = self.expectation(description: "fetchingFailure")
         var failureMessage: String?
         var failureReason: JokeFetchinngFailureReason?
         
@@ -95,14 +91,13 @@ class BatchJokeFetchingTests: XCTestCase {
         givenTheJokesToolkitIsInitialisedWithANetworkClient()
         andTheNetworkClientIsMappedWithAMissingKeysResponse()
         
+        
         //when
-        jokesToolkit.fetchRandomJoke(success: { _ in
-            
+        jokesToolkit.fetchCustomJoke(firstName: "Chuck", lastName: "Norris", success: { joke in
         }) { (failure) in
             failureMessage = failure.message
             failureReason = failure.reason
             expectation.fulfill()
-            
         }
         
         //then
@@ -113,12 +108,9 @@ class BatchJokeFetchingTests: XCTestCase {
     }
 }
 
-    
-
-
 // MARK: Helper functions
 
-extension BatchJokeFetchingTests {
+extension CustomJokeFetchingTests {
     
     // MARK: Given
     func givenTheJokesToolkitIsInitialisedWithANetworkClient() {
@@ -126,22 +118,21 @@ extension BatchJokeFetchingTests {
     }
     
     fileprivate func andTheNetworkClientIsMappedWithAValidResponse() {
-        networkClient.mapResponsePayload(responseData: jsonStubs.validBatchJokesJSON.data(using: .utf8)!, for: endpoints.RANDOM_JOKE_ENDPOINT)
+        networkClient.mapResponsePayload(responseData: jsonStubs.validRandomJokeJSON.data(using: .utf8)!, for: getCustomURL(firstName: "Chuck", lastName: "Norris"))
     }
     
     fileprivate func andTheNetworkClientIsMappedWithAMissingKeysResponse() {
-        networkClient.mapResponsePayload(responseData: jsonStubs.batchJokesJSONWithMissingKeys.data(using: .utf8)!, for: endpoints.RANDOM_JOKE_ENDPOINT)
+        networkClient.mapResponsePayload(responseData: jsonStubs.missingKeysRandomJokeJSON.data(using: .utf8)!, for:getCustomURL(firstName: "Chuck", lastName: "Norris"))
     }
     
     fileprivate func andTheNetworkClientIsMappedWithAnInvalidJSONResponse() {
-        networkClient.mapResponsePayload(responseData: jsonStubs.invalidRandomJokeJSON.data(using: .utf8)!, for: endpoints.RANDOM_JOKE_ENDPOINT)
+        networkClient.mapResponsePayload(responseData: jsonStubs.invalidRandomJokeJSON.data(using: .utf8)!, for: getCustomURL(firstName: "Chuck", lastName: "Norris"))
     }
     
     // MARK: When
     
-    func whenTenRandomJokesAreRequested() {
-        jokesToolkit.batchFetchRandomJokes(numberOfJokes: 10, success: { (_) in
-            
+    func whenACustomJokeWithChuckNorrisIsRequested() {
+        jokesToolkit.fetchCustomJoke(firstName: "Chuck", lastName: "Norris", success: { (_) in
         }) { (_) in
             
         }
@@ -157,13 +148,21 @@ extension BatchJokeFetchingTests {
     
     // MARK: Then
     
-    func thenARequestIsMadeToTheICNDBWithTenJokes() {
-        let endpoint = String(format: endpoints.BATCH_RANDOM_JOKES_ENDPOINT, "10")
-        guard let request = networkClient.capturedRequest(for: endpoint) else {
+    
+    func thenARequestIsMadeToTheICNDBWithChuckNorris() {
+        guard let request = networkClient.capturedRequest(for: getCustomURL(firstName: "Chuck", lastName: "Norris")) else {
             XCTFail()
             return
         }
-        
-        XCTAssertTrue((request.url?.absoluteString.starts(with: endpoints.RANDOM_JOKE_ENDPOINT))!)
+    
+        XCTAssertTrue((request.url?.absoluteString.starts(with: getCustomURL(firstName: "Chuck", lastName: "Norris")))!)
     }
+    
+    // MARK: Other
+    
+    func getCustomURL(firstName: String, lastName: String) -> String{
+        return String(format: endpoints.JOKE_WITH_NAME_ENDPOINT, "Chuck", "Norris")
+    }
+
+    
 }

@@ -3,8 +3,8 @@
 <plist version="1.0">
 <array>
 	<string>Foundation</string>
-	<string>JokingApp</string>
 	<string>JokingFramework</string>
+	<string>JokingApp</string>
 	<string>UIKit</string>
 	<string>XCTest</string>
 </array>

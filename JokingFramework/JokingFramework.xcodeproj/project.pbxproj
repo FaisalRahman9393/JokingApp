@@ -11,10 +11,12 @@
 		770BBE472376FDA500A4E690 /* NetworkClientPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BBE462376FDA500A4E690 /* NetworkClientPort.swift */; };
 		770BBE492376FE0700A4E690 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BBE482376FE0700A4E690 /* NetworkClient.swift */; };
 		776D145F237745BF00D7AC61 /* BatchJokeFetchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776D145E237745BF00D7AC61 /* BatchJokeFetchingTests.swift */; };
+		77B74DEC237761A500EF10AC /* CustomJokeFetchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B74DEB237761A500EF10AC /* CustomJokeFetchingTests.swift */; };
+		77B74DEE237764A600EF10AC /* SingleJokeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B74DED237764A600EF10AC /* SingleJokeResponse.swift */; };
 		77BAF49A237701F90039DF22 /* ResponseMappingNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAF499237701F90039DF22 /* ResponseMappingNetworkClient.swift */; };
 		77BAF49C2377135A0039DF22 /* JokesEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAF49B2377135A0039DF22 /* JokesEndpoints.swift */; };
 		77BAF49E2377191B0039DF22 /* JokeFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAF49D2377191B0039DF22 /* JokeFetcher.swift */; };
-		77BAF4A02377208B0039DF22 /* JokeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAF49F2377208B0039DF22 /* JokeResponse.swift */; };
+		77BAF4A02377208B0039DF22 /* BatchJokeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAF49F2377208B0039DF22 /* BatchJokeResponse.swift */; };
 		77BAF4A2237729890039DF22 /* JSONStubValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAF4A1237729890039DF22 /* JSONStubValues.swift */; };
 		77BAF4A423772CE80039DF22 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAF4A323772CE80039DF22 /* Joke.swift */; };
 		77DED0512376F65900F1B066 /* JokingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77DED0472376F65800F1B066 /* JokingFramework.framework */; };
@@ -37,10 +39,12 @@
 		770BBE462376FDA500A4E690 /* NetworkClientPort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientPort.swift; sourceTree = "<group>"; };
 		770BBE482376FE0700A4E690 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		776D145E237745BF00D7AC61 /* BatchJokeFetchingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchJokeFetchingTests.swift; sourceTree = "<group>"; };
+		77B74DEB237761A500EF10AC /* CustomJokeFetchingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomJokeFetchingTests.swift; sourceTree = "<group>"; };
+		77B74DED237764A600EF10AC /* SingleJokeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleJokeResponse.swift; sourceTree = "<group>"; };
 		77BAF499237701F90039DF22 /* ResponseMappingNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMappingNetworkClient.swift; sourceTree = "<group>"; };
 		77BAF49B2377135A0039DF22 /* JokesEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesEndpoints.swift; sourceTree = "<group>"; };
 		77BAF49D2377191B0039DF22 /* JokeFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFetcher.swift; sourceTree = "<group>"; };
-		77BAF49F2377208B0039DF22 /* JokeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeResponse.swift; sourceTree = "<group>"; };
+		77BAF49F2377208B0039DF22 /* BatchJokeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchJokeResponse.swift; sourceTree = "<group>"; };
 		77BAF4A1237729890039DF22 /* JSONStubValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStubValues.swift; sourceTree = "<group>"; };
 		77BAF4A323772CE80039DF22 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 		77DED0472376F65800F1B066 /* JokingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JokingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,10 +109,11 @@
 				77BAF49B2377135A0039DF22 /* JokesEndpoints.swift */,
 				770BBE462376FDA500A4E690 /* NetworkClientPort.swift */,
 				770BBE482376FE0700A4E690 /* NetworkClient.swift */,
-				77BAF49F2377208B0039DF22 /* JokeResponse.swift */,
+				77BAF49F2377208B0039DF22 /* BatchJokeResponse.swift */,
 				77BAF4A323772CE80039DF22 /* Joke.swift */,
 				77DED04B2376F65800F1B066 /* Info.plist */,
 				77DED04A2376F65800F1B066 /* JokingFramework.h */,
+				77B74DED237764A600EF10AC /* SingleJokeResponse.swift */,
 			);
 			path = JokingFramework;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 				77DED0552376F65900F1B066 /* RandomJokeFetchingTests.swift */,
 				776D145E237745BF00D7AC61 /* BatchJokeFetchingTests.swift */,
 				77DED0572376F65900F1B066 /* Info.plist */,
+				77B74DEB237761A500EF10AC /* CustomJokeFetchingTests.swift */,
 			);
 			path = JokingFrameworkTests;
 			sourceTree = "<group>";
@@ -238,7 +244,8 @@
 				770BBE492376FE0700A4E690 /* NetworkClient.swift in Sources */,
 				77BAF49C2377135A0039DF22 /* JokesEndpoints.swift in Sources */,
 				77BAF49E2377191B0039DF22 /* JokeFetcher.swift in Sources */,
-				77BAF4A02377208B0039DF22 /* JokeResponse.swift in Sources */,
+				77B74DEE237764A600EF10AC /* SingleJokeResponse.swift in Sources */,
+				77BAF4A02377208B0039DF22 /* BatchJokeResponse.swift in Sources */,
 				77BAF4A423772CE80039DF22 /* Joke.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77DED0562376F65900F1B066 /* RandomJokeFetchingTests.swift in Sources */,
+				77B74DEC237761A500EF10AC /* CustomJokeFetchingTests.swift in Sources */,
 				776D145F237745BF00D7AC61 /* BatchJokeFetchingTests.swift in Sources */,
 				77BAF49A237701F90039DF22 /* ResponseMappingNetworkClient.swift in Sources */,
 				77BAF4A2237729890039DF22 /* JSONStubValues.swift in Sources */,

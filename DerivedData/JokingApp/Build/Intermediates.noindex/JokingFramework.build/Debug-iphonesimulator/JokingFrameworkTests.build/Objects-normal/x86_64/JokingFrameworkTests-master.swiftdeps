@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
-options: "79e196691da6a6b3ba2168b0b4e7d8df"
-build_time: [1573323725, 753979000]
-inputs:
-  "/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFrameworkTests/RandomJokeFetchingTests.swift": [1573323725, 658738433]
-  "/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFrameworkTests/ResponseMappingNetworkClient.swift": [1573309742, 925166788]
-  "/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFrameworkTests/JSONStubs.swift": [1573323711, 380538499]

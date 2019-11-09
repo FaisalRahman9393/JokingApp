@@ -8,7 +8,7 @@
 
 import Foundation
 
-internal struct JSONStubs {
+internal struct JSONStubValues {
     let validRandomJokeJSON = """
         {
         "type": "success",
@@ -18,5 +18,22 @@ internal struct JSONStubs {
         "categories": ""
         }
         }
+        """
+    
+    let missingKeysRandomJokeJSON = """
+        {
+        "type": "success",
+        "value": {
+        "id": 133,
+        "categories": ""
+        }
+        }
+        """
+    
+    let invalidRandomJokeJSON = """
+        {,,,,
+        "typdddddries": ""
+        }
+        }xsxxeed
         """
 }

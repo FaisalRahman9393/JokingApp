@@ -2,19 +2,15 @@
 provides-top-level:
 - "JokeResponse"
 - "JokeValue"
-- "Categories"
 provides-nominal:
 - "15JokingFramework12JokeResponseV"
 - "15JokingFramework9JokeValueV"
-- "15JokingFramework10CategoriesV"
 provides-member:
 - ["15JokingFramework12JokeResponseV", ""]
 - ["15JokingFramework9JokeValueV", ""]
-- ["15JokingFramework10CategoriesV", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - "=="
-- "Categories"
 - "Decodable"
 - !private "FloatLiteralType"
 - "Int"
@@ -25,12 +21,6 @@ depends-top-level:
 - !private "StringLiteralType"
 - !private "~="
 depends-member:
-- ["15JokingFramework10CategoriesV", "String"]
-- ["15JokingFramework10CategoriesV", "deinit"]
-- ["15JokingFramework10CategoriesV", "init"]
-- ["15JokingFramework10CategoriesV", "register"]
-- ["15JokingFramework10CategoriesV", "signIn"]
-- ["15JokingFramework10CategoriesV", "tokens"]
 - ["s9CodingKeyP", "=="]
 - !private ["s9CodingKeyP", ""]
 - ["s9CodingKeyP", "_rawHashValue"]
@@ -66,9 +56,6 @@ depends-member:
 - !private ["Se", "id"]
 - ["Se", "init"]
 - !private ["Se", "joke"]
-- !private ["Se", "register"]
-- !private ["Se", "signIn"]
-- !private ["Se", "tokens"]
 - !private ["Se", "type"]
 - !private ["Se", "value"]
 - !private ["s7DecoderP", "container"]
@@ -99,7 +86,6 @@ depends-member:
 - ["15JokingFramework12JokeResponseV", "init"]
 - ["15JokingFramework12JokeResponseV", "type"]
 - ["15JokingFramework12JokeResponseV", "value"]
-- ["15JokingFramework9JokeValueV", "Categories"]
 - ["15JokingFramework9JokeValueV", "Int"]
 - ["15JokingFramework9JokeValueV", "String"]
 - ["15JokingFramework9JokeValueV", "categories"]
@@ -110,7 +96,6 @@ depends-member:
 - !private ["s22KeyedDecodingContainerV", "decode"]
 - !private ["s30KeyedDecodingContainerProtocolP", "decode"]
 depends-nominal:
-- "15JokingFramework10CategoriesV"
 - "s9CodingKeyP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
@@ -151,4 +136,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "df893a8a14c7af0f9cbdc20f821d2f85"
+interface-hash: "e01eeaa3ddc3a7dfe2520cf5cdc6c983"

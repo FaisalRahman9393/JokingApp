@@ -47,6 +47,88 @@
 			<key>uniqueIdentifier</key>
 			<string>0083A443-C177-4DE7-B0B6-0CE399AF524B</string>
 		</dict>
+		<key>02DC9168-5776-4566-98F3-4543F762781A</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>70DD28DE-A02A-442D-85A5-4F127D7FE918</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-02-04-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015324.87900603</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>02DC9168-5776-4566-98F3-4543F762781A</string>
+		</dict>
+		<key>04F4894C-411E-469D-8EC1-22BFCA1B3DA5</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>1354EE0B-8C01-4510-9A1E-F16001B4575D</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-11-53-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015913.73799205</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>04F4894C-411E-469D-8EC1-22BFCA1B3DA5</string>
+		</dict>
 		<key>092DFB58-04EF-4C3A-A5F7-C18819ABB601</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -87,6 +169,47 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>092DFB58-04EF-4C3A-A5F7-C18819ABB601</string>
+		</dict>
+		<key>0AC179CA-7DD3-4D32-83EF-EFAAD586A0C0</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>5A1377DE-E206-40A6-9B7E-A94F60B5875F</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-08-27-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012107.74796498</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>0AC179CA-7DD3-4D32-83EF-EFAAD586A0C0</string>
 		</dict>
 		<key>0C64F4D2-ED5B-4A3E-9690-F485B74E2547</key>
 		<dict>
@@ -169,6 +292,88 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>0F4C941F-FF3A-4282-91DF-0A0BA8CCC86C</string>
+		</dict>
+		<key>0FBDAEF4-3F4A-4D8C-B860-08B7BCB93CF0</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>8B44884B-30F6-414B-8FB6-B889F0964AB8</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_16-53-24-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011204.59518301</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>0FBDAEF4-3F4A-4D8C-B860-08B7BCB93CF0</string>
+		</dict>
+		<key>0FCFFCDF-A0E6-45CB-AFC0-76AAB94E118D</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>2DFFE2D9-2A17-414C-AA51-B36444593335</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-47-56-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595014476.60945404</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>0FCFFCDF-A0E6-45CB-AFC0-76AAB94E118D</string>
 		</dict>
 		<key>1024BCFB-060C-4FB9-89AC-59F130593019</key>
 		<dict>
@@ -293,6 +498,88 @@
 			<key>uniqueIdentifier</key>
 			<string>1B8F94D4-BF87-4273-991E-52C64ED86370</string>
 		</dict>
+		<key>1BC4EC78-A1AE-4AB1-B34D-836839A2AA49</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F546DDD4-C4A0-4C58-9A36-BDAD06191090</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-46-38-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595014398.26993895</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>1BC4EC78-A1AE-4AB1-B34D-836839A2AA49</string>
+		</dict>
+		<key>1D34E439-7D5D-4319-8412-8564DA2F2F9F</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>121F1683-8D7A-4652-BA82-26C00D82997F</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-07-30-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012050.77443194</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>1D34E439-7D5D-4319-8412-8564DA2F2F9F</string>
+		</dict>
 		<key>1E18E847-A423-4BEA-9066-762769B2C52F</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -416,6 +703,375 @@
 			<key>uniqueIdentifier</key>
 			<string>218CA6B1-959E-4BB8-BF37-1E6826FB7494</string>
 		</dict>
+		<key>21E7E2FE-6944-49E2-AB39-221F425E2011</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>C3DA144D-D301-4D19-AD84-7501707A1201</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-46-15-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595014375.13402796</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>21E7E2FE-6944-49E2-AB39-221F425E2011</string>
+		</dict>
+		<key>2523EC77-F502-4E1C-B6DC-C683C468FCA4</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>676BCC72-637A-46E9-9BE4-12D30B0D150B</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-06-58-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012018.78434801</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>2523EC77-F502-4E1C-B6DC-C683C468FCA4</string>
+		</dict>
+		<key>25363DAD-DC03-4423-B2CF-B9D628B6B23C</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>C9D8C9C3-7E8F-4EFC-A655-F491552184B5</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-43-17-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595014197.10432398</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>25363DAD-DC03-4423-B2CF-B9D628B6B23C</string>
+		</dict>
+		<key>29BFD689-9AC8-4758-B36A-6240EE330F77</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>21E05086-3CAC-4FA2-BCFF-923B072B500C</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-45-24-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595014324.02244401</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>29BFD689-9AC8-4758-B36A-6240EE330F77</string>
+		</dict>
+		<key>29ED64F9-81EE-42F7-B9E7-0408A37581F1</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>E36DA671-5E4B-42F9-A7FA-2D4FD670F307</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-10-49-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015849.89024997</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>29ED64F9-81EE-42F7-B9E7-0408A37581F1</string>
+		</dict>
+		<key>2C68456C-0126-42A2-9F91-543EC63C3E59</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>80438BC5-1F9E-4411-B9A2-B8B9171A36B7</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-17-37-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595016257.323107</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>2C68456C-0126-42A2-9F91-543EC63C3E59</string>
+		</dict>
+		<key>30C655BE-F3F3-446F-B97F-24C0BA839C6D</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>CEA2484B-D0B5-4497-A7F2-BA8CC0108B4B</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-09-04-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012144.73560905</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>30C655BE-F3F3-446F-B97F-24C0BA839C6D</string>
+		</dict>
+		<key>3221D04A-5392-4534-9D28-5EA3D641ADF3</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>EC163021-AC8C-48F4-83DF-FEACACCDEB16</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-17-11-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595016231.34705603</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>3221D04A-5392-4534-9D28-5EA3D641ADF3</string>
+		</dict>
+		<key>3424B4E2-7A84-4CE2-9C10-FBB2E9F44734</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>A53860C7-5283-4466-840B-5759668899BA</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-08-41-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012121.77333903</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>3424B4E2-7A84-4CE2-9C10-FBB2E9F44734</string>
+		</dict>
 		<key>3646089E-E098-4046-A15A-12B05DB04164</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -456,6 +1112,47 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>3646089E-E098-4046-A15A-12B05DB04164</string>
+		</dict>
+		<key>36F1158F-2F6F-46A5-8EE8-388AD9E889C4</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>83C3CF3C-BDDB-470B-BF88-B941BE9182D1</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_16-59-04-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011544.91848505</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>36F1158F-2F6F-46A5-8EE8-388AD9E889C4</string>
 		</dict>
 		<key>3CB1E300-5197-4B85-8658-F77CC0B617A1</key>
 		<dict>
@@ -498,6 +1195,47 @@
 			<key>uniqueIdentifier</key>
 			<string>3CB1E300-5197-4B85-8658-F77CC0B617A1</string>
 		</dict>
+		<key>3CC72AAC-23EC-4198-8B3D-C600E761D418</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>6171514E-4C5C-459B-B81B-1B130E4FBDDD</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-08-58-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012138.88650203</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>3CC72AAC-23EC-4198-8B3D-C600E761D418</string>
+		</dict>
 		<key>3E7B1FB1-CE9F-418A-BC2C-AB6ED628F1C3</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -538,6 +1276,88 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>3E7B1FB1-CE9F-418A-BC2C-AB6ED628F1C3</string>
+		</dict>
+		<key>3F441E40-E478-4CEE-AA4F-016E3589D1F9</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>DCD94A9E-ED57-439F-91B2-EA0968C26945</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_16-56-26-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011386.09495103</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>3F441E40-E478-4CEE-AA4F-016E3589D1F9</string>
+		</dict>
+		<key>403D7F6A-A879-4DB7-BB0E-C06F79E7DAE6</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>7232E51D-C85F-4922-8243-404454BDB55E</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_16-59-19-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011559.13314998</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>403D7F6A-A879-4DB7-BB0E-C06F79E7DAE6</string>
 		</dict>
 		<key>411A4D17-5401-47A2-BFA1-AE2A7D123D68</key>
 		<dict>
@@ -580,6 +1400,170 @@
 			<key>uniqueIdentifier</key>
 			<string>411A4D17-5401-47A2-BFA1-AE2A7D123D68</string>
 		</dict>
+		<key>45ABE72B-A8D1-4472-BF01-0157A3660628</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>90BAF221-2528-4F77-9AD4-FFD7BA9ED0DB</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-08-17-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012097.61054897</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>45ABE72B-A8D1-4472-BF01-0157A3660628</string>
+		</dict>
+		<key>47D111B9-FE12-44C3-B439-BEA1390E8ECB</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>11516257-8A6C-45DE-A4DC-A0FB7F13112B</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_16-48-01-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595010881.28996003</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>47D111B9-FE12-44C3-B439-BEA1390E8ECB</string>
+		</dict>
+		<key>4D2CEB35-44BE-4713-9C51-B7338B3EBFF9</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>0C60D4F2-B945-4F4B-B2A1-BF7B614D8D10</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-21-11-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595016471.71986794</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>4D2CEB35-44BE-4713-9C51-B7338B3EBFF9</string>
+		</dict>
+		<key>4D456DEF-68A7-45BB-9E78-AB0D79369F30</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>491CFB18-6AF2-453E-BC92-30B9CDDFA049</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_16-53-35-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011215.16959405</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>4D456DEF-68A7-45BB-9E78-AB0D79369F30</string>
+		</dict>
 		<key>4DFBAF98-CF44-48DF-9F48-A2DADC73DEF2</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -621,6 +1605,88 @@
 			<key>uniqueIdentifier</key>
 			<string>4DFBAF98-CF44-48DF-9F48-A2DADC73DEF2</string>
 		</dict>
+		<key>513C43F1-46EB-489B-B938-A1EFAB0E34C9</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>79FC7BC3-09B6-4C3F-956D-35D8135EDFF3</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-48-11-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595014491.36330402</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>513C43F1-46EB-489B-B938-A1EFAB0E34C9</string>
+		</dict>
+		<key>5213CC18-EB72-4F90-9FB0-DE9FEDA49A4A</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>9E107BB0-AB13-418D-896C-D7ABEB247B55</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-08-45-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015725.14020097</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>5213CC18-EB72-4F90-9FB0-DE9FEDA49A4A</string>
+		</dict>
 		<key>5304D077-2933-4231-8401-C8CF00030E22</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -661,6 +1727,88 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>5304D077-2933-4231-8401-C8CF00030E22</string>
+		</dict>
+		<key>5C7CA2B6-3309-4701-B053-C824B710515B</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>9139BC6B-AE30-4E1B-A77A-D997F14D0FED</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-11-01-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015861.68171203</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>5C7CA2B6-3309-4701-B053-C824B710515B</string>
+		</dict>
+		<key>5ED76EAA-00E1-440C-AD9C-5C084A9144FC</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>1D75396D-F8C8-4F24-B0CA-04A4D084B599</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_16-53-19-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011199.36744106</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>5ED76EAA-00E1-440C-AD9C-5C084A9144FC</string>
 		</dict>
 		<key>5F745F26-AC73-4607-B9AB-DEDC88A69A79</key>
 		<dict>
@@ -785,6 +1933,293 @@
 			<key>uniqueIdentifier</key>
 			<string>683CA636-11AE-49D7-87F6-75DA460ED2B6</string>
 		</dict>
+		<key>69B7E537-DBB8-4FCB-A53F-9E24D8D0F2E1</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>09145F61-C477-4A4D-934D-AAD3F6DFE60B</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-00-50-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015250.58096099</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>69B7E537-DBB8-4FCB-A53F-9E24D8D0F2E1</string>
+		</dict>
+		<key>69F1E98E-0D19-4A8B-B4CE-98A0DAD666E9</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>EC1FB242-FC78-4A85-816A-8FDE2E17372B</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-00-21-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015221.11430395</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>69F1E98E-0D19-4A8B-B4CE-98A0DAD666E9</string>
+		</dict>
+		<key>6A311F43-E101-4334-A17D-C8A1B6A00296</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>00D39E6D-3DEE-49F1-92F5-C16D20BECF77</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-13-44-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595016024.06177104</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>6A311F43-E101-4334-A17D-C8A1B6A00296</string>
+		</dict>
+		<key>6DA2ECA1-E226-4250-BD52-8AC4F5199880</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>88327E16-0402-4C09-ADA5-2717C53F14C7</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-00-40-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015240.35546505</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>6DA2ECA1-E226-4250-BD52-8AC4F5199880</string>
+		</dict>
+		<key>6F662705-8453-42C6-A6A3-78C8C1311798</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>80CF14AA-F0AB-4437-8F49-5083BAA15B1A</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_16-57-08-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011428.65773904</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>6F662705-8453-42C6-A6A3-78C8C1311798</string>
+		</dict>
+		<key>7024C57F-B05F-4C6E-AFD9-570D3F15E0F5</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>EA6F23E3-CC8E-44AC-8B62-3027982EB671</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_16-58-54-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011534.15608001</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>7024C57F-B05F-4C6E-AFD9-570D3F15E0F5</string>
+		</dict>
+		<key>71FA77FE-5E0C-4814-B51B-E4F2EE37E79C</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>54C0FB0C-3B05-4872-AD1C-DB97ED301D32</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-11-08-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015868.054865</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>71FA77FE-5E0C-4814-B51B-E4F2EE37E79C</string>
+		</dict>
 		<key>73206443-062E-49DA-ABF8-485CD7DC0B66</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -867,6 +2302,47 @@
 			<key>uniqueIdentifier</key>
 			<string>757B2C45-C828-4260-8F81-094603F9FEEC</string>
 		</dict>
+		<key>783BB0D0-DB7F-4276-ADC0-EA9D50CD70EE</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>C3279F27-4973-4A96-A0F5-BE44628F3E42</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-02-31-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015351.425318</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>783BB0D0-DB7F-4276-ADC0-EA9D50CD70EE</string>
+		</dict>
 		<key>7A9B784F-E9D6-4A7A-A79E-210BD9FEC793</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -907,6 +2383,47 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>7A9B784F-E9D6-4A7A-A79E-210BD9FEC793</string>
+		</dict>
+		<key>7F3C4501-B30F-4CFC-9D19-DC49F3F2F198</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>7094FB67-C2A8-4E77-AAE4-CD5CE0B05E20</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-24-53-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595013093.20949197</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>7F3C4501-B30F-4CFC-9D19-DC49F3F2F198</string>
 		</dict>
 		<key>8059174B-2E18-4985-B1D9-1C67AF148AA6</key>
 		<dict>
@@ -990,6 +2507,47 @@
 			<key>uniqueIdentifier</key>
 			<string>84CDB492-FE52-4ACA-BE00-E7983B2C2816</string>
 		</dict>
+		<key>861E9151-684F-404F-B564-80546A4616BC</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>8C4315CC-7BE9-499B-8679-DE294430480A</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-07-28-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012048.91201603</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>861E9151-684F-404F-B564-80546A4616BC</string>
+		</dict>
 		<key>86DC6374-8895-42B1-9AEE-71CE2D103644</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -1072,6 +2630,47 @@
 			<key>uniqueIdentifier</key>
 			<string>88B5DA2B-CB69-47D4-B829-9E800AF1EEF9</string>
 		</dict>
+		<key>8903E719-4675-4B29-A573-14B2A77735B9</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>15200E91-9829-4571-8130-49D27E7BECFF</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-22-05-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595016525.61969805</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>8903E719-4675-4B29-A573-14B2A77735B9</string>
+		</dict>
 		<key>8A3F5E22-99DB-4388-ABD0-FAD199FDE1D7</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -1112,6 +2711,88 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>8A3F5E22-99DB-4388-ABD0-FAD199FDE1D7</string>
+		</dict>
+		<key>8D2E6D38-B97E-4A42-A1D1-4555F480F6FE</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>3AD27A10-CDA4-4898-97F5-B0F887731404</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-04-22-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011862.495399</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>8D2E6D38-B97E-4A42-A1D1-4555F480F6FE</string>
+		</dict>
+		<key>8DF10D75-FDB9-45DC-97D3-952E15F712A9</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>CD68C9ED-0E46-484E-9A9E-C616BD57F6EB</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-07-55-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012075.92561901</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>8DF10D75-FDB9-45DC-97D3-952E15F712A9</string>
 		</dict>
 		<key>8ECC5BAA-31F0-4CD0-B51C-D8FDBB675A9C</key>
 		<dict>
@@ -1154,6 +2835,47 @@
 			<key>uniqueIdentifier</key>
 			<string>8ECC5BAA-31F0-4CD0-B51C-D8FDBB675A9C</string>
 		</dict>
+		<key>8F44C9B5-84C4-4247-95BE-30374D51CE11</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>A90C2631-2FCC-4803-A0C6-22F96430F6F8</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-08-52-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012132.32553697</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>8F44C9B5-84C4-4247-95BE-30374D51CE11</string>
+		</dict>
 		<key>9125454A-8DBB-4EDC-BEB9-F6535E8D0A6D</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -1194,6 +2916,47 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>9125454A-8DBB-4EDC-BEB9-F6535E8D0A6D</string>
+		</dict>
+		<key>9497AA0C-7285-4256-BF2D-8150CA5BB1FB</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>591C6924-A156-4C75-99AB-E065533510B2</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-13-14-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015994.64257395</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>9497AA0C-7285-4256-BF2D-8150CA5BB1FB</string>
 		</dict>
 		<key>99EA4B9C-7B9C-4539-92D7-76A48B9EC6DF</key>
 		<dict>
@@ -1276,6 +3039,88 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>9A610F80-314E-403C-80F6-D54268E55D4C</string>
+		</dict>
+		<key>9AF4BC41-8C25-4B7F-91E3-39D23F22AD01</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>77213804-DAE6-4B85-B136-1840F8FD96A0</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-59-34-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015174.48876703</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>9AF4BC41-8C25-4B7F-91E3-39D23F22AD01</string>
+		</dict>
+		<key>9E7EB079-E274-462A-BEDB-DF27406571A0</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>BD63D813-3F5F-4AB4-9E20-B56988AB9252</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-09-08-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012148.74051094</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>9E7EB079-E274-462A-BEDB-DF27406571A0</string>
 		</dict>
 		<key>9FB0C970-52AC-4AC4-9C0C-3966D66F8498</key>
 		<dict>
@@ -1482,6 +3327,129 @@
 			<key>uniqueIdentifier</key>
 			<string>A3A99CD6-9F6D-4C43-AD6A-804A0412354E</string>
 		</dict>
+		<key>A48477E8-16A9-43CA-AFAC-12A6A5BF87D0</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F95D9BF7-02C6-455F-BEED-AA077ADF29ED</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-10-21-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015821.63882196</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>A48477E8-16A9-43CA-AFAC-12A6A5BF87D0</string>
+		</dict>
+		<key>A500CAF9-E132-4FE1-A90E-33E227A0BD5A</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>B2F85506-D5E2-4714-A125-C63F27886202</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-10-00-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012200.87502503</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>A500CAF9-E132-4FE1-A90E-33E227A0BD5A</string>
+		</dict>
+		<key>A6F3794F-8191-456E-97C8-D000E727D573</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F8650D24-2784-4E1F-8AFB-0FB5BE294B00</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-16-57-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595016217.32844496</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>A6F3794F-8191-456E-97C8-D000E727D573</string>
+		</dict>
 		<key>A753D143-A6D1-4018-AFDA-A6C9B0C7A856</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -1646,6 +3614,47 @@
 			<key>uniqueIdentifier</key>
 			<string>AF949F06-8993-4C10-9A1B-5E3200D593F1</string>
 		</dict>
+		<key>B0F285DF-F0C0-4B1D-B6BA-99A0DAF2AE16</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>3E97C5F8-E6CF-46F7-9985-F470A95FE6F5</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_16-56-08-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011368.24890494</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>B0F285DF-F0C0-4B1D-B6BA-99A0DAF2AE16</string>
+		</dict>
 		<key>B1299B44-781F-4E9A-959D-3F481DFD4295</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -1727,6 +3736,47 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>B2CA1314-7227-43F3-A622-D09C80DF57D1</string>
+		</dict>
+		<key>B31E51A6-0251-4C88-BCC2-7699C8A45618</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>AC84C4BD-5F7F-4945-BBC1-153DAE8D784A</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-02-13-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015333.346578</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>B31E51A6-0251-4C88-BCC2-7699C8A45618</string>
 		</dict>
 		<key>B4AF72B1-5506-4014-A1FC-345F51F3081C</key>
 		<dict>
@@ -1810,6 +3860,47 @@
 			<key>uniqueIdentifier</key>
 			<string>B7EA095A-74C6-4373-8449-168F6B993858</string>
 		</dict>
+		<key>BBDF544C-AD8D-4415-A158-1664374AAB12</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>63C2B758-42FE-4C1F-9A10-511810D2B337</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-07-11-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015631.39708102</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>BBDF544C-AD8D-4415-A158-1664374AAB12</string>
+		</dict>
 		<key>BC915463-C3A7-4C0A-B5B0-68FF611AD1D7</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -1850,6 +3941,88 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>BC915463-C3A7-4C0A-B5B0-68FF611AD1D7</string>
+		</dict>
+		<key>BFA4D1F3-38C0-45EA-8881-FD3A0FDDAE6E</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>B4CD0CA5-5D9D-4983-9410-380A1DB0311C</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_16-55-38-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011338.797912</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>BFA4D1F3-38C0-45EA-8881-FD3A0FDDAE6E</string>
+		</dict>
+		<key>C1548050-5A28-47E4-8200-8DC2E8F577CA</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>DED8F32D-A9C4-4567-8D0B-7DC195E9FFED</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-00-53-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015253.51074004</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>C1548050-5A28-47E4-8200-8DC2E8F577CA</string>
 		</dict>
 		<key>C1770902-D195-4630-9E53-CFCF8A3AD690</key>
 		<dict>
@@ -1892,6 +4065,170 @@
 			<key>uniqueIdentifier</key>
 			<string>C1770902-D195-4630-9E53-CFCF8A3AD690</string>
 		</dict>
+		<key>C99C7A56-8E95-4B27-97F3-0D1FD0CA41E0</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>E1EFB150-5676-48E2-BAC6-3F0090721333</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-18-42-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595016322.34063101</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>C99C7A56-8E95-4B27-97F3-0D1FD0CA41E0</string>
+		</dict>
+		<key>CB4C1A20-8798-40BA-A14E-FA62ED9FAB5E</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>6B54CE07-8438-4668-B590-EA765F73CA17</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-03-21-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011801.58299506</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>CB4C1A20-8798-40BA-A14E-FA62ED9FAB5E</string>
+		</dict>
+		<key>CC00CA98-7450-476A-AF4D-3C1F202D39A3</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>92372E23-64F4-4A6B-950F-AF6980DA8A1A</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-08-47-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012127.70513797</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>CC00CA98-7450-476A-AF4D-3C1F202D39A3</string>
+		</dict>
+		<key>CC06A4BF-BD1D-4B98-9C16-BBED78CE299A</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>4930CBBA-6E61-4FD5-B4B6-15CF2A1861A7</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-13-20-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012400.30471694</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>CC06A4BF-BD1D-4B98-9C16-BBED78CE299A</string>
+		</dict>
 		<key>CF20CFE3-BE52-4A93-8F45-FD582FB407DE</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -1932,6 +4269,129 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>CF20CFE3-BE52-4A93-8F45-FD582FB407DE</string>
+		</dict>
+		<key>D1CD9EFE-9F45-4814-B0F0-F243A079B752</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>9E7BD272-7164-4878-845B-3174796DBA97</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-06-45-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015605.95001197</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>D1CD9EFE-9F45-4814-B0F0-F243A079B752</string>
+		</dict>
+		<key>D304740B-EB4C-4BAD-8E5A-C97406DA8CDC</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>1D9C2B09-9FA6-458D-9AC0-D3531079AEE3</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-13-28-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595016008.43916202</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>D304740B-EB4C-4BAD-8E5A-C97406DA8CDC</string>
+		</dict>
+		<key>D470716D-AF6A-4DEE-85BA-DF09273531B6</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>E41C0218-9613-4F71-BE59-DF200F1FACAD</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-04-11-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011851.22218204</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>D470716D-AF6A-4DEE-85BA-DF09273531B6</string>
 		</dict>
 		<key>D58EA6FD-3245-4DD1-951A-DD2F00A9F35E</key>
 		<dict>
@@ -1974,6 +4434,88 @@
 			<key>uniqueIdentifier</key>
 			<string>D58EA6FD-3245-4DD1-951A-DD2F00A9F35E</string>
 		</dict>
+		<key>D70D6F88-CE93-486A-8459-154A775C290B</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>A928DCF6-33AF-498D-ADF2-08EC28CBCA47</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-08-04-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012084.97283494</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>D70D6F88-CE93-486A-8459-154A775C290B</string>
+		</dict>
+		<key>D762CEBA-0ACB-4102-9ACD-13B037747D20</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>1754FB69-3A3E-4164-937F-78EF22217104</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-08-10-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012090.58584201</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>D762CEBA-0ACB-4102-9ACD-13B037747D20</string>
+		</dict>
 		<key>D775F5FB-860C-4F12-8958-C8FEF7071894</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -2014,6 +4556,47 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>D775F5FB-860C-4F12-8958-C8FEF7071894</string>
+		</dict>
+		<key>DAD14464-53BF-41DC-92B5-F86527F2EB15</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>E006AEDA-53B3-4227-B999-FAB56522C1F8</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-08-26-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015706.21635401</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>DAD14464-53BF-41DC-92B5-F86527F2EB15</string>
 		</dict>
 		<key>DB986440-5580-48C0-868B-B11096D5F9A9</key>
 		<dict>
@@ -2056,6 +4639,170 @@
 			<key>uniqueIdentifier</key>
 			<string>DB986440-5580-48C0-868B-B11096D5F9A9</string>
 		</dict>
+		<key>DC47FE4C-DF9D-4316-814D-EABAE1658E2D</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F4ECBD10-811F-4A77-AB80-BE7776293D66</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-52-11-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595014731.22908497</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>DC47FE4C-DF9D-4316-814D-EABAE1658E2D</string>
+		</dict>
+		<key>DC9D3B05-664E-4F10-8C4C-E391A4BA3710</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>D2E645C5-F743-4BC8-84E5-AE190405606E</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-19-09-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595016349.62512302</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>DC9D3B05-664E-4F10-8C4C-E391A4BA3710</string>
+		</dict>
+		<key>E11EEA87-CFB1-4F00-861F-FAD8BDB4EED2</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>3029740B-FADA-4CFD-9F7D-F1F9F5E89ED5</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-46-45-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595014405.45746899</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>E11EEA87-CFB1-4F00-861F-FAD8BDB4EED2</string>
+		</dict>
+		<key>E199559E-03C3-495C-BE94-106A60084CFF</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>29E033C2-7E3C-450B-A07A-A656DF1AA112</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-07-07-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012027.55737603</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>E199559E-03C3-495C-BE94-106A60084CFF</string>
+		</dict>
 		<key>E3008E3F-2527-4B1B-9FB5-E75B3F2E1461</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -2097,6 +4844,47 @@
 			<key>uniqueIdentifier</key>
 			<string>E3008E3F-2527-4B1B-9FB5-E75B3F2E1461</string>
 		</dict>
+		<key>E59C0A5C-BC5B-41FD-927D-A85B77140B25</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>1800E04E-7180-4AC2-A375-51C3265AFCA1</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-03-57-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015437.10539305</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>E59C0A5C-BC5B-41FD-927D-A85B77140B25</string>
+		</dict>
 		<key>E5BF583E-1B84-478D-A980-94191B1AD809</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -2137,6 +4925,47 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>E5BF583E-1B84-478D-A980-94191B1AD809</string>
+		</dict>
+		<key>E74E7D44-BBDB-4B1F-9C21-E18386339B7B</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>B8B0B071-655B-4DBA-BF07-393A19B22C99</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-45-14-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595014314.11559904</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>E74E7D44-BBDB-4B1F-9C21-E18386339B7B</string>
 		</dict>
 		<key>E86D3D0E-B877-4FE5-89BA-D506EE51F306</key>
 		<dict>
@@ -2343,6 +5172,88 @@
 			<key>uniqueIdentifier</key>
 			<string>EE25A80A-0371-4C44-A999-87D2E35C4109</string>
 		</dict>
+		<key>EEB5A675-1142-4AFA-A690-F09BC89B1DE3</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>45AED481-B8B1-4F7E-A713-38978A27C2A1</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-14-04-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>T</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595016044.32394803</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>EEB5A675-1142-4AFA-A690-F09BC89B1DE3</string>
+		</dict>
+		<key>EED9907D-2547-4631-9906-6A2868ECF9DD</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>C495B2EC-AE01-406D-AE6D-E72E9B0F94A9</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_16-59-24-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595011564.70574701</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>EED9907D-2547-4631-9906-6A2868ECF9DD</string>
+		</dict>
 		<key>EF057610-3879-4BDC-8D0B-47734BE39ADD</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -2424,6 +5335,129 @@
 			<string>Test JokingFramework</string>
 			<key>uniqueIdentifier</key>
 			<string>F8F26F4E-0294-48AD-A7AE-286965E558A6</string>
+		</dict>
+		<key>FB7BDCDF-CCA3-40F7-A7BB-45D155017790</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>D643A069-572B-4230-8254-59CD3C906627</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-01-56-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595015316.27662301</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>FB7BDCDF-CCA3-40F7-A7BB-45D155017790</string>
+		</dict>
+		<key>FC391734-ACDF-43A7-A437-E4938A291B9F</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>676926CE-3219-4818-BECA-6216C825D364</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_18-21-51-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595016511.33820498</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>FC391734-ACDF-43A7-A437-E4938A291B9F</string>
+		</dict>
+		<key>FDB3F829-F193-46FB-8FC9-FB2C6817F55C</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>F70F1802-123D-4301-B46A-8507B1111BD6</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-JokingFramework-2019.11.09_17-10-36-+0000.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>JokingFramework project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>JokingFramework</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test JokingFramework</string>
+			<key>timeStartedRecording</key>
+			<real>595012236.21026504</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>FDB3F829-F193-46FB-8FC9-FB2C6817F55C</string>
 		</dict>
 		<key>FDF50555-446F-4E7C-A5ED-9668D3F5F6FC</key>
 		<dict>

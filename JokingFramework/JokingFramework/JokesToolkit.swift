@@ -25,11 +25,10 @@ class JokesToolkit {
         self.networkClient = networkClient
         self.jokesEndpoints = JokesEndpoints()
         self.jokeFetcher = JokeFetcher(networkClient: networkClient)
-        
     }
     
-    func fetchRandomJoke() -> String {
-        return jokeFetcher.fetchRandomJoke()
+    func fetchRandomJoke(success: @escaping (Joke) -> Void, failure: @escaping (JokeFetchingError) -> Void) {
+        return jokeFetcher.fetchRandomJoke(success: success, failure: failure)
     }
 }
 

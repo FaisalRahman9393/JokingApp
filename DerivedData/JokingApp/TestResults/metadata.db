@@ -39,10 +39,20 @@
 					<key>mrnet</key>
 					<real>0.003502964973449707</real>
 				</dict>
+				<key>testwhenARandomJokeIsRequested_aCallIsMadeToTheJokesAPI()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.0028320550918579102</real>
+				</dict>
 				<key>testwhenARandomJokeIsRequested_callIsMadeToTheJokesAPI()</key>
 				<dict>
 					<key>mrnet</key>
-					<real>0.004261016845703125</real>
+					<real>0.0026940107345581055</real>
+				</dict>
+				<key>testwhenARandomJokeResponseIsValid_aRandomJokeIsReturned()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>3.0950750112533569</real>
 				</dict>
 			</dict>
 		</dict>

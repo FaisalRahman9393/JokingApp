@@ -18,27 +18,22 @@ class JokeFetcher {
         self.jokesEndpoints = JokesEndpoints()
     }
     
-    func fetchRandomJoke() -> String {
+    func fetchRandomJoke(success: @escaping (Joke) -> Void, failure: @escaping (JokeFetchingError) -> Void) {
         guard let randomJokeRequest = buildRandomJokeRequest(endpoint: jokesEndpoints.RANDOM_JOKE_ENDPOINT)
             else {
-                return ""
+                failure(JokeFetchingError(reason: .Unknown, message: "Invalid URL"))
+                return
         }
         
         networkClient.perform(randomJokeRequest) { (data, networkResponse, networkError) in
-            guard let responseData = data else {
-                return
-            }
-            
+            guard let responseData = data else { return }
             
             if let jokeResponse = try? JSONDecoder().decode(JokeResponse.self, from: responseData) {
-            
-                print(jokeResponse)
-            
+                      success(Joke(jokeID: jokeResponse.value.id, joke: jokeResponse.value.joke, jokeCategory: jokeResponse.value.categories))
             }
             
             
         }
-      return ""
         
     }
     
@@ -52,3 +47,19 @@ class JokeFetcher {
     }
 
 }
+
+struct JokeFetchingError {
+    var reason: JokeFetchinngFailureReason
+    var message: String
+    
+    init(reason: JokeFetchinngFailureReason, message: String) {
+        self.reason = reason
+        self.message = message
+    }
+}
+
+enum JokeFetchinngFailureReason {
+    case EndpointUnreachable
+    case Unknown
+}
+

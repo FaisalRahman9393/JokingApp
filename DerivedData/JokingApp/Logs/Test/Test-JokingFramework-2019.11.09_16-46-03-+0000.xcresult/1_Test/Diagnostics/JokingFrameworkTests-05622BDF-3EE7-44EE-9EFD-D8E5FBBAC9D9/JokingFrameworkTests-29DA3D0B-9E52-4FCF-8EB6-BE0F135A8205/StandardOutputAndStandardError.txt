@@ -1,0 +1,12 @@
+Test Suite 'All tests' started at 2019-11-09 16:46:05.364
+Test Suite 'JokingFrameworkTests.xctest' started at 2019-11-09 16:46:05.365
+Test Suite 'RandomJokeFetchingTests' started at 2019-11-09 16:46:05.365
+Test Case '-[JokingFrameworkTests.RandomJokeFetchingTests testwhenARandomJokeIsRequested_callIsMadeToTheJokesAPI]' started.
+/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFrameworkTests/RandomJokeFetchingTests.swift:95: error: -[JokingFrameworkTests.RandomJokeFetchingTests testwhenARandomJokeIsRequested_callIsMadeToTheJokesAPI] : failed
+Test Case '-[JokingFrameworkTests.RandomJokeFetchingTests testwhenARandomJokeIsRequested_callIsMadeToTheJokesAPI]' failed (0.004 seconds).
+Test Suite 'RandomJokeFetchingTests' failed at 2019-11-09 16:46:05.370.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.004 (0.005) seconds
+Test Suite 'JokingFrameworkTests.xctest' failed at 2019-11-09 16:46:05.370.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.004 (0.006) seconds
+Test Suite 'All tests' failed at 2019-11-09 16:46:05.371.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.004 (0.007) seconds

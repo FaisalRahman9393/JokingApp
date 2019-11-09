@@ -1,0 +1,285 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ResponseError"
+- "ResponseMappingNetworkClient"
+provides-nominal:
+- "20JokingFrameworkTests13ResponseErrorC"
+- "20JokingFrameworkTests28ResponseMappingNetworkClientC"
+- "20JokingFrameworkTests28ResponseMappingNetworkClientC14SuccessBuilderC"
+- "20JokingFrameworkTests28ResponseMappingNetworkClientC14FailureBuilderC"
+- "20JokingFrameworkTests28ResponseMappingNetworkClientC7URLTaskV"
+provides-member:
+- ["20JokingFrameworkTests13ResponseErrorC", ""]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", ""]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC14SuccessBuilderC", ""]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC14FailureBuilderC", ""]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC7URLTaskV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- !private "Bool"
+- !private "BooleanLiteralType"
+- "Data"
+- "Dictionary"
+- "Error"
+- "NetworkClientPort"
+- "ResponseError"
+- "ResponseMappingNetworkClient"
+- "String"
+- "URLRequest"
+- "URLResponse"
+- "Void"
+depends-member:
+- !private ["SK", "starts"]
+- !private ["s7CVarArgP", "first"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "starts"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "first"]
+- ["Sl", "init"]
+- !private ["Sl", "starts"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "starts"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "starts"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "starts"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "url"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "starts"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["Se", "absoluteString"]
+- !private ["Se", "first"]
+- ["Se", "init"]
+- !private ["Se", "starts"]
+- !private ["Se", "subscript"]
+- !private ["SD", "first"]
+- ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SE", "absoluteString"]
+- !private ["SE", "first"]
+- ["SE", "init"]
+- !private ["SE", "starts"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "absoluteString"]
+- !private ["SQ", "first"]
+- ["SQ", "init"]
+- !private ["SQ", "starts"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "url"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- !private ["s5ErrorP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "first"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "starts"]
+- !private ["s32ExpressibleByStringInterpolationP", "starts"]
+- !private ["s26ExpressibleByStringLiteralP", "starts"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "starts"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC14FailureBuilderC", "ResponseMappingNetworkClient"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC14FailureBuilderC", "build"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC14FailureBuilderC", "init"]
+- !private ["SH", "absoluteString"]
+- !private ["SH", "first"]
+- ["SH", "init"]
+- !private ["SH", "starts"]
+- !private ["SH", "subscript"]
+- !private ["SH", "url"]
+- !private ["s25LosslessStringConvertibleP", "starts"]
+- !private ["s10MirrorPathP", "starts"]
+- !private ["So8NSCodingP", "starts"]
+- !private ["So9NSCopyingP", "starts"]
+- !private ["So21NSItemProviderReadingP", "starts"]
+- !private ["So21NSItemProviderWritingP", "starts"]
+- !private ["So16NSMutableCopyingP", "starts"]
+- !private ["So8NSObjectC", "starts"]
+- !private ["So8NSObjectP", "starts"]
+- !private ["So14NSSecureCodingP", "starts"]
+- !private ["So8NSStringC", "starts"]
+- ["15JokingFramework17NetworkClientPortP", "Dictionary"]
+- !private ["15JokingFramework17NetworkClientPortP", "ResponseError"]
+- !private ["15JokingFramework17NetworkClientPortP", "ResponseMappingNetworkClient"]
+- ["15JokingFramework17NetworkClientPortP", ""]
+- !private ["15JokingFramework17NetworkClientPortP", "capturedRequests"]
+- !private ["15JokingFramework17NetworkClientPortP", "failureErrors"]
+- !private ["15JokingFramework17NetworkClientPortP", "init"]
+- ["15JokingFramework17NetworkClientPortP", "perform"]
+- !private ["15JokingFramework17NetworkClientPortP", "performRequest"]
+- !private ["15JokingFramework17NetworkClientPortP", "responsePayloads"]
+- !private ["15JokingFramework17NetworkClientPortP", "responses"]
+- !private ["Sm", "starts"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- !private ["10Foundation20ReferenceConvertibleP", "url"]
+- ["20JokingFrameworkTests13ResponseErrorC", "_code"]
+- ["20JokingFrameworkTests13ResponseErrorC", "_domain"]
+- ["20JokingFrameworkTests13ResponseErrorC", "_getEmbeddedNSError"]
+- ["20JokingFrameworkTests13ResponseErrorC", "_userInfo"]
+- ["20JokingFrameworkTests13ResponseErrorC", "deinit"]
+- ["20JokingFrameworkTests13ResponseErrorC", "init"]
+- !private ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "Bool"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "Data"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "Dictionary"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "Error"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "FailureBuilder"]
+- !private ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "ResponseError"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "ResponseMappingNetworkClient"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "String"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "SuccessBuilder"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "URLRequest"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "URLResponse"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "URLTask"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "Void"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "capturedRequest"]
+- !private ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "capturedRequests"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "clearCapturedRequests"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "deinit"]
+- !private ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "failureErrors"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "init"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "mapError"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "mapResponse"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "mapResponsePayload"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "perform"]
+- !private ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "performRequest"]
+- !private ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "responsePayloads"]
+- !private ["20JokingFrameworkTests28ResponseMappingNetworkClientC", "responses"]
+- !private ["ST", "first"]
+- ["ST", "init"]
+- !private ["ST", "starts"]
+- !private ["ST", "subscript"]
+- !private ["SS", "starts"]
+- !private ["Sy", "starts"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC14SuccessBuilderC", "ResponseMappingNetworkClient"]
+- !private ["20JokingFrameworkTests28ResponseMappingNetworkClientC14SuccessBuilderC", "client"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC14SuccessBuilderC", "init"]
+- !private ["s16TextOutputStreamP", "starts"]
+- !private ["s20TextOutputStreamableP", "starts"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- !private ["10Foundation10URLRequestV", "url"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC7URLTaskV", "Data"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC7URLTaskV", "Error"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC7URLTaskV", "URLRequest"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC7URLTaskV", "URLResponse"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC7URLTaskV", "Void"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC7URLTaskV", "completionHandler"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC7URLTaskV", "init"]
+- ["20JokingFrameworkTests28ResponseMappingNetworkClientC7URLTaskV", "request"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "starts"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "starts"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "starts"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "starts"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- !private ["s19_HasContiguousBytesP", "starts"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "starts"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "starts"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "starts"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "url"]
+depends-nominal:
+- !private "SK"
+- "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SD"
+- "SE"
+- "SQ"
+- "s5ErrorP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "20JokingFrameworkTests28ResponseMappingNetworkClientC14FailureBuilderC"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "15JokingFramework17NetworkClientPortP"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- "20JokingFrameworkTests13ResponseErrorC"
+- "20JokingFrameworkTests28ResponseMappingNetworkClientC"
+- "ST"
+- !private "SS"
+- !private "Sy"
+- "20JokingFrameworkTests28ResponseMappingNetworkClientC14SuccessBuilderC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- "20JokingFrameworkTests28ResponseMappingNetworkClientC7URLTaskV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/rahmaf04/Desktop/JokingApp/DerivedData/JokingApp/Build/Products/Debug-iphonesimulator/JokingFramework.framework/Modules/JokingFramework.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFramework/JokingFramework.h"
+- "/Users/rahmaf04/Desktop/JokingApp/DerivedData/JokingApp/Build/Products/Debug-iphonesimulator/JokingFramework.framework/Headers/JokingFramework-Swift.h"
+- "/Users/rahmaf04/Desktop/JokingApp/DerivedData/JokingApp/Build/Intermediates.noindex/JokingFramework.build/Debug-iphonesimulator/JokingFramework.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "33ad9f65238b5afe000b2e1aea821d27"

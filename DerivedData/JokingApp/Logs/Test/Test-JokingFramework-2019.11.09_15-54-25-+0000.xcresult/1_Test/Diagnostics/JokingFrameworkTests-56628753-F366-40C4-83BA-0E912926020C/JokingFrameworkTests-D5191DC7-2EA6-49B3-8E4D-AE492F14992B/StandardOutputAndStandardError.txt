@@ -1,0 +1,12 @@
+Test Suite 'All tests' started at 2019-11-09 15:54:27.016
+Test Suite 'JokingFrameworkTests.xctest' started at 2019-11-09 15:54:27.017
+Test Suite 'RandomJokeFetchingTests' started at 2019-11-09 15:54:27.017
+Test Case '-[JokingFrameworkTests.RandomJokeFetchingTests testwhenARandomJokeIsRequested_callIsMadeToTheJokesAPI]' started.
+/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFrameworkTests/RandomJokeFetchingTests.swift:47: error: -[JokingFrameworkTests.RandomJokeFetchingTests testwhenARandomJokeIsRequested_callIsMadeToTheJokesAPI] : XCTAssertEqual failed: ("") is not equal to ("exampleJoke")
+Test Case '-[JokingFrameworkTests.RandomJokeFetchingTests testwhenARandomJokeIsRequested_callIsMadeToTheJokesAPI]' failed (2.848 seconds).
+Test Suite 'RandomJokeFetchingTests' failed at 2019-11-09 15:54:29.866.
+	 Executed 1 test, with 1 failure (0 unexpected) in 2.848 (2.849) seconds
+Test Suite 'JokingFrameworkTests.xctest' failed at 2019-11-09 15:54:29.867.
+	 Executed 1 test, with 1 failure (0 unexpected) in 2.848 (2.849) seconds
+Test Suite 'All tests' failed at 2019-11-09 15:54:29.867.
+	 Executed 1 test, with 1 failure (0 unexpected) in 2.848 (2.851) seconds

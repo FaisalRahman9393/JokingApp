@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.1</string>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>DiagnosticsDirectory</key>
+			<string>JokingFrameworkTests-0799CF0E-BB60-4305-94FC-699C229E98EB</string>
+			<key>ProjectPath</key>
+			<string>JokingFramework/JokingFramework.xcodeproj</string>
+			<key>TargetName</key>
+			<string>JokingFrameworkTests</string>
+			<key>TestKind</key>
+			<string>xctest-tool hosted</string>
+			<key>TestName</key>
+			<string>JokingFrameworkTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Duration</key>
+					<real>0.011110067367553711</real>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Duration</key>
+							<real>0.0052689313888549805</real>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Duration</key>
+									<real>0.0045320987701416016</real>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>ActivitySummaries</key>
+											<array>
+												<dict>
+													<key>ActivityType</key>
+													<string>com.apple.dt.xctest.activity-type.testAssertionFailure</string>
+													<key>FinishTimeInterval</key>
+													<real>595008280.48762095</real>
+													<key>StartTimeInterval</key>
+													<real>595008280.48702204</real>
+													<key>Title</key>
+													<string>Assertion Failure: RandomJokeFetchingTests.swift:47: XCTAssertEqual failed: ("") is not equal to ("exampleJoke")</string>
+													<key>UUID</key>
+													<string>83F21D35-A6F9-4DAB-88EB-4F8B308B15F7</string>
+												</dict>
+											</array>
+											<key>Duration</key>
+											<real>0.0038830041885375977</real>
+											<key>FailureSummaries</key>
+											<array>
+												<dict>
+													<key>FileName</key>
+													<string>/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFrameworkTests/RandomJokeFetchingTests.swift</string>
+													<key>LineNumber</key>
+													<integer>47</integer>
+													<key>Message</key>
+													<string>XCTAssertEqual failed: ("") is not equal to ("exampleJoke")</string>
+													<key>PerformanceFailure</key>
+													<false/>
+												</dict>
+											</array>
+											<key>TestIdentifier</key>
+											<string>RandomJokeFetchingTests/testwhenARandomJokeIsRequested_callIsMadeToTheJokesAPI()</string>
+											<key>TestName</key>
+											<string>testwhenARandomJokeIsRequested_callIsMadeToTheJokesAPI()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Failure</string>
+											<key>TestSummaryGUID</key>
+											<string>4EF92638-2DE1-4A43-BBFA-FDB2A70BFAE3</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>RandomJokeFetchingTests</string>
+									<key>TestName</key>
+									<string>RandomJokeFetchingTests</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>JokingFrameworkTests.xctest</string>
+							<key>TestName</key>
+							<string>JokingFrameworkTests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>All tests</string>
+					<key>TestName</key>
+					<string>All tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

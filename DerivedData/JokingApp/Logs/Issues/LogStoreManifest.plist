@@ -5,7 +5,60 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>B9F69C5E-C563-4DD3-A2E2-0591FF59B482</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<key>fileName</key>
+			<string>B9F69C5E-C563-4DD3-A2E2-0591FF59B482.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>JokingFrameworkTests-avbqbbbfnqhnfuctryxwptzqjnnb</string>
+			<key>timeStartedRecording</key>
+			<real>595010763.99743295</real>
+			<key>timeStoppedRecording</key>
+			<real>595010764.39813399</real>
+			<key>title</key>
+			<string>Build target JokingFrameworkTests</string>
+			<key>uniqueIdentifier</key>
+			<string>B9F69C5E-C563-4DD3-A2E2-0591FF59B482</string>
+		</dict>
+		<key>C32F7774-0CEA-42B1-8F9A-E41C4A13623E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>C32F7774-0CEA-42B1-8F9A-E41C4A13623E.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>JokingFramework-avbqbbbfnqhnfuctryxwptzqjnnb</string>
+			<key>timeStartedRecording</key>
+			<real>595010763.45177603</real>
+			<key>timeStoppedRecording</key>
+			<real>595010763.99662101</real>
+			<key>title</key>
+			<string>Build target JokingFramework</string>
+			<key>uniqueIdentifier</key>
+			<string>C32F7774-0CEA-42B1-8F9A-E41C4A13623E</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>

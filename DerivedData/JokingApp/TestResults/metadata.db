@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<integer>1</integer>
+	<key>Store</key>
+	<dict>
+		<key>JokingAppTests</key>
+		<dict>
+			<key>JokingAppTests</key>
+			<dict>
+				<key>testExample()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.0010290145874023438</real>
+				</dict>
+				<key>testPerformanceExample()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.4306870698928833</real>
+				</dict>
+			</dict>
+		</dict>
+		<key>JokingFrameworkTests</key>
+		<dict>
+			<key>JokingFrameworkTests</key>
+			<dict>
+				<key>testJokesToolkitCanBeInitialised()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.0019479990005493164</real>
+				</dict>
+			</dict>
+			<key>RandomJokeFetchingTests</key>
+			<dict>
+				<key>testJokesToolkitCanBeInitialised()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.003502964973449707</real>
+				</dict>
+				<key>testwhenARandomJokeIsRequested_callIsMadeToTheJokesAPI()</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.004261016845703125</real>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

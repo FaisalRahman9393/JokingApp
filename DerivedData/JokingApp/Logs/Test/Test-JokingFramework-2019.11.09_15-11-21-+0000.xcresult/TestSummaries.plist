@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.1</string>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>DiagnosticsDirectory</key>
+			<string>JokingFrameworkTests-5F000811-8ABA-4067-8900-FE344333CFC7</string>
+			<key>ProjectPath</key>
+			<string>JokingFramework/JokingFramework.xcodeproj</string>
+			<key>TargetName</key>
+			<string>JokingFrameworkTests</string>
+			<key>TestKind</key>
+			<string>xctest-tool hosted</string>
+			<key>TestName</key>
+			<string>JokingFrameworkTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Duration</key>
+					<real>0.0043900012969970703</real>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Duration</key>
+							<real>0.0029790401458740234</real>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Duration</key>
+									<real>0.0019700527191162109</real>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>Duration</key>
+											<real>0.0011069774627685547</real>
+											<key>TestIdentifier</key>
+											<string>RandomJokeFetchingTests/testJokesToolkitCanBeInitialised()</string>
+											<key>TestName</key>
+											<string>testJokesToolkitCanBeInitialised()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>D3E04AD3-91EA-47F2-B83D-2EC02F0E546D</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>RandomJokeFetchingTests</string>
+									<key>TestName</key>
+									<string>RandomJokeFetchingTests</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>JokingFrameworkTests.xctest</string>
+							<key>TestName</key>
+							<string>JokingFrameworkTests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>All tests</string>
+					<key>TestName</key>
+					<string>All tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

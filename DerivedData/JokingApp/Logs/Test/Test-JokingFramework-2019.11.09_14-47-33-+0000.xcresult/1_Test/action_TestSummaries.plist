@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>100</integer>
+			<key>CPUCount</key>
+			<integer>1</integer>
+			<key>CPUKind</key>
+			<string>Intel Core i7</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2900</integer>
+			<key>Identifier</key>
+			<string>DC56721D-8E7D-59F1-BE43-B6B6472D12D1</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>8</integer>
+			<key>ModelCode</key>
+			<string>MacBookPro14,3</string>
+			<key>ModelName</key>
+			<string>MacBook Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macbookpro-15-retina-touchid-2017</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.14.4</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.14.4 (18E226)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>4</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>macOS</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>16384</integer>
+		</dict>
+		<key>Name</key>
+		<string>iPhone Xʀ</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>Identifier</key>
+			<string>49A34017-6B33-41D1-9499-22BCB3108ECF</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>ModelCode</key>
+			<string>iPhone11,8</string>
+			<key>ModelName</key>
+			<string>iPhone Xʀ</string>
+			<key>ModelUTI</key>
+			<string>com.apple.iphone-xr-1</string>
+			<key>Name</key>
+			<string>iPhone Xʀ</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>12.2</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>12.2 (16E226)</string>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.iphonesimulator</string>
+				<key>Name</key>
+				<string>iOS Simulator</string>
+			</dict>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>iphonesimulator12.2</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>Simulator - iOS 12.2</string>
+			<key>OperatingSystemVersion</key>
+			<string>12.2</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>DiagnosticsDirectory</key>
+			<string>JokingFrameworkTests-A3F41AE7-EEB5-416C-A1E1-CB41AF4A77CA</string>
+			<key>ProjectPath</key>
+			<string>JokingFramework/JokingFramework.xcodeproj</string>
+			<key>TargetName</key>
+			<string>JokingFrameworkTests</string>
+			<key>TestKind</key>
+			<string>xctest-tool hosted</string>
+			<key>TestName</key>
+			<string>JokingFrameworkTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Duration</key>
+					<real>0.013952016830444336</real>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Duration</key>
+							<real>0.0074050426483154297</real>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Duration</key>
+									<real>0.0063500404357910156</real>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>ActivitySummaries</key>
+											<array>
+												<dict>
+													<key>ActivityType</key>
+													<string>com.apple.dt.xctest.activity-type.testAssertionFailure</string>
+													<key>FinishTimeInterval</key>
+													<real>595003664.57801199</real>
+													<key>StartTimeInterval</key>
+													<real>595003664.57727695</real>
+													<key>Title</key>
+													<string>Assertion Failure: RandomJokeFetchingTests.swift:28: XCTAssertEqual failed: ("") is not equal to ("exampleJoke")</string>
+													<key>UUID</key>
+													<string>E8B84D7B-23D3-4B2C-87CB-B5A1E2F032F0</string>
+												</dict>
+											</array>
+											<key>Duration</key>
+											<real>0.0054579973220825195</real>
+											<key>FailureSummaries</key>
+											<array>
+												<dict>
+													<key>FileName</key>
+													<string>/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFrameworkTests/RandomJokeFetchingTests.swift</string>
+													<key>LineNumber</key>
+													<integer>28</integer>
+													<key>Message</key>
+													<string>XCTAssertEqual failed: ("") is not equal to ("exampleJoke")</string>
+													<key>PerformanceFailure</key>
+													<false/>
+												</dict>
+											</array>
+											<key>TestIdentifier</key>
+											<string>RandomJokeFetchingTests/testJokesToolkitCanBeInitialised()</string>
+											<key>TestName</key>
+											<string>testJokesToolkitCanBeInitialised()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Failure</string>
+											<key>TestSummaryGUID</key>
+											<string>3B7BEDF1-13CD-46A6-85DE-BD0C0513E018</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>RandomJokeFetchingTests</string>
+									<key>TestName</key>
+									<string>RandomJokeFetchingTests</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>JokingFrameworkTests.xctest</string>
+							<key>TestName</key>
+							<string>JokingFrameworkTests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>All tests</string>
+					<key>TestName</key>
+					<string>All tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		770BBE452376F7E000A4E690 /* JokesToolkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BBE442376F7E000A4E690 /* JokesToolkit.swift */; };
+		770BBE472376FDA500A4E690 /* NetworkClientPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BBE462376FDA500A4E690 /* NetworkClientPort.swift */; };
+		770BBE492376FE0700A4E690 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770BBE482376FE0700A4E690 /* NetworkClient.swift */; };
+		77BAF49A237701F90039DF22 /* ResponseMappingNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAF499237701F90039DF22 /* ResponseMappingNetworkClient.swift */; };
+		77BAF49C2377135A0039DF22 /* JokesEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAF49B2377135A0039DF22 /* JokesEndpoints.swift */; };
+		77BAF49E2377191B0039DF22 /* JokeFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAF49D2377191B0039DF22 /* JokeFetcher.swift */; };
+		77BAF4A02377208B0039DF22 /* JokeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BAF49F2377208B0039DF22 /* JokeResponse.swift */; };
 		77DED0512376F65900F1B066 /* JokingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77DED0472376F65800F1B066 /* JokingFramework.framework */; };
-		77DED0562376F65900F1B066 /* JokingFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DED0552376F65900F1B066 /* JokingFrameworkTests.swift */; };
+		77DED0562376F65900F1B066 /* RandomJokeFetchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DED0552376F65900F1B066 /* RandomJokeFetchingTests.swift */; };
 		77DED0582376F65900F1B066 /* JokingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 77DED04A2376F65800F1B066 /* JokingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -23,11 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		770BBE442376F7E000A4E690 /* JokesToolkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesToolkit.swift; sourceTree = "<group>"; };
+		770BBE462376FDA500A4E690 /* NetworkClientPort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientPort.swift; sourceTree = "<group>"; };
+		770BBE482376FE0700A4E690 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		77BAF499237701F90039DF22 /* ResponseMappingNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMappingNetworkClient.swift; sourceTree = "<group>"; };
+		77BAF49B2377135A0039DF22 /* JokesEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesEndpoints.swift; sourceTree = "<group>"; };
+		77BAF49D2377191B0039DF22 /* JokeFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFetcher.swift; sourceTree = "<group>"; };
+		77BAF49F2377208B0039DF22 /* JokeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeResponse.swift; sourceTree = "<group>"; };
 		77DED0472376F65800F1B066 /* JokingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JokingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77DED04A2376F65800F1B066 /* JokingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JokingFramework.h; sourceTree = "<group>"; };
 		77DED04B2376F65800F1B066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77DED0502376F65900F1B066 /* JokingFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokingFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		77DED0552376F65900F1B066 /* JokingFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokingFrameworkTests.swift; sourceTree = "<group>"; };
+		77DED0552376F65900F1B066 /* RandomJokeFetchingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokeFetchingTests.swift; sourceTree = "<group>"; };
 		77DED0572376F65900F1B066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77BAF498237701C50039DF22 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				77BAF499237701F90039DF22 /* ResponseMappingNetworkClient.swift */,
+			);
+			name = Mocks;
+			sourceTree = "<group>";
+		};
 		77DED03D2376F65800F1B066 = {
 			isa = PBXGroup;
 			children = (
@@ -71,8 +93,14 @@
 		77DED0492376F65800F1B066 /* JokingFramework */ = {
 			isa = PBXGroup;
 			children = (
+				770BBE442376F7E000A4E690 /* JokesToolkit.swift */,
+				77BAF49D2377191B0039DF22 /* JokeFetcher.swift */,
+				77BAF49B2377135A0039DF22 /* JokesEndpoints.swift */,
+				770BBE462376FDA500A4E690 /* NetworkClientPort.swift */,
+				770BBE482376FE0700A4E690 /* NetworkClient.swift */,
 				77DED04A2376F65800F1B066 /* JokingFramework.h */,
 				77DED04B2376F65800F1B066 /* Info.plist */,
+				77BAF49F2377208B0039DF22 /* JokeResponse.swift */,
 			);
 			path = JokingFramework;
 			sourceTree = "<group>";
@@ -80,7 +108,8 @@
 		77DED0542376F65900F1B066 /* JokingFrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				77DED0552376F65900F1B066 /* JokingFrameworkTests.swift */,
+				77BAF498237701C50039DF22 /* Mocks */,
+				77DED0552376F65900F1B066 /* RandomJokeFetchingTests.swift */,
 				77DED0572376F65900F1B066 /* Info.plist */,
 			);
 			path = JokingFrameworkTests;
@@ -148,6 +177,7 @@
 				TargetAttributes = {
 					77DED0462376F65800F1B066 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					77DED04F2376F65900F1B066 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -194,6 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				770BBE452376F7E000A4E690 /* JokesToolkit.swift in Sources */,
+				770BBE472376FDA500A4E690 /* NetworkClientPort.swift in Sources */,
+				770BBE492376FE0700A4E690 /* NetworkClient.swift in Sources */,
+				77BAF49C2377135A0039DF22 /* JokesEndpoints.swift in Sources */,
+				77BAF49E2377191B0039DF22 /* JokeFetcher.swift in Sources */,
+				77BAF4A02377208B0039DF22 /* JokeResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77DED0562376F65900F1B066 /* JokingFrameworkTests.swift in Sources */,
+				77DED0562376F65900F1B066 /* RandomJokeFetchingTests.swift in Sources */,
+				77BAF49A237701F90039DF22 /* ResponseMappingNetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +378,7 @@
 		77DED05C2376F65900F1B066 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -357,6 +395,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.faisal.rahman.JokingFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +404,7 @@
 		77DED05D2376F65900F1B066 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +429,7 @@
 		77DED05F2376F65900F1B066 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JokingFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +447,7 @@
 		77DED0602376F65900F1B066 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JokingFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

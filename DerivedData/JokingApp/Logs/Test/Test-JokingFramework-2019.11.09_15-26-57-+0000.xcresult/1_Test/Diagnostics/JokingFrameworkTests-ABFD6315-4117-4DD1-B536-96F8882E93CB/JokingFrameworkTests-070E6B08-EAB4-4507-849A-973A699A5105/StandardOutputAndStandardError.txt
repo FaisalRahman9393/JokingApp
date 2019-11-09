@@ -1,0 +1,12 @@
+Test Suite 'All tests' started at 2019-11-09 15:26:59.635
+Test Suite 'JokingFrameworkTests.xctest' started at 2019-11-09 15:26:59.636
+Test Suite 'RandomJokeFetchingTests' started at 2019-11-09 15:26:59.636
+Test Case '-[JokingFrameworkTests.RandomJokeFetchingTests testJokesToolkitCanBeInitialised]' started.
+/Users/rahmaf04/Desktop/JokingApp/JokingFramework/JokingFrameworkTests/RandomJokeFetchingTests.swift:32: error: -[JokingFrameworkTests.RandomJokeFetchingTests testJokesToolkitCanBeInitialised] : XCTAssertEqual failed: ("") is not equal to ("exampleJoke")
+Test Case '-[JokingFrameworkTests.RandomJokeFetchingTests testJokesToolkitCanBeInitialised]' failed (0.004 seconds).
+Test Suite 'RandomJokeFetchingTests' failed at 2019-11-09 15:26:59.640.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.004 (0.004) seconds
+Test Suite 'JokingFrameworkTests.xctest' failed at 2019-11-09 15:26:59.641.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.004 (0.005) seconds
+Test Suite 'All tests' failed at 2019-11-09 15:26:59.641.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.004 (0.006) seconds

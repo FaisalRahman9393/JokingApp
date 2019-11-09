@@ -1,0 +1,11 @@
+Test Suite 'All tests' started at 2019-11-09 15:08:49.107
+Test Suite 'JokingFrameworkTests.xctest' started at 2019-11-09 15:08:49.108
+Test Suite 'RandomJokeFetchingTests' started at 2019-11-09 15:08:49.109
+Test Case '-[JokingFrameworkTests.RandomJokeFetchingTests testJokesToolkitCanBeInitialised]' started.
+Test Case '-[JokingFrameworkTests.RandomJokeFetchingTests testJokesToolkitCanBeInitialised]' passed (0.001 seconds).
+Test Suite 'RandomJokeFetchingTests' passed at 2019-11-09 15:08:49.111.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'JokingFrameworkTests.xctest' passed at 2019-11-09 15:08:49.111.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.003) seconds
+Test Suite 'All tests' passed at 2019-11-09 15:08:49.112.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.004) seconds

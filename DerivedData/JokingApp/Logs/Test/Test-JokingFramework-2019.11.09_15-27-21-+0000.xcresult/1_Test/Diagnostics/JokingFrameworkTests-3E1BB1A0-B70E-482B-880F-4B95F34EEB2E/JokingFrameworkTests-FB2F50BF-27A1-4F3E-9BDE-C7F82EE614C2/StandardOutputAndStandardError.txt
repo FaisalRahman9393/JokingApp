@@ -1,0 +1,8 @@
+Test Suite 'All tests' started at 2019-11-09 15:27:22.426
+Test Suite 'JokingFrameworkTests.xctest' started at 2019-11-09 15:27:22.426
+Test Suite 'RandomJokeFetchingTests' started at 2019-11-09 15:27:22.427
+Test Case '-[JokingFrameworkTests.RandomJokeFetchingTests testJokesToolkitCanBeInitialised]' started.
+
+
+*** If you believe this error represents a bug, please attach the result bundle at /Users/rahmaf04/Desktop/JokingApp/DerivedData/JokingApp/Logs/Test/Test-JokingFramework-2019.11.09_15-27-21-+0000.xcresult
+

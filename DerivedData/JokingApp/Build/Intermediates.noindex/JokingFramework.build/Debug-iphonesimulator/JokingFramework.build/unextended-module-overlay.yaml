@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/rahmaf04/Desktop/JokingApp/DerivedData/JokingApp/Build/Products/Debug-iphonesimulator/JokingFramework.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/rahmaf04/Desktop/JokingApp/DerivedData/JokingApp/Build/Intermediates.noindex/JokingFramework.build/Debug-iphonesimulator/JokingFramework.build/unextended-module.modulemap",
+    }]
+  }]
+}

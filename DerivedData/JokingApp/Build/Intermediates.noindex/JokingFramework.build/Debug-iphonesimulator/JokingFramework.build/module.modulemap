@@ -4,3 +4,8 @@ framework module JokingFramework {
   export *
   module * { export * }
 }
+
+module JokingFramework.Swift {
+    header "JokingFramework-Swift.h"
+    requires objc
+}

@@ -10,13 +10,13 @@ import Foundation
 
 struct JokeResponse: Decodable {
     let type: String
-    let value: JokeValue
+    let value: [JokeValue]
 }
 
 struct JokeValue: Decodable {
     let id: Int
     let joke: String
-    let categories: String
+    let categories: [String]
 }
 
 

@@ -1,5 +1,5 @@
 //
-//  JokingFrameworkTests.swift
+//  RandomJokeFetchingTests.swift
 //  JokingFrameworkTests
 //
 //  Created by Faisal Rahman on 09/11/2019.
@@ -24,7 +24,7 @@ class RandomJokeFetchingTests: XCTestCase {
         jsonStubs = JSONStubValues()
     }
 
-    func testwhenARandomJokeIsRequested_aCallIsMadeToTheJokesAPI() {
+    func testwhenARandomJokeIsRequested_aCallIsMadeToTheJokesEndpoint() {
         givenTheJokesToolkitIsInitialisedWithANetworkClient()
         
         whenARandomJokeIsRequested()

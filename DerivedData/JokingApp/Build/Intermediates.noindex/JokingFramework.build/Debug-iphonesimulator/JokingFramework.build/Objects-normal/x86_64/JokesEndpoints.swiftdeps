@@ -10,10 +10,10 @@ depends-top-level:
 - "JokesEndpoints"
 - "StringLiteralType"
 depends-member:
+- ["15JokingFramework14JokesEndpointsV", "BATCH_RANDOM_JOKES_ENDPOINT"]
 - ["15JokingFramework14JokesEndpointsV", "JOKE_CATEGORIES_ENDPOINT"]
 - ["15JokingFramework14JokesEndpointsV", "JOKE_WITH_NAME_ENDPOINT"]
 - ["15JokingFramework14JokesEndpointsV", "RANDOM_JOKE_ENDPOINT"]
-- ["15JokingFramework14JokesEndpointsV", "RANDOM_JOKE_WITH_AMOUNT_ENDPOINT"]
 - ["15JokingFramework14JokesEndpointsV", "init"]
 depends-nominal:
 - "15JokingFramework14JokesEndpointsV"
@@ -45,4 +45,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "08b624649e938cc9c0179feff06061ae"
+interface-hash: "79dcf273e3a10a4da2b3a47b95fd0aa3"

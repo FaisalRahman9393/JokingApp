@@ -19,7 +19,8 @@ class JokeFetcher {
     }
     
     func fetchRandomJoke(success: @escaping (Joke) -> Void, failure: @escaping (JokeFetchingError) -> Void) {
-        guard let randomJokeRequest = buildRandomJokeRequest(endpoint: jokesEndpoints.RANDOM_JOKE_ENDPOINT)
+        let endpoint = String(format: jokesEndpoints.BATCH_RANDOM_JOKES_ENDPOINT, String(1))
+        guard let randomJokeRequest = buildRandomJokeRequest(endpoint: endpoint)
             else {
                 failure(JokeFetchingError(reason: .Unknown, message: "Invalid URL"))
                 return
@@ -29,7 +30,47 @@ class JokeFetcher {
             guard let responseData = data else { return }
             
             if let jokeResponse = try? JSONDecoder().decode(JokeResponse.self, from: responseData) {
-                      success(Joke(jokeID: jokeResponse.value.id, joke: jokeResponse.value.joke, jokeCategory: jokeResponse.value.categories))
+                
+                var jokesBatch = [Joke]()
+                
+                for joke in jokeResponse.value {
+                    jokesBatch.append(Joke(jokeID: joke.id,
+                                           joke: joke.joke,
+                                           jokeCategory: joke.categories))
+                }
+                
+                success(jokesBatch[0])
+                
+            } else {
+                failure(JokeFetchingError(reason: .MissingKeysOrInvalidJson, message: "Missing Keys or Invalid Json"))
+            }
+        }
+        
+    }
+    
+    func batchFetchRandomJokes(numberOfJokes: Int, success: @escaping ([Joke]) -> Void, failure: @escaping (JokeFetchingError) -> Void) {
+        let endpoint = String(format: jokesEndpoints.BATCH_RANDOM_JOKES_ENDPOINT, String(numberOfJokes))
+        guard let randomJokeRequest = buildRandomJokeRequest(endpoint: endpoint)
+            else {
+                failure(JokeFetchingError(reason: .Unknown, message: "Invalid URL"))
+                return
+        }
+        
+        networkClient.perform(randomJokeRequest) { (data, networkResponse, networkError) in
+            guard let responseData = data else { return }
+            
+            if let jokesResponse = try? JSONDecoder().decode(JokeResponse.self, from: responseData) {
+                
+                var jokesBatch = [Joke]()
+                
+                for joke in jokesResponse.value {
+                    jokesBatch.append(Joke(jokeID: joke.id,
+                                           joke: joke.joke,
+                                           jokeCategory: joke.categories))
+                }
+                
+                success(jokesBatch)
+                
             } else {
                 failure(JokeFetchingError(reason: .MissingKeysOrInvalidJson, message: "Missing Keys or Invalid Json"))
             }

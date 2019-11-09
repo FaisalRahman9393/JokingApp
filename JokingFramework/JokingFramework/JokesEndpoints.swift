@@ -9,6 +9,6 @@
 struct JokesEndpoints {
     let RANDOM_JOKE_ENDPOINT = "http://api.icndb.com/jokes/random"
     let JOKE_WITH_NAME_ENDPOINT = "http://api.icndb.com/jokes/random?firstName=%@&amp;lastName=%@"
-    let RANDOM_JOKE_WITH_AMOUNT_ENDPOINT = "http://api.icndb.com/jokes/random/%@"
+    let BATCH_RANDOM_JOKES_ENDPOINT = "http://api.icndb.com/jokes/random/%@"
     let JOKE_CATEGORIES_ENDPOINT = "http://api.icndb.com/categories"
 }

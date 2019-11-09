@@ -9,8 +9,8 @@
 struct Joke {
     var jokeID: Int
     var joke: String
-    var jokeCategory: String
-    init(jokeID: Int, joke: String, jokeCategory: String) {
+    var jokeCategory: [String]
+    init(jokeID: Int, joke: String, jokeCategory: [String]) {
         self.jokeID = jokeID
         self.joke = joke
         self.jokeCategory = jokeCategory

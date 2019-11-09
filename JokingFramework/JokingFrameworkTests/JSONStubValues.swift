@@ -10,24 +10,32 @@ import Foundation
 
 internal struct JSONStubValues {
     let validRandomJokeJSON = """
-        {
-        "type": "success",
-        "value": {
-        "id": 133,
-        "joke": "Example Joke",
-        "categories": ""
-        }
-        }
+            {
+              "type": "success",
+              "value": [
+                {
+                  "id": 507,
+                  "joke": "Example Joke",
+                  "categories": [
+                    "nerdy"
+                  ]
+                }
+              ]
+            }
         """
     
     let missingKeysRandomJokeJSON = """
-        {
-        "type": "success",
-        "value": {
-        "id": 133,
-        "categories": ""
-        }
-        }
+            {
+              "type": "success",
+              "value": [
+                {
+                  "id": 507,
+                  "categories": [
+                    "nerdy"
+                  ]
+                }
+              ]
+            }
         """
     
     let invalidRandomJokeJSON = """
@@ -36,4 +44,39 @@ internal struct JSONStubValues {
         }
         }xsxxeed
         """
+    
+    let validBatchJokesJSON = """
+    {
+        "type": "success",
+        "value": [
+        {
+        "id": 563,
+        "joke": "Random Joke 1",
+        "categories": [
+        "nerdy"
+        ]
+        },
+        {
+        "id": 2,
+        "joke": "Random Joke 2",
+        "categories": []
+        },
+        {
+        "id": 3,
+        "joke": "Random Joke 3",
+        "categories": []
+        },
+        {
+        "id": 56,
+        "joke": "Random Joke 4",
+        "categories": []
+        },
+        {
+        "id": 116,
+        "joke": "Random Joke 5",
+        "categories": []
+        }
+        ]
+    }
+"""
 }

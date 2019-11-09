@@ -1,0 +1,6 @@
+framework module JokingFramework {
+  umbrella header "JokingFramework.h"
+
+  export *
+  module * { export * }
+}

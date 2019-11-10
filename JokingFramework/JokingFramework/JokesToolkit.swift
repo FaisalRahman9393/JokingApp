@@ -8,12 +8,14 @@
 
 import Foundation
 
-class JokesToolkit {
+public class JokesToolkit {
     
-    var networkClient: NetworkClientPort!
-    var jokesEndpoints: JokesEndpoints!
-    var jokeFetcher: JokeFetcher!
+    private var networkClient: NetworkClientPort!
+    private var jokesEndpoints: JokesEndpoints!
+    private var jokeFetcher: JokeFetcher!
     
+
+    public init() {}
     
     public func initialise(){
         let networkClient = NetworkClient()
@@ -21,19 +23,19 @@ class JokesToolkit {
         initialise(networkClient: networkClient)
     }
     
-    func initialise(networkClient: NetworkClientPort)   {
+     func initialise(networkClient: NetworkClientPort)   {
         self.networkClient = networkClient
         self.jokesEndpoints = JokesEndpoints()
         self.jokeFetcher = JokeFetcher(networkClient: networkClient)
     }
     
-    func fetchRandomJoke(success: @escaping (Joke) -> Void,
+    public func fetchRandomJoke(success: @escaping (Joke) -> Void,
                          failure: @escaping (JokeFetchingError) -> Void) {
         
         return jokeFetcher.fetchRandomJoke(success: success, failure: failure)
     }
     
-    func batchFetchRandomJokes(numberOfJokes: Int,
+    public func batchFetchRandomJokes(numberOfJokes: Int,
                                success: @escaping ([Joke]) -> Void,
                                failure: @escaping (JokeFetchingError) -> Void) {
         
@@ -43,7 +45,7 @@ class JokesToolkit {
             failure: failure)
     }
     
-    func fetchCustomJoke(firstName: String, lastName: String, success: @escaping (Joke) -> Void,
+    public func fetchCustomJoke(firstName: String, lastName: String, success: @escaping (Joke) -> Void,
                                failure: @escaping (JokeFetchingError) -> Void) {
         
         return jokeFetcher.fetchCustomJoke(firstName: firstName, lastName: lastName, success: success, failure: failure)

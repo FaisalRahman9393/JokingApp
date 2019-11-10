@@ -6,6 +6,6 @@
 //  Copyright © 2019 Faisal Rahman. All rights reserved.
 //
 
-protocol NetworkClientPort {
+public protocol NetworkClientPort {
     func perform(_ request: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void)
 }

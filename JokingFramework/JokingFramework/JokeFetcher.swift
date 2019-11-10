@@ -114,7 +114,7 @@ class JokeFetcher {
 
 }
 
-struct JokeFetchingError {
+public struct JokeFetchingError {
     var reason: JokeFetchinngFailureReason
     var message: String
     
@@ -124,7 +124,7 @@ struct JokeFetchingError {
     }
 }
 
-enum JokeFetchinngFailureReason {
+public enum JokeFetchinngFailureReason {
     case EndpointUnreachable
     case MissingKeysOrInvalidJson
     case Unknown

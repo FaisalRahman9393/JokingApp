@@ -6,7 +6,7 @@
 //  Copyright © 2019 Faisal Rahman. All rights reserved.
 //
 
-struct Joke {
+public struct Joke {
     var jokeID: Int
     var joke: String
     var jokeCategory: [String]

@@ -59,9 +59,9 @@ depends-member:
 - ["15JokingFramework12JokesToolkitC", "fetchRandomJoke"]
 - ["15JokingFramework12JokesToolkitC", "init"]
 - ["15JokingFramework12JokesToolkitC", "initialise"]
-- ["15JokingFramework12JokesToolkitC", "jokeFetcher"]
-- ["15JokingFramework12JokesToolkitC", "jokesEndpoints"]
-- ["15JokingFramework12JokesToolkitC", "networkClient"]
+- !private ["15JokingFramework12JokesToolkitC", "jokeFetcher"]
+- !private ["15JokingFramework12JokesToolkitC", "jokesEndpoints"]
+- !private ["15JokingFramework12JokesToolkitC", "networkClient"]
 - !private ["15JokingFramework13NetworkClientC", "deinit"]
 - !private ["15JokingFramework13NetworkClientC", "init"]
 - !private ["15JokingFramework17NetworkClientPortP", "init"]
@@ -114,4 +114,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "bab5cff29a377eb2c5e4b6dc8e629012"
+interface-hash: "b6449a6e4a3d75668826fdb14e99c0b6"

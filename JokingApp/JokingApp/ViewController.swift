@@ -7,10 +7,21 @@
 //
 
 import UIKit
+import JokingFramework
 
 class ViewController: UIViewController {
+    
+    
 
+    
+    
+    
     override func viewDidLoad() {
+        
+        let jokesToolkit = JokesToolkit()
+        
+        jokesToolkit.initialise()
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }

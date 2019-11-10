@@ -8,6 +8,13 @@
 
 import Foundation
 
-class HomePresenter: HomeDelegate {
+class HomePresenter: HomeViewDelegate {
     
+    let homeViewController: HomeViewController
+    let jokesAdapter: JokesToolkitAdapter
+    
+    init(_ homeViewController: HomeViewController, _ jokesAdapter: JokesToolkitAdapter) {
+        self.homeViewController = homeViewController
+        self.jokesAdapter = jokesAdapter
+    }
 }

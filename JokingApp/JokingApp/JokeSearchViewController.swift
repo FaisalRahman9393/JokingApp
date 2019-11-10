@@ -8,14 +8,14 @@
 
 import UIKit
 
-protocol JokeSearchDelegate: AnyObject{
+protocol JokeSearchViewDelegate: AnyObject{
     
     //TODO
 }
 
 class JokeSearchViewController: UIViewController {
     
-    weak var delegate: JokeSearchDelegate?
+    weak var delegate: JokeSearchViewDelegate?
 
     
     override func viewDidLoad() {

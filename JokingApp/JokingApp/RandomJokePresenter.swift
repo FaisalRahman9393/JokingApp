@@ -8,6 +8,14 @@
 
 import Foundation
 
-class RandomJokePresenter {
+class RandomJokePresenter: RandomJokeViewDelegate {
+    
+    let randomJokeViewController: RandomJokeViewController
+    let jokesAdapter: JokesToolkitAdapter
+    
+    init(_ randomJokeViewController: RandomJokeViewController, _ jokesAdapter: JokesToolkitAdapter) {
+        self.randomJokeViewController = randomJokeViewController
+        self.jokesAdapter = jokesAdapter
+    }
     
 }

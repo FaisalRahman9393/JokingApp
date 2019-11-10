@@ -8,6 +8,15 @@
 
 import Foundation
 
-class JokeSearchPresenter {
+class JokeSearchPresenter: JokeSearchViewDelegate {
+    
+    let jokesSearchViewController: JokeSearchViewController
+    let jokesAdapter: JokesToolkitAdapter
+    
+    init(_ jokesSearchViewController: JokeSearchViewController, _ jokesAdapter: JokesToolkitAdapter) {
+        self.jokesSearchViewController = jokesSearchViewController
+        self.jokesAdapter = jokesAdapter
+    }
+    
     
 }

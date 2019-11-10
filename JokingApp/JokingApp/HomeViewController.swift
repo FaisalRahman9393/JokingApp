@@ -8,14 +8,14 @@
 
 import UIKit
 
-protocol HomeDelegate: AnyObject {
+protocol HomeViewDelegate: AnyObject {
     
     //TODO
 }
 
 class HomeViewController: UIViewController {
     
-    weak var delegate: HomeDelegate?
+    weak var delegate: HomeViewDelegate?
         
         override func viewDidLoad() {
             

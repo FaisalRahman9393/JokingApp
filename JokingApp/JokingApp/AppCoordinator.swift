@@ -29,7 +29,7 @@ class AppCoordinator {
     let jokesToolkitAdapter: JokesToolkitAdapter
 
     init() {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let storyboard = UIStoryboard(name: "JokingAppStoryboard", bundle: nil)
         
         homeViewController = storyboard.instantiateViewController(withIdentifier: "Home") as! HomeViewController
         let homeNavigationController = UINavigationController(rootViewController: homeViewController)
@@ -43,7 +43,7 @@ class AppCoordinator {
         jokeListViewController = storyboard.instantiateViewController(withIdentifier: "JokeList") as! JokeListViewController
         let jokeListNavigationController = UINavigationController(rootViewController: jokeListViewController)
         
-        let jokesToolkitAdapter: JokesToolkitAdapter
+        jokesToolkitAdapter = JokesToolkitAdapter()
         
         homePresenter = HomePresenter(homeViewController, jokesToolkitAdapter)
         randomJokePresenter = RandomJokePresenter(randomJokeViewController, jokesToolkitAdapter)

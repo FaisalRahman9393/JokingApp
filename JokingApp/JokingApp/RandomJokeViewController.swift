@@ -8,14 +8,14 @@
 
 import UIKit
 
-protocol RandomJokeDelegate: AnyObject {
+protocol RandomJokeViewDelegate: AnyObject {
     
     //TODO
 }
 
 class RandomJokeViewController: UIViewController {
     
-    weak var delegate: RandomJokeViewController?
+    weak var delegate: RandomJokeViewDelegate?
 
 
     override func viewDidLoad() {

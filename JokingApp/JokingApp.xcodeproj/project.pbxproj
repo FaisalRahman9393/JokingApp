@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		771CA0BE23785223002ABA71 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0BD23785223002ABA71 /* AppCoordinator.swift */; };
+		771CA0C023785576002ABA71 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0BF23785576002ABA71 /* HomeViewController.swift */; };
+		771CA0C223785625002ABA71 /* RandomJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0C123785625002ABA71 /* RandomJokeViewController.swift */; };
+		771CA0C423785665002ABA71 /* JokeSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0C323785665002ABA71 /* JokeSearchViewController.swift */; };
+		771CA0C623785695002ABA71 /* JokesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0C523785695002ABA71 /* JokesListViewController.swift */; };
+		771CA0C82378587C002ABA71 /* JokesToolkitAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0C72378587C002ABA71 /* JokesToolkitAdapter.swift */; };
+		771CA0CA23785E9F002ABA71 /* RandomJokePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0C923785E9F002ABA71 /* RandomJokePresenter.swift */; };
+		771CA0CC23785EC3002ABA71 /* JokeSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0CB23785EC3002ABA71 /* JokeSearchPresenter.swift */; };
+		771CA0CE23785ED8002ABA71 /* JokeListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0CD23785ED8002ABA71 /* JokeListPresenter.swift */; };
+		771CA0D023785F9F002ABA71 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0CF23785F9F002ABA71 /* HomePresenter.swift */; };
 		77DED06E2376F69000F1B066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DED06D2376F69000F1B066 /* AppDelegate.swift */; };
-		77DED0702376F69000F1B066 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DED06F2376F69000F1B066 /* ViewController.swift */; };
 		77DED0732376F69000F1B066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DED0712376F69000F1B066 /* Main.storyboard */; };
 		77DED0752376F69000F1B066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77DED0742376F69000F1B066 /* Assets.xcassets */; };
 		77DED0782376F69000F1B066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DED0762376F69000F1B066 /* LaunchScreen.storyboard */; };
@@ -36,9 +44,17 @@
 
 /* Begin PBXFileReference section */
 		771CA0BD23785223002ABA71 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		771CA0BF23785576002ABA71 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		771CA0C123785625002ABA71 /* RandomJokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokeViewController.swift; sourceTree = "<group>"; };
+		771CA0C323785665002ABA71 /* JokeSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeSearchViewController.swift; sourceTree = "<group>"; };
+		771CA0C523785695002ABA71 /* JokesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesListViewController.swift; sourceTree = "<group>"; };
+		771CA0C72378587C002ABA71 /* JokesToolkitAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesToolkitAdapter.swift; sourceTree = "<group>"; };
+		771CA0C923785E9F002ABA71 /* RandomJokePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokePresenter.swift; sourceTree = "<group>"; };
+		771CA0CB23785EC3002ABA71 /* JokeSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeSearchPresenter.swift; sourceTree = "<group>"; };
+		771CA0CD23785ED8002ABA71 /* JokeListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeListPresenter.swift; sourceTree = "<group>"; };
+		771CA0CF23785F9F002ABA71 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		77DED06A2376F69000F1B066 /* JokingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77DED06D2376F69000F1B066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77DED06F2376F69000F1B066 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77DED0722376F69000F1B066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77DED0742376F69000F1B066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77DED0772376F69000F1B066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,13 +115,21 @@
 		77DED06C2376F69000F1B066 /* JokingApp */ = {
 			isa = PBXGroup;
 			children = (
+				771CA0BD23785223002ABA71 /* AppCoordinator.swift */,
+				771CA0BF23785576002ABA71 /* HomeViewController.swift */,
+				771CA0C323785665002ABA71 /* JokeSearchViewController.swift */,
+				771CA0C123785625002ABA71 /* RandomJokeViewController.swift */,
+				771CA0C523785695002ABA71 /* JokesListViewController.swift */,
 				77DED06D2376F69000F1B066 /* AppDelegate.swift */,
-				77DED06F2376F69000F1B066 /* ViewController.swift */,
 				77DED0712376F69000F1B066 /* Main.storyboard */,
 				77DED0742376F69000F1B066 /* Assets.xcassets */,
 				77DED0762376F69000F1B066 /* LaunchScreen.storyboard */,
 				77DED0792376F69000F1B066 /* Info.plist */,
-				771CA0BD23785223002ABA71 /* AppCoordinator.swift */,
+				771CA0C72378587C002ABA71 /* JokesToolkitAdapter.swift */,
+				771CA0C923785E9F002ABA71 /* RandomJokePresenter.swift */,
+				771CA0CB23785EC3002ABA71 /* JokeSearchPresenter.swift */,
+				771CA0CD23785ED8002ABA71 /* JokeListPresenter.swift */,
+				771CA0CF23785F9F002ABA71 /* HomePresenter.swift */,
 			);
 			path = JokingApp;
 			sourceTree = "<group>";
@@ -260,8 +284,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				771CA0BE23785223002ABA71 /* AppCoordinator.swift in Sources */,
-				77DED0702376F69000F1B066 /* ViewController.swift in Sources */,
 				77DED06E2376F69000F1B066 /* AppDelegate.swift in Sources */,
+				771CA0C023785576002ABA71 /* HomeViewController.swift in Sources */,
+				771CA0C623785695002ABA71 /* JokesListViewController.swift in Sources */,
+				771CA0C223785625002ABA71 /* RandomJokeViewController.swift in Sources */,
+				771CA0CE23785ED8002ABA71 /* JokeListPresenter.swift in Sources */,
+				771CA0C82378587C002ABA71 /* JokesToolkitAdapter.swift in Sources */,
+				771CA0CA23785E9F002ABA71 /* RandomJokePresenter.swift in Sources */,
+				771CA0C423785665002ABA71 /* JokeSearchViewController.swift in Sources */,
+				771CA0CC23785EC3002ABA71 /* JokeSearchPresenter.swift in Sources */,
+				771CA0D023785F9F002ABA71 /* HomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,62 +11,52 @@ import UIKit
 
 class AppCoordinator {
     var rootViewController: UIViewController {
-        return tabBarController
+        return homeViewController
     }
     
-    let userTableViewController: UserTableViewController
-    let userUpdater: UserUpdater
+    let randomJokeViewController: RandomJokeViewController
+    let randomJokePresenter: RandomJokePresenter
     
-    let requestsViewController: RequestsViewController
-    let requestPerformer: RequestPerformer
+    let jokeSearchViewController: JokeSearchViewController
+    let jokeSearchPresenter: JokeSearchPresenter
     
-    let utilityViewController: UtilityViewController
-    let settingsManager: SettingsManager
+    let jokeListViewController: JokeListViewController
+    let jokeListPresenter: JokeListPresenter
     
-    let customUIViewController: CustomUIViewController
+    let homeViewController: HomeViewController
+    let homePresenter: HomePresenter
     
-    let tabBarController: UITabBarController
-    
-    let authAdapter: AuthAdapter
+    let jokesToolkitAdapter: JokesToolkitAdapter
 
-    
     init() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
-        userTableViewController = storyboard.instantiateViewController(withIdentifier: "UserTable") as! UserTableViewController
-        let userNavigationController = UINavigationController(rootViewController: userTableViewController)
+        homeViewController = storyboard.instantiateViewController(withIdentifier: "Home") as! HomeViewController
+        let homeNavigationController = UINavigationController(rootViewController: homeViewController)
         
-        requestsViewController = storyboard.instantiateViewController(withIdentifier: "Requests") as! RequestsViewController
-        let requestsNavigationController = UINavigationController(rootViewController: requestsViewController)
+        randomJokeViewController = storyboard.instantiateViewController(withIdentifier: "RandomJoke") as! RandomJokeViewController
+        let randomJokeNavigationController = UINavigationController(rootViewController: randomJokeViewController)
         
-        utilityViewController = storyboard.instantiateViewController(withIdentifier: "Utility") as! UtilityViewController
-        let utilityNavigationController = UINavigationController(rootViewController: utilityViewController)
+        jokeSearchViewController = storyboard.instantiateViewController(withIdentifier: "JokeSearch") as! JokeSearchViewController
+        let jokeSearchNavigationController = UINavigationController(rootViewController: randomJokeViewController)
         
-        customUIViewController = storyboard.instantiateViewController(withIdentifier: "CustomUI") as! CustomUIViewController
-        let customUINavigationController = UINavigationController(rootViewController: customUIViewController)
+        jokeListViewController = storyboard.instantiateViewController(withIdentifier: "JokeList") as! JokeListViewController
+        let jokeListNavigationController = UINavigationController(rootViewController: jokeListViewController)
         
-        tabBarController = UITabBarController()
-        tabBarController.viewControllers = [userNavigationController, requestsNavigationController, utilityNavigationController, customUINavigationController]
-    
+        let jokesToolkitAdapter: JokesToolkitAdapter
         
-        let delegate = AppPresentationDelegate(tabBarController)
-        
-        authAdapter = AuthAdapter(config, delegate, AppCoordinator.customAuthFont)
-        
-        userUpdater = UserUpdater(userTableViewController, authAdapter)
-        requestPerformer = RequestPerformer(authAdapter.echoClient, authAdapter.authenticatedClient, requestsViewController, authAdapter)
-        settingsManager = SettingsManager(utilityViewController, authAdapter)
+        homePresenter = HomePresenter(homeViewController, jokesToolkitAdapter)
+        randomJokePresenter = RandomJokePresenter(randomJokeViewController, jokesToolkitAdapter)
+        jokeSearchPresenter = JokeSearchPresenter(jokeSearchViewController, jokesToolkitAdapter)
+        jokeListPresenter = JokeListPresenter(jokeListViewController, jokesToolkitAdapter)
+
     }
     
     func start() {
-        userTableViewController.delegate = userUpdater
-        requestsViewController.delegate = requestPerformer
-        utilityViewController.delegate = settingsManager
-        
-        authAdapter.addAuthListener(authListener)
-        
-        let flagpoleLabel = AuthToolkit.lastKnownFlagpoleState == FlagpoleState.GREEN ? "GREEN" : "RED"
-        userTableViewController.displayMessage("Last known flagpole: \(flagpoleLabel)")
+        homeViewController.delegate = homePresenter
+        randomJokeViewController.delegate = randomJokePresenter
+        jokeSearchViewController.delegate = jokeSearchPresenter
+        jokeListViewController.delegate = jokeListPresenter
     }
     
 }

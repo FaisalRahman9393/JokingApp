@@ -18,79 +18,102 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="nTO-bK-T0D">
-                                <rect key="frame" x="83.666666666666686" y="315" width="247" height="266"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="3bE-4h-Hqk" userLabel="jokes by ICNDB StackView">
+                                <rect key="frame" x="20.000000000000007" y="155" width="125.66666666666669" height="20.333333333333343"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y88-sX-w4T">
-                                        <rect key="frame" x="0.0" y="0.0" width="247" height="266"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gT4-A0-Cvd">
-                                                <rect key="frame" x="20" y="20" width="207" height="48"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <color key="tintColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" title="Random Joke"/>
-                                                <connections>
-                                                    <action selector="randomJokeButtonPressed:" destination="GM4-DY-e0Z" eventType="touchUpInside" id="LKl-bE-5Qc"/>
-                                                    <segue destination="2tK-SB-36o" kind="show" id="5gE-9p-X0c"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27d-5b-m3N">
-                                                <rect key="frame" x="20" y="109" width="207" height="48"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <color key="tintColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" title="Search For Joke"/>
-                                                <connections>
-                                                    <action selector="searchForJokeButtonPressed:" destination="GM4-DY-e0Z" eventType="touchUpInside" id="2TZ-rr-WC1"/>
-                                                    <segue destination="YFt-Tk-581" kind="show" id="kpx-qt-zZe"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kc3-fX-Zh5">
-                                                <rect key="frame" x="20" y="198" width="207" height="48"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <color key="tintColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <state key="normal" title="List Of Jokes"/>
-                                                <connections>
-                                                    <action selector="listOfJokesButtonPressed:" destination="GM4-DY-e0Z" eventType="touchUpInside" id="JKb-JC-OXR"/>
-                                                    <segue destination="6Df-7J-afx" kind="show" id="waV-qf-Rx3"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jokes by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lO-QG-g7Q">
+                                        <rect key="frame" x="0.0" y="0.0" width="67.666666666666671" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ICNDB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hx4-YP-Btz">
+                                        <rect key="frame" x="74.666666666666671" y="0.0" width="51" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.43921568630000002" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hx4-YP-Btz" firstAttribute="leading" secondItem="7lO-QG-g7Q" secondAttribute="trailing" constant="7" id="5jd-tm-1b0"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="nTO-bK-T0D">
+                                <rect key="frame" x="82" y="299" width="250" height="298"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gT4-A0-Cvd">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="72"/>
                                         <color key="backgroundColor" red="0.0" green="0.43921568630000002" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
-                                        <color key="tintColor" red="0.0" green="0.42745098040000001" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="247" id="CuE-l0-Gif"/>
-                                            <constraint firstAttribute="height" constant="266" id="e53-pw-rlC"/>
+                                            <constraint firstAttribute="height" constant="72" id="IBh-jo-rNa"/>
+                                            <constraint firstAttribute="width" constant="250" id="ydE-ea-ptH"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="tintColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Random Joke"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <integer key="value" value="20"/>
+                                                <integer key="value" value="15"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
-                                    </view>
+                                        <connections>
+                                            <action selector="randomJokeButtonPressed:" destination="GM4-DY-e0Z" eventType="touchUpInside" id="LKl-bE-5Qc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27d-5b-m3N">
+                                        <rect key="frame" x="0.0" y="113" width="250" height="72"/>
+                                        <color key="backgroundColor" red="0.0" green="0.43921568630000002" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="tintColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="Search For Joke"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="searchForJokeButtonPressed:" destination="GM4-DY-e0Z" eventType="touchUpInside" id="2TZ-rr-WC1"/>
+                                            <segue destination="YFt-Tk-581" kind="show" id="kpx-qt-zZe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kc3-fX-Zh5">
+                                        <rect key="frame" x="0.0" y="226" width="250" height="72"/>
+                                        <color key="backgroundColor" red="0.0" green="0.43921568630000002" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="tintColor" red="1" green="0.99998801950000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <state key="normal" title="List Of Jokes"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <integer key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="listOfJokesButtonPressed:" destination="GM4-DY-e0Z" eventType="touchUpInside" id="JKb-JC-OXR"/>
+                                            <segue destination="6Df-7J-afx" kind="show" id="waV-qf-Rx3"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="4sI-mI-1qB"/>
+                                    <constraint firstItem="gT4-A0-Cvd" firstAttribute="height" secondItem="27d-5b-m3N" secondAttribute="height" id="WXc-XS-8WJ"/>
+                                    <constraint firstAttribute="height" constant="250" id="aI5-1r-278"/>
+                                    <constraint firstItem="gT4-A0-Cvd" firstAttribute="width" secondItem="kc3-fX-Zh5" secondAttribute="width" id="hvL-XX-3Zk"/>
+                                    <constraint firstItem="gT4-A0-Cvd" firstAttribute="height" secondItem="kc3-fX-Zh5" secondAttribute="height" id="kdo-RS-Bh3"/>
+                                    <constraint firstItem="gT4-A0-Cvd" firstAttribute="width" secondItem="27d-5b-m3N" secondAttribute="width" id="rBQ-ej-lUv"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="aI5-1r-278"/>
+                                    </mask>
+                                </variation>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jokes by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7lO-QG-g7Q">
-                                <rect key="frame" x="20" y="153" width="245" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ICNDB" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hx4-YP-Btz">
-                                <rect key="frame" x="90" y="153" width="51" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.43921568630000002" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="nTO-bK-T0D" firstAttribute="centerY" secondItem="WxQ-UO-FFu" secondAttribute="centerY" id="YnL-15-lHN"/>
-                            <constraint firstItem="nTO-bK-T0D" firstAttribute="centerX" secondItem="WxQ-UO-FFu" secondAttribute="centerX" id="eae-ot-klE"/>
+                            <constraint firstItem="3bE-4h-Hqk" firstAttribute="top" secondItem="I5N-Zi-mcH" secondAttribute="top" constant="15" id="4q5-0H-wPQ"/>
+                            <constraint firstItem="nTO-bK-T0D" firstAttribute="centerX" secondItem="WxQ-UO-FFu" secondAttribute="centerX" id="D8C-Lt-n6n"/>
+                            <constraint firstItem="3bE-4h-Hqk" firstAttribute="leading" secondItem="WxQ-UO-FFu" secondAttribute="leadingMargin" id="JkZ-rZ-QgU"/>
+                            <constraint firstItem="nTO-bK-T0D" firstAttribute="centerY" secondItem="WxQ-UO-FFu" secondAttribute="centerY" id="Uzg-9C-Cqg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="I5N-Zi-mcH"/>
                     </view>
@@ -101,41 +124,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LvD-eG-o83" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="389.85507246376812" y="35.491071428571423"/>
-        </scene>
-        <!--Random Joke-->
-        <scene sceneID="ND7-8X-gdF">
-            <objects>
-                <viewController id="2tK-SB-36o" userLabel="Random Joke" customClass="RandomJokeViewController" customModule="JokingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="JqZ-fy-tnK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Random Jokes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHZ-hk-I50">
-                                <rect key="frame" x="122" y="140" width="170" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pm7-sL-fYQ">
-                                <rect key="frame" x="35" y="317" width="345" height="298"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Rpl-Uh-rTy"/>
-                    </view>
-                    <connections>
-                        <outlet property="randomJokeLabel" destination="Pm7-sL-fYQ" id="Kot-5X-Hki"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vnZ-vJ-ld4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-762.31884057971024" y="709.82142857142856"/>
         </scene>
         <!--Joke Search-->
         <scene sceneID="ns7-cz-DPy">

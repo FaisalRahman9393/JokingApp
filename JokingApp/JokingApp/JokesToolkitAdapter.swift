@@ -7,7 +7,22 @@
 //
 
 import Foundation
+import JokingFramework
 
 class JokesToolkitAdapter {
     
+    var jokesToolkit = JokesToolkit()
+
+    
+    init() {
+        jokesToolkit.initialise()
+    }
+    
+    func blahhhhhh() {
+//        jokesToolkit.batchFetchRandomJokes(numberOfJokes: <#T##Int#>, success: <#T##([Joke]) -> Void#>, failure: <#T##(JokeFetchingError) -> Void#>)
+    }
+    
+    
+    
+
 }

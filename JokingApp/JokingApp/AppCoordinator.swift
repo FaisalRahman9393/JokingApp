@@ -44,6 +44,7 @@ class AppCoordinator {
         let jokeListNavigationController = UINavigationController(rootViewController: jokeListViewController)
         
         jokesToolkitAdapter = JokesToolkitAdapter()
+//        jokesToolkitAdapter.getVersionNumber()
         
         homePresenter = HomePresenter(homeViewController, jokesToolkitAdapter)
         randomJokePresenter = RandomJokePresenter(randomJokeViewController, jokesToolkitAdapter)

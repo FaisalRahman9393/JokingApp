@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>058E7CAE-ECB4-490F-8EE8-575FF0C224AC</key>
+		<key>25B782E7-B11A-45A2-96EF-320BD3AA82A6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>058E7CAE-ECB4-490F-8EE8-575FF0C224AC.xcactivitylog</string>
+			<string>25B782E7-B11A-45A2-96EF-320BD3AA82A6.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -30,15 +30,15 @@
 			<key>signature</key>
 			<string>Debug JokingApp</string>
 			<key>timeStartedRecording</key>
-			<real>595096269.72547996</real>
+			<real>595182914.83685303</real>
 			<key>timeStoppedRecording</key>
-			<real>595096361.05085194</real>
+			<real>595182953.74002099</real>
 			<key>title</key>
 			<string>Debug JokingApp</string>
 			<key>uniqueIdentifier</key>
-			<string>058E7CAE-ECB4-490F-8EE8-575FF0C224AC</string>
+			<string>25B782E7-B11A-45A2-96EF-320BD3AA82A6</string>
 		</dict>
-		<key>2142BB2C-B516-4CBD-B7FA-D2672835C081</key>
+		<key>37A5EE43-7428-4F1B-BCEA-5158E116E509</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -47,7 +47,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2142BB2C-B516-4CBD-B7FA-D2672835C081.xcactivitylog</string>
+			<string>37A5EE43-7428-4F1B-BCEA-5158E116E509.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -62,15 +62,15 @@
 			<key>signature</key>
 			<string>Debug JokingApp</string>
 			<key>timeStartedRecording</key>
-			<real>595096007.60055196</real>
+			<real>595182629.27060902</real>
 			<key>timeStoppedRecording</key>
-			<real>595096040.99854505</real>
+			<real>595182690.70431805</real>
 			<key>title</key>
 			<string>Debug JokingApp</string>
 			<key>uniqueIdentifier</key>
-			<string>2142BB2C-B516-4CBD-B7FA-D2672835C081</string>
+			<string>37A5EE43-7428-4F1B-BCEA-5158E116E509</string>
 		</dict>
-		<key>2339E0A4-FE3F-4D83-891E-42555F87CDEA</key>
+		<key>939FE37D-1D9B-4447-A528-5756B741B377</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -79,7 +79,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2339E0A4-FE3F-4D83-891E-42555F87CDEA.xcactivitylog</string>
+			<string>939FE37D-1D9B-4447-A528-5756B741B377.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -94,15 +94,15 @@
 			<key>signature</key>
 			<string>Debug JokingApp</string>
 			<key>timeStartedRecording</key>
-			<real>595096509.64160097</real>
+			<real>595182690.54438102</real>
 			<key>timeStoppedRecording</key>
-			<real>595096597.85211599</real>
+			<real>595182805.59538305</real>
 			<key>title</key>
 			<string>Debug JokingApp</string>
 			<key>uniqueIdentifier</key>
-			<string>2339E0A4-FE3F-4D83-891E-42555F87CDEA</string>
+			<string>939FE37D-1D9B-4447-A528-5756B741B377</string>
 		</dict>
-		<key>3EB69DA4-468C-4394-9443-E23C30D4F40B</key>
+		<key>A63BAA0F-00A7-4055-8701-73EDD0CD539E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -111,7 +111,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3EB69DA4-468C-4394-9443-E23C30D4F40B.xcactivitylog</string>
+			<string>A63BAA0F-00A7-4055-8701-73EDD0CD539E.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -126,15 +126,15 @@
 			<key>signature</key>
 			<string>Debug JokingApp</string>
 			<key>timeStartedRecording</key>
-			<real>595096387.16837895</real>
+			<real>595183057.42410803</real>
 			<key>timeStoppedRecording</key>
-			<real>595096429.95863295</real>
+			<real>595183165.01628804</real>
 			<key>title</key>
 			<string>Debug JokingApp</string>
 			<key>uniqueIdentifier</key>
-			<string>3EB69DA4-468C-4394-9443-E23C30D4F40B</string>
+			<string>A63BAA0F-00A7-4055-8701-73EDD0CD539E</string>
 		</dict>
-		<key>3F75D692-5F8F-42A9-8882-877BE63C018B</key>
+		<key>AFA82BAA-32C3-422A-9B34-1AD1B4CA5F61</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -143,7 +143,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3F75D692-5F8F-42A9-8882-877BE63C018B.xcactivitylog</string>
+			<string>AFA82BAA-32C3-422A-9B34-1AD1B4CA5F61.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -158,15 +158,15 @@
 			<key>signature</key>
 			<string>Debug JokingApp</string>
 			<key>timeStartedRecording</key>
-			<real>595096610.40538204</real>
+			<real>595182860.18788397</real>
 			<key>timeStoppedRecording</key>
-			<real>595096671.60403299</real>
+			<real>595182912.29779506</real>
 			<key>title</key>
 			<string>Debug JokingApp</string>
 			<key>uniqueIdentifier</key>
-			<string>3F75D692-5F8F-42A9-8882-877BE63C018B</string>
+			<string>AFA82BAA-32C3-422A-9B34-1AD1B4CA5F61</string>
 		</dict>
-		<key>5C778282-D683-4AF4-9A90-E17CBCD4E027</key>
+		<key>BBF60FA3-5AF6-4825-843F-261EA635A478</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -175,7 +175,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>5C778282-D683-4AF4-9A90-E17CBCD4E027.xcactivitylog</string>
+			<string>BBF60FA3-5AF6-4825-843F-261EA635A478.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -190,15 +190,15 @@
 			<key>signature</key>
 			<string>Debug JokingApp</string>
 			<key>timeStartedRecording</key>
-			<real>595096672.71453094</real>
+			<real>595182163.64423203</real>
 			<key>timeStoppedRecording</key>
-			<real>595096750.96208799</real>
+			<real>595182182.91163504</real>
 			<key>title</key>
 			<string>Debug JokingApp</string>
 			<key>uniqueIdentifier</key>
-			<string>5C778282-D683-4AF4-9A90-E17CBCD4E027</string>
+			<string>BBF60FA3-5AF6-4825-843F-261EA635A478</string>
 		</dict>
-		<key>7648C017-C8F4-4862-8379-5926088AF91D</key>
+		<key>E1EEA761-D09B-4954-9074-E146CC42E23D</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -207,7 +207,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>7648C017-C8F4-4862-8379-5926088AF91D.xcactivitylog</string>
+			<string>E1EEA761-D09B-4954-9074-E146CC42E23D.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -222,15 +222,15 @@
 			<key>signature</key>
 			<string>Debug JokingApp</string>
 			<key>timeStartedRecording</key>
-			<real>595097055.332196</real>
+			<real>595182973.35778105</real>
 			<key>timeStoppedRecording</key>
-			<real>595097313.70585895</real>
+			<real>595183055.99477303</real>
 			<key>title</key>
 			<string>Debug JokingApp</string>
 			<key>uniqueIdentifier</key>
-			<string>7648C017-C8F4-4862-8379-5926088AF91D</string>
+			<string>E1EEA761-D09B-4954-9074-E146CC42E23D</string>
 		</dict>
-		<key>7CC97F22-E640-4234-9071-F095836B3D07</key>
+		<key>E692DF41-9EAC-473F-A468-9B979158106E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -239,7 +239,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>7CC97F22-E640-4234-9071-F095836B3D07.xcactivitylog</string>
+			<string>E692DF41-9EAC-473F-A468-9B979158106E.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -254,15 +254,15 @@
 			<key>signature</key>
 			<string>Debug JokingApp</string>
 			<key>timeStartedRecording</key>
-			<real>595096751.63476706</real>
+			<real>595182954.60202003</real>
 			<key>timeStoppedRecording</key>
-			<real>595096771.068483</real>
+			<real>595182972.96201301</real>
 			<key>title</key>
 			<string>Debug JokingApp</string>
 			<key>uniqueIdentifier</key>
-			<string>7CC97F22-E640-4234-9071-F095836B3D07</string>
+			<string>E692DF41-9EAC-473F-A468-9B979158106E</string>
 		</dict>
-		<key>802DE6F9-ED71-4706-A2D2-C7CE24B32A2C</key>
+		<key>F00A37EC-455E-4A24-8605-51ED0A8A7FF9</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -271,7 +271,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>802DE6F9-ED71-4706-A2D2-C7CE24B32A2C.xcactivitylog</string>
+			<string>F00A37EC-455E-4A24-8605-51ED0A8A7FF9.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -286,301 +286,13 @@
 			<key>signature</key>
 			<string>Debug JokingApp</string>
 			<key>timeStartedRecording</key>
-			<real>595096199.93631494</real>
+			<real>595182807.01560104</real>
 			<key>timeStoppedRecording</key>
-			<real>595096269.45550001</real>
+			<real>595182859.22448003</real>
 			<key>title</key>
 			<string>Debug JokingApp</string>
 			<key>uniqueIdentifier</key>
-			<string>802DE6F9-ED71-4706-A2D2-C7CE24B32A2C</string>
-		</dict>
-		<key>80D4BFC4-A031-4723-B8B2-6976F05261FB</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>80D4BFC4-A031-4723-B8B2-6976F05261FB.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>JokingApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>JokingApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug JokingApp</string>
-			<key>timeStartedRecording</key>
-			<real>595096971.91461504</real>
-			<key>timeStoppedRecording</key>
-			<real>595097043.36904097</real>
-			<key>title</key>
-			<string>Debug JokingApp</string>
-			<key>uniqueIdentifier</key>
-			<string>80D4BFC4-A031-4723-B8B2-6976F05261FB</string>
-		</dict>
-		<key>AD7DF15F-FE67-49EE-BE49-758AFFBE0792</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>AD7DF15F-FE67-49EE-BE49-758AFFBE0792.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>JokingApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>JokingApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug JokingApp</string>
-			<key>timeStartedRecording</key>
-			<real>595097044.04711699</real>
-			<key>timeStoppedRecording</key>
-			<real>595097054.76715899</real>
-			<key>title</key>
-			<string>Debug JokingApp</string>
-			<key>uniqueIdentifier</key>
-			<string>AD7DF15F-FE67-49EE-BE49-758AFFBE0792</string>
-		</dict>
-		<key>B0D77625-14E0-4660-B139-48F38D3ED27C</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>B0D77625-14E0-4660-B139-48F38D3ED27C.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>JokingApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>JokingApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug JokingApp</string>
-			<key>timeStartedRecording</key>
-			<real>595096601.89029098</real>
-			<key>timeStoppedRecording</key>
-			<real>595096610.52995396</real>
-			<key>title</key>
-			<string>Debug JokingApp</string>
-			<key>uniqueIdentifier</key>
-			<string>B0D77625-14E0-4660-B139-48F38D3ED27C</string>
-		</dict>
-		<key>B1BF2FE1-7EEC-485F-93E9-A1F3AC67B642</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>B1BF2FE1-7EEC-485F-93E9-A1F3AC67B642.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>JokingApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>JokingApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug JokingApp</string>
-			<key>timeStartedRecording</key>
-			<real>595096898.93150496</real>
-			<key>timeStoppedRecording</key>
-			<real>595096971.302531</real>
-			<key>title</key>
-			<string>Debug JokingApp</string>
-			<key>uniqueIdentifier</key>
-			<string>B1BF2FE1-7EEC-485F-93E9-A1F3AC67B642</string>
-		</dict>
-		<key>C8710C72-9078-4E43-AA46-86C8E23865EE</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>C8710C72-9078-4E43-AA46-86C8E23865EE.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>JokingApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>JokingApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug JokingApp</string>
-			<key>timeStartedRecording</key>
-			<real>595096362.82730198</real>
-			<key>timeStoppedRecording</key>
-			<real>595096385.99382806</real>
-			<key>title</key>
-			<string>Debug JokingApp</string>
-			<key>uniqueIdentifier</key>
-			<string>C8710C72-9078-4E43-AA46-86C8E23865EE</string>
-		</dict>
-		<key>D1CB4545-8F54-40CB-906F-EE07F707426F</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>D1CB4545-8F54-40CB-906F-EE07F707426F.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>JokingApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>JokingApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug JokingApp</string>
-			<key>timeStartedRecording</key>
-			<real>595096126.30091596</real>
-			<key>timeStoppedRecording</key>
-			<real>595096198.70942497</real>
-			<key>title</key>
-			<string>Debug JokingApp</string>
-			<key>uniqueIdentifier</key>
-			<string>D1CB4545-8F54-40CB-906F-EE07F707426F</string>
-		</dict>
-		<key>DED74201-F3C7-43F7-905B-A93BEF9FB815</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>DED74201-F3C7-43F7-905B-A93BEF9FB815.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>JokingApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>JokingApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug JokingApp</string>
-			<key>timeStartedRecording</key>
-			<real>595096783.90194201</real>
-			<key>timeStoppedRecording</key>
-			<real>595096791.44881201</real>
-			<key>title</key>
-			<string>Debug JokingApp</string>
-			<key>uniqueIdentifier</key>
-			<string>DED74201-F3C7-43F7-905B-A93BEF9FB815</string>
-		</dict>
-		<key>FA7671EA-1007-4700-9D1F-A60C38FAEE0A</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>FA7671EA-1007-4700-9D1F-A60C38FAEE0A.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>JokingApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>JokingApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug JokingApp</string>
-			<key>timeStartedRecording</key>
-			<real>595096430.53087604</real>
-			<key>timeStoppedRecording</key>
-			<real>595096500.05971301</real>
-			<key>title</key>
-			<string>Debug JokingApp</string>
-			<key>uniqueIdentifier</key>
-			<string>FA7671EA-1007-4700-9D1F-A60C38FAEE0A</string>
-		</dict>
-		<key>FD0AB9EC-AA07-4045-B345-84BEC135AD39</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>FD0AB9EC-AA07-4045-B345-84BEC135AD39.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>JokingApp project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>JokingApp</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug JokingApp</string>
-			<key>timeStartedRecording</key>
-			<real>595096812.01127005</real>
-			<key>timeStoppedRecording</key>
-			<real>595096896.47095203</real>
-			<key>title</key>
-			<string>Debug JokingApp</string>
-			<key>uniqueIdentifier</key>
-			<string>FD0AB9EC-AA07-4045-B345-84BEC135AD39</string>
+			<string>F00A37EC-455E-4A24-8605-51ED0A8A7FF9</string>
 		</dict>
 	</dict>
 </dict>

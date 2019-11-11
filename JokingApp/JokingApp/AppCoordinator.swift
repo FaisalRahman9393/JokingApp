@@ -14,8 +14,6 @@ class AppCoordinator {
         return homeViewController
     }
     
-    let randomJokeViewController: RandomJokeViewController
-    let randomJokePresenter: RandomJokePresenter
     
     let jokeSearchViewController: JokeSearchViewController
     let jokeSearchPresenter: JokeSearchPresenter
@@ -34,11 +32,9 @@ class AppCoordinator {
         homeViewController = storyboard.instantiateViewController(withIdentifier: "Home") as! HomeViewController
         let homeNavigationController = UINavigationController(rootViewController: homeViewController)
         
-        randomJokeViewController = storyboard.instantiateViewController(withIdentifier: "RandomJoke") as! RandomJokeViewController
-        let randomJokeNavigationController = UINavigationController(rootViewController: randomJokeViewController)
-        
+
         jokeSearchViewController = storyboard.instantiateViewController(withIdentifier: "JokeSearch") as! JokeSearchViewController
-        let jokeSearchNavigationController = UINavigationController(rootViewController: randomJokeViewController)
+        let jokeSearchNavigationController = UINavigationController(rootViewController: jokeSearchViewController)
         
         jokeListViewController = storyboard.instantiateViewController(withIdentifier: "JokeList") as! JokeListViewController
         let jokeListNavigationController = UINavigationController(rootViewController: jokeListViewController)
@@ -47,7 +43,6 @@ class AppCoordinator {
 //        jokesToolkitAdapter.getVersionNumber()
         
         homePresenter = HomePresenter(homeViewController, jokesToolkitAdapter)
-        randomJokePresenter = RandomJokePresenter(randomJokeViewController, jokesToolkitAdapter)
         jokeSearchPresenter = JokeSearchPresenter(jokeSearchViewController, jokesToolkitAdapter)
         jokeListPresenter = JokeListPresenter(jokeListViewController, jokesToolkitAdapter)
 
@@ -55,7 +50,6 @@ class AppCoordinator {
     
     func start() {
         homeViewController.delegate = homePresenter
-        randomJokeViewController.delegate = randomJokePresenter
         jokeSearchViewController.delegate = jokeSearchPresenter
         jokeListViewController.delegate = jokeListPresenter
     }

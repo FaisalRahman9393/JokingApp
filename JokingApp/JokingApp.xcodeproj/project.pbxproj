@@ -11,7 +11,7 @@
 		771CA0C023785576002ABA71 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0BF23785576002ABA71 /* HomeViewController.swift */; };
 		771CA0C223785625002ABA71 /* RandomJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0C123785625002ABA71 /* RandomJokeViewController.swift */; };
 		771CA0C423785665002ABA71 /* JokeSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0C323785665002ABA71 /* JokeSearchViewController.swift */; };
-		771CA0C623785695002ABA71 /* JokesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0C523785695002ABA71 /* JokesListViewController.swift */; };
+		771CA0C623785695002ABA71 /* JokeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0C523785695002ABA71 /* JokeListViewController.swift */; };
 		771CA0C82378587C002ABA71 /* JokesToolkitAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0C72378587C002ABA71 /* JokesToolkitAdapter.swift */; };
 		771CA0CA23785E9F002ABA71 /* RandomJokePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0C923785E9F002ABA71 /* RandomJokePresenter.swift */; };
 		771CA0CC23785EC3002ABA71 /* JokeSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0CB23785EC3002ABA71 /* JokeSearchPresenter.swift */; };
@@ -49,7 +49,7 @@
 		771CA0BF23785576002ABA71 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		771CA0C123785625002ABA71 /* RandomJokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokeViewController.swift; sourceTree = "<group>"; };
 		771CA0C323785665002ABA71 /* JokeSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeSearchViewController.swift; sourceTree = "<group>"; };
-		771CA0C523785695002ABA71 /* JokesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesListViewController.swift; sourceTree = "<group>"; };
+		771CA0C523785695002ABA71 /* JokeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeListViewController.swift; sourceTree = "<group>"; };
 		771CA0C72378587C002ABA71 /* JokesToolkitAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesToolkitAdapter.swift; sourceTree = "<group>"; };
 		771CA0C923785E9F002ABA71 /* RandomJokePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokePresenter.swift; sourceTree = "<group>"; };
 		771CA0CB23785EC3002ABA71 /* JokeSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeSearchPresenter.swift; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 				771CA0C323785665002ABA71 /* JokeSearchViewController.swift */,
 				771CA0C123785625002ABA71 /* RandomJokeViewController.swift */,
 				771CA0BD23785223002ABA71 /* AppCoordinator.swift */,
-				771CA0C523785695002ABA71 /* JokesListViewController.swift */,
+				771CA0C523785695002ABA71 /* JokeListViewController.swift */,
 				77DED06D2376F69000F1B066 /* AppDelegate.swift */,
 				77DED0712376F69000F1B066 /* Main.storyboard */,
 				77DED0742376F69000F1B066 /* Assets.xcassets */,
@@ -293,7 +293,7 @@
 				771CA0BE23785223002ABA71 /* AppCoordinator.swift in Sources */,
 				77DED06E2376F69000F1B066 /* AppDelegate.swift in Sources */,
 				771CA0C023785576002ABA71 /* HomeViewController.swift in Sources */,
-				771CA0C623785695002ABA71 /* JokesListViewController.swift in Sources */,
+				771CA0C623785695002ABA71 /* JokeListViewController.swift in Sources */,
 				771CA0C223785625002ABA71 /* RandomJokeViewController.swift in Sources */,
 				771CA0CE23785ED8002ABA71 /* JokeListPresenter.swift in Sources */,
 				7792E8D22379C0B1003DBEA9 /* LoadingCell.swift in Sources */,

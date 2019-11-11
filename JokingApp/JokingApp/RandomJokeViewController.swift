@@ -16,7 +16,9 @@ protocol RandomJokeViewDelegate: AnyObject {
 class RandomJokeViewController: UIViewController {
     
     weak var delegate: RandomJokeViewDelegate?
-
+    
+    @IBOutlet var randomJokeLabel: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

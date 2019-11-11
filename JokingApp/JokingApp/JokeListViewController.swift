@@ -87,7 +87,7 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
         fetchingMore = true
         print("beginBatchFetch!")
         tableView.reloadSections(IndexSet(integer: 1), with: .none)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.2, execute: {
             let newItems = (self.items.count...self.items.count + 12).map { index in index }
             self.items.append(contentsOf: newItems)
             self.fetchingMore = false

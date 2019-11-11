@@ -16,6 +16,9 @@ protocol JokeSearchViewDelegate: AnyObject{
 class JokeSearchViewController: UIViewController {
     
     weak var delegate: JokeSearchViewDelegate?
+    @IBOutlet var jokeSearchLabel: UILabel!
+    @IBOutlet var jokeSearchTextBox: UITextField!
+    
 
     
     override func viewDidLoad() {
@@ -25,6 +28,9 @@ class JokeSearchViewController: UIViewController {
     }
     
     
+    @IBAction func jokeSearchPressed(_ sender: Any) {
+        print("")
+    }
     /*
      // MARK: - Navigation
      

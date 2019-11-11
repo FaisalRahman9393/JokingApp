@@ -24,6 +24,15 @@ class HomeViewController: UIViewController {
         }
         
     
+    @IBAction func randomJokeButtonPressed(_ sender: Any) {
+        print("hello")
+    }
     
-
+    @IBAction func searchForJokeButtonPressed(_ sender: Any) {
+        print("hello")
+    }
+    
+    @IBAction func listOfJokesButtonPressed(_ sender: Any) {
+        print("hello")
+    }
 }

@@ -18,11 +18,42 @@ class JokesToolkitAdapter {
         jokesToolkit.initialise()
     }
     
-    func blahhhhhh() {
-//        jokesToolkit.batchFetchRandomJokes(numberOfJokes: <#T##Int#>, success: <#T##([Joke]) -> Void#>, failure: <#T##(JokeFetchingError) -> Void#>)
+    func getARandomJoke(success: @escaping (Joke) -> Void,
+                        failure: @escaping (JokeFetchingError) -> Void) {
+        
+        jokesToolkit.fetchRandomJoke(success: { jokeRetrived in
+            success(jokeRetrived)
+        }) { (jokeFetchingError) in
+            failure(jokeFetchingError)
+        }
     }
     
+    func getACustomJoke(firstName: String,
+                        lastName: String,
+                        success: @escaping (Joke) -> Void,
+                        failure: @escaping (JokeFetchingError) -> Void) {
+        
+        jokesToolkit.fetchCustomJoke(firstName: firstName,
+                                     lastName: lastName,
+                                     success: {
+                                        jokeRetrived in
+            success(jokeRetrived)
+        }) { jokeFetchingError in
+            failure(jokeFetchingError)
+        }
+    }
     
-    
+    func getABatchOfTenRandomJokes(success: @escaping ([Joke]) -> Void,
+                                   failure: @escaping (JokeFetchingError) -> Void) {
+        
+        jokesToolkit.batchFetchRandomJokes(numberOfJokes: 10,
+                                           success: {
+                                            jokeRetrived in
+            success(jokeRetrived)
+        }) { jokeFetchingError in
+            failure(jokeFetchingError)
+        }
+        
+    }
 
 }

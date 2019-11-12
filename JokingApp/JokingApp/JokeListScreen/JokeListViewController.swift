@@ -17,14 +17,16 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     weak var delegate: JokeListViewDelegate?
     @IBOutlet weak var tableView: UITableView!
+    var jokesToolkitAdapter: JokesToolkitAdapter!
     var fetchingMore = false
-//    var tableView:UITableView!
-    var items = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    var items = [String]()
+    var fetchedItems = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        jokesToolkitAdapter = JokesToolkitAdapter()
+
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "tableCell")
         let loadingNib = UINib(nibName: "LoadingCell", bundle: nil)
         tableView.register(loadingNib, forCellReuseIdentifier: "loadingCell")
@@ -32,6 +34,8 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
         tableView.dataSource = self
         
         tableView.translatesAutoresizingMaskIntoConstraints = false
+        fetchJokeBatch()
+
 
         
         tableView.reloadData()
@@ -60,7 +64,9 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "tableCell", for: indexPath)
-            cell.textLabel?.text = "Item \(items[indexPath.row])"
+            cell.textLabel?.text = items[indexPath.row]
+            cell.textLabel?.numberOfLines = 0
+            cell.textLabel?.lineBreakMode = .byWordWrapping
             return cell
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "loadingCell", for: indexPath) as! LoadingCell
@@ -71,6 +77,7 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        
         let offsetY = scrollView.contentOffset.y
         let contentHeight = scrollView.contentSize.height
         
@@ -85,15 +92,29 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     func beginBatchFetch() {
         fetchingMore = true
+        fetchJokeBatch()
         print("beginBatchFetch!")
-        tableView.reloadSections(IndexSet(integer: 1), with: .none)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.2, execute: {
-            let newItems = (self.items.count...self.items.count + 12).map { index in index }
+        tableView.reloadSections(IndexSet(integer: 1), with: .fade)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: {
+            //The +12 here increases the amount of cells to populate
+            let newItems = self.fetchedItems
             self.items.append(contentsOf: newItems)
             self.fetchingMore = false
             self.tableView.reloadData()
         })
     }
-
     
+    func fetchJokeBatch() {
+        self.fetchedItems.removeAll()
+        self.jokesToolkitAdapter.getABatchOfEightRandomJokes(success: { jokes in
+            for joke in jokes {
+                self.fetchedItems.append(joke.joke)
+            }
+        }) { (blah) in
+            print(blah)
+            
+        }
+    }
+
+
 }

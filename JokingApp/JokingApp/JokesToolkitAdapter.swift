@@ -43,10 +43,10 @@ class JokesToolkitAdapter {
         }
     }
     
-    func getABatchOfTenRandomJokes(success: @escaping ([Joke]) -> Void,
+    func getABatchOfEightRandomJokes(success: @escaping ([Joke]) -> Void,
                                    failure: @escaping (JokeFetchingError) -> Void) {
         
-        jokesToolkit.batchFetchRandomJokes(numberOfJokes: 10,
+        jokesToolkit.batchFetchRandomJokes(numberOfJokes: 3,
                                            success: {
                                             jokeRetrived in
             success(jokeRetrived)

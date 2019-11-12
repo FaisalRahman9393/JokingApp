@@ -49,7 +49,7 @@ class JokeFetcher {
     }
     
     func fetchRandomJoke(success: @escaping (Joke) -> Void, failure: @escaping (JokeFetchingError) -> Void) {
-        let endpoint = String(format: jokesEndpoints.BATCH_RANDOM_JOKES_ENDPOINT, String(1))
+        let endpoint = String(format: jokesEndpoints.RANDOM_JOKE_ENDPOINT)
         guard let randomJokeRequest = buildRandomJokeRequest(endpoint: endpoint)
             else {
                 failure(JokeFetchingError(reason: .Unknown, message: "Invalid URL"))

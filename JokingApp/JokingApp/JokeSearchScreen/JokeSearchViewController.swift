@@ -7,30 +7,59 @@
 //
 
 import UIKit
+import JokingFramework
 
 protocol JokeSearchViewDelegate: AnyObject{
     
     //TODO
 }
 
-class JokeSearchViewController: UIViewController {
+class JokeSearchViewController: UIViewController, UITextFieldDelegate {
     
     weak var delegate: JokeSearchViewDelegate?
     @IBOutlet var jokeSearchLabel: UILabel!
     @IBOutlet var jokeSearchTextBox: UITextField!
-    
-
+    var jokingAdapter = JokesToolkitAdapter()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        jokeSearchTextBox.delegate = self
+        
         
         // Do any additional setup after loading the view.
     }
     
     
     @IBAction func jokeSearchPressed(_ sender: Any) {
-        print("")
+        
+        
+        guard let nameToSearch = jokeSearchTextBox.text else {
+            return
+        }
+        
+        var components = nameToSearch.components(separatedBy:" ")
+        if((components.count > 0)) {
+            let firstName = components.removeFirst()
+            let lastName = components.joined(separator: " ")
+            
+            jokingAdapter.getACustomJoke(firstName: firstName, lastName: lastName, success: { (jokeRetrived) in
+                self.jokeSearchLabel.text = jokeRetrived.joke
+            }) { (_) in
+                
+            }
+
+        } else {
+            print("Invalid name")
+        }
+
     }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        textField.text?.removeAll()
+    }
+    
+  
     /*
      // MARK: - Navigation
      

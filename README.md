@@ -5,8 +5,10 @@ Joking App
 using XCode 10.3
 
 # Tested
-on devices such as:
+on devices:
 
 *iPhoneX
 *iPhone 8
 *iPhone 5SE
+
+Please open the workspace file (JokingApp.xcworkspace). This will open both the framework and App. 

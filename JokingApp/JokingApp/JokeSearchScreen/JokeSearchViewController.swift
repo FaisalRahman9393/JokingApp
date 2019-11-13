@@ -11,7 +11,8 @@ import JokingFramework
 
 protocol JokeSearchViewDelegate: AnyObject{
     
-    //TODO
+    func jokeSearchPressed(name: String)
+    
 }
 
 class JokeSearchViewController: UIViewController, UITextFieldDelegate {
@@ -21,53 +22,34 @@ class JokeSearchViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var jokeSearchTextBox: UITextField!
     var jokingAdapter = JokesToolkitAdapter()
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         jokeSearchTextBox.delegate = self
-        
-        
-        // Do any additional setup after loading the view.
     }
     
     
     @IBAction func jokeSearchPressed(_ sender: Any) {
-        
-        
-        guard let nameToSearch = jokeSearchTextBox.text else {
-            return
-        }
-        
-        var components = nameToSearch.components(separatedBy:" ")
-        if((components.count > 0)) {
-            let firstName = components.removeFirst()
-            let lastName = components.joined(separator: " ")
-            
-            jokingAdapter.getACustomJoke(firstName: firstName, lastName: lastName, success: { (jokeRetrived) in
-                self.jokeSearchLabel.text = jokeRetrived.joke
-            }) { (_) in
-                
-            }
-
-        } else {
-            print("Invalid name")
-        }
-
+        guard let nameToSearch = jokeSearchTextBox.text else { return }
+        delegate?.jokeSearchPressed(name: nameToSearch)
     }
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
         textField.text?.removeAll()
     }
     
-  
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
+    func updateTextLabel(message: String) {
+        self.jokeSearchLabel.text = message
+    }
     
+    func presentMessage(messageToShow: String, title: String) {
+            let alertController = UIAlertController(title: title, message: messageToShow, preferredStyle: .alert)
+            let OKAction = UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction!) in
+                alertController.dismiss(animated: true, completion: nil)
+            }
+            alertController.addAction(OKAction)
+            
+            self.present(alertController, animated: true, completion:nil)
+    }
+
 }

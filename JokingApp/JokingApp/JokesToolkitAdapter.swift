@@ -9,7 +9,7 @@
 import Foundation
 import JokingFramework
 
-class JokesToolkitAdapter {
+class JokesToolkitAdapter: JokesToolkitPort {
     
     var jokesToolkit = JokesToolkit()
 
@@ -43,10 +43,10 @@ class JokesToolkitAdapter {
         }
     }
     
-    func getABatchOfFiveRandomJokes(success: @escaping ([Joke]) -> Void,
+    func getABatchOfSevenRandomJokes(success: @escaping ([Joke]) -> Void,
                                    failure: @escaping (JokeFetchingError) -> Void) {
         
-        jokesToolkit.batchFetchRandomJokes(numberOfJokes: 5,
+        jokesToolkit.batchFetchRandomJokes(numberOfJokes: 7,
                                            success: {
                                             jokeRetrived in
             success(jokeRetrived)

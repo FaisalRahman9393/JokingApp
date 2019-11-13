@@ -11,9 +11,7 @@ import JokingFramework
 
 protocol JokeListViewDelegate: AnyObject {
     func viewDidLoad()
-    func clearTable()
-    func fetchJokeBatch(success: @escaping ([Joke]) -> Void,
-                        failure: @escaping () -> Void)
+    func fetchJokeBatch(success: @escaping ([Joke]) -> Void)
 }
 
 class JokeListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
@@ -22,16 +20,12 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBOutlet weak var tableView: UITableView!
     var jokesToolkitAdapter: JokesToolkitAdapter!
     var fetchingMore = false
-    var items = [String]()
-    var fetchedItems = [String]()
+    var fullListOfItems = [String]()
+    var newlyFetchedBatch = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        jokesToolkitAdapter = JokesToolkitAdapter()
-        
-        fetchJokeBatchh()
-
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "tableCell")
         let loadingNib = UINib(nibName: "LoadingCell", bundle: nil)
         tableView.register(loadingNib, forCellReuseIdentifier: "loadingCell")
@@ -40,7 +34,6 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
         
         tableView.translatesAutoresizingMaskIntoConstraints = false
 
-        
         tableView.reloadData()
     }
     
@@ -55,7 +48,7 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {
-            return items.count
+            return fullListOfItems.count
         } else if section == 1 && fetchingMore {
             return 1
         }
@@ -66,7 +59,7 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: "tableCell", for: indexPath)
-            cell.textLabel?.text = items[indexPath.row]
+            cell.textLabel?.text = fullListOfItems[indexPath.row]
             cell.textLabel?.numberOfLines = 0
             cell.textLabel?.lineBreakMode = .byWordWrapping
             return cell
@@ -86,46 +79,47 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
         
         if offsetY > contentHeight - scrollView.frame.height * 4 {
             if !fetchingMore {
-                beginBatchFetch()
+                updateTableWithNewJokes()
             }
             
         }
+        
     }
 
-    func beginBatchFetch() {
+    func updateTableWithNewJokes() {
         fetchingMore = true
-        fetchJokeBatchh()
-        print("beginBatchFetch!")
+        fetchJokes()
         tableView.reloadSections(IndexSet(integer: 1), with: .fade)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: {
-            //The +12 here increases the amount of cells to populate
-            let newItems = self.fetchedItems
-            self.items.append(contentsOf: newItems)
+        updateAfterDelay()
+    }
+
+    func fetchJokes() {
+        self.delegate?.fetchJokeBatch(success: { jokes in
+            for joke in jokes {
+                self.newlyFetchedBatch.append(joke.joke)
+            }
+        }) 
+    }
+    
+    fileprivate func updateAfterDelay() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
+            let newItems = self.newlyFetchedBatch
+            self.fullListOfItems.append(contentsOf: newItems)
             self.fetchingMore = false
             self.tableView.reloadData()
+            self.newlyFetchedBatch.removeAll()
         })
     }
     
-
-        func fetchJokeBatchh() {
-            var itemsToFetch = [String]()
-            guard let delegate2 = delegate else { return }
-            
-            delegate2.fetchJokeBatch(success: { jokes in
-                for joke in jokes {
-                    itemsToFetch.append(joke.joke)
-                }
-                self.fetchedItems = itemsToFetch
-                print("")
-            }) {
-                
-            }
+    func presentMessage(messageToShow: String, title: String) {
+        let alertController = UIAlertController(title: title, message: messageToShow, preferredStyle: .alert)
+        let OKAction = UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction!) in
+            alertController.dismiss(animated: true, completion: nil)
         }
-    
-    
-
-
-
+        alertController.addAction(OKAction)
+        
+        self.present(alertController, animated: true, completion:nil)
+    }
 
 }
 

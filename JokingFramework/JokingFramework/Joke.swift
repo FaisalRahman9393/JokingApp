@@ -10,7 +10,7 @@ public struct Joke {
     public var jokeID: Int
     public var joke: String
     public var jokeCategory: [String]
-    init(jokeID: Int, joke: String, jokeCategory: [String]) {
+    public init(jokeID: Int, joke: String, jokeCategory: [String]) {
         self.jokeID = jokeID
         self.joke = joke
         self.jokeCategory = jokeCategory

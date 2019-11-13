@@ -11,35 +11,25 @@ import JokingFramework
 
 class JokeListPresenter: JokeListViewDelegate {
 
-    
-    
     let jokesListViewController: JokeListViewController
-    let jokesAdapter: JokesToolkitAdapter
+    let jokesAdapter: JokesToolkitPort
     
-    init(_ jokesListViewController: JokeListViewController, _ jokesAdapter: JokesToolkitAdapter) {
+    init(_ jokesListViewController: JokeListViewController, _ jokesAdapter: JokesToolkitPort) {
         self.jokesListViewController = jokesListViewController
         self.jokesAdapter = jokesAdapter
     }
     
     func viewDidLoad() {
-//        fetchJokeBatch()
+        jokesListViewController.updateTableWithNewJokes()
     }
     
-    func fetchJokeBatch(success: @escaping ([Joke]) -> Void,
-                        failure: @escaping () -> Void)  {
-        self.jokesAdapter.getABatchOfFiveRandomJokes(success: { jokeRetrived in
+    func fetchJokeBatch(success: @escaping ([Joke]) -> Void)  {
+        self.jokesAdapter.getABatchOfSevenRandomJokes(success: { jokeRetrived in
             success(jokeRetrived)
-        }) { (blah) in
-            print(blah)
-            
+        }) { (_) in
+         self.jokesListViewController.presentMessage(messageToShow: "Couldn't connect to the server", title: "Someone did an oopsie!")
         }
     }
     
-    func clearTable() {
-        self.jokesListViewController.items.removeAll()
-    }
-    
-
-
     
 }

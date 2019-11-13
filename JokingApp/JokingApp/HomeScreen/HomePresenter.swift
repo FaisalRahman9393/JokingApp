@@ -12,9 +12,9 @@ import JokingFramework
 class HomePresenter: HomeViewDelegate {
 
     let homeViewController: HomeViewController
-    let jokesAdapter: JokesToolkitAdapter
+    let jokesAdapter: JokesToolkitPort
     
-    init(_ homeViewController: HomeViewController, _ jokesAdapter: JokesToolkitAdapter) {
+    init(_ homeViewController: HomeViewController, _ jokesAdapter: JokesToolkitPort) {
         self.homeViewController = homeViewController
         self.jokesAdapter = jokesAdapter
     }
@@ -22,9 +22,9 @@ class HomePresenter: HomeViewDelegate {
     func randomJokeButtonPressed() {
         jokesAdapter.getARandomJoke(success: { (joke) in
             let messageToDisplay = joke.joke
-            self.homeViewController.presentOkDialog(title: "Heres a random joke!", messageToShow: messageToDisplay)
+            self.homeViewController.presentMessage(messageToShow: "Heres a random joke!", title: messageToDisplay)
         }) { (_) in
-            
+                self.homeViewController.presentMessage(messageToShow: "Couldn't connect to the server", title: "Someone did an oopsie!")
         }
     }
 }

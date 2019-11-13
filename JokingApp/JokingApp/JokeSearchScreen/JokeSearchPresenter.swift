@@ -11,11 +11,30 @@ import Foundation
 class JokeSearchPresenter: JokeSearchViewDelegate {
     
     let jokesSearchViewController: JokeSearchViewController
-    let jokesAdapter: JokesToolkitAdapter
+    let jokesAdapter: JokesToolkitPort
     
-    init(_ jokesSearchViewController: JokeSearchViewController, _ jokesAdapter: JokesToolkitAdapter) {
+    init(_ jokesSearchViewController: JokeSearchViewController, _ jokesAdapter: JokesToolkitPort) {
         self.jokesSearchViewController = jokesSearchViewController
         self.jokesAdapter = jokesAdapter
+    }
+    
+    
+    func jokeSearchPressed(name: String) {
+        
+        var components = name.components(separatedBy:" ")
+        if((components.count > 0)) {
+            let firstName = components.removeFirst()
+            let lastName = components.joined(separator: " ")
+            
+            jokesAdapter.getACustomJoke(firstName: firstName, lastName: lastName, success: { (jokeRetrived) in
+                self.jokesSearchViewController.updateTextLabel(message: jokeRetrived.joke)
+            }) { (_) in
+                self.jokesSearchViewController.presentMessage(messageToShow: "Couldn't connect to the server", title: "Someone did an oopsie!")
+            }
+            
+        } else {
+            
+        }
     }
     
     

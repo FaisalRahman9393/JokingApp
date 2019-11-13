@@ -38,7 +38,7 @@ class HomeViewController: UIViewController {
     @IBAction func listOfJokesButtonPressed(_ sender: Any) {
     }
     
-    func presentOkDialog(title: String, messageToShow: String) {
+    func presentMessage(messageToShow: String, title: String) {
         let alertController = UIAlertController(title: title, message: messageToShow, preferredStyle: .alert)
         let OKAction = UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction!) in
             alertController.dismiss(animated: true, completion: nil)

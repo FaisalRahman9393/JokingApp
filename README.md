@@ -5,7 +5,7 @@ Joking App
 using XCode 10.3
 
 # Tested
-on devices iOS 10 and below such as:
+on devices such as:
 
 *iPhoneX
 *iPhone 8

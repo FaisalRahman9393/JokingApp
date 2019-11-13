@@ -7,8 +7,11 @@
 //
 
 import Foundation
+import JokingFramework
 
 class JokeListPresenter: JokeListViewDelegate {
+
+    
     
     let jokesListViewController: JokeListViewController
     let jokesAdapter: JokesToolkitAdapter
@@ -17,5 +20,26 @@ class JokeListPresenter: JokeListViewDelegate {
         self.jokesListViewController = jokesListViewController
         self.jokesAdapter = jokesAdapter
     }
+    
+    func viewDidLoad() {
+//        fetchJokeBatch()
+    }
+    
+    func fetchJokeBatch(success: @escaping ([Joke]) -> Void,
+                        failure: @escaping () -> Void)  {
+        self.jokesAdapter.getABatchOfFiveRandomJokes(success: { jokeRetrived in
+            success(jokeRetrived)
+        }) { (blah) in
+            print(blah)
+            
+        }
+    }
+    
+    func clearTable() {
+        self.jokesListViewController.items.removeAll()
+    }
+    
+
+
     
 }

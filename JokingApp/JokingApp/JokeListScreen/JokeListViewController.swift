@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import JokingFramework
 
 protocol JokeListViewDelegate: AnyObject {
-    
-    //TODO
+    func viewDidLoad()
+    func clearTable()
+    func fetchJokeBatch(success: @escaping ([Joke]) -> Void,
+                        failure: @escaping () -> Void)
 }
 
 class JokeListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
@@ -24,8 +27,10 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
         jokesToolkitAdapter = JokesToolkitAdapter()
+        
+        fetchJokeBatchh()
 
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "tableCell")
         let loadingNib = UINib(nibName: "LoadingCell", bundle: nil)
@@ -34,8 +39,6 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
         tableView.dataSource = self
         
         tableView.translatesAutoresizingMaskIntoConstraints = false
-        fetchJokeBatch()
-
 
         
         tableView.reloadData()
@@ -57,7 +60,6 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
             return 1
         }
         return 0
-        
     }
     
     
@@ -89,10 +91,10 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
             
         }
     }
-    
+
     func beginBatchFetch() {
         fetchingMore = true
-        fetchJokeBatch()
+        fetchJokeBatchh()
         print("beginBatchFetch!")
         tableView.reloadSections(IndexSet(integer: 1), with: .fade)
         DispatchQueue.main.asyncAfter(deadline: .now() + 3, execute: {
@@ -104,17 +106,28 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
         })
     }
     
-    func fetchJokeBatch() {
-        self.fetchedItems.removeAll()
-        self.jokesToolkitAdapter.getABatchOfEightRandomJokes(success: { jokes in
-            for joke in jokes {
-                self.fetchedItems.append(joke.joke)
-            }
-        }) { (blah) in
-            print(blah)
+
+        func fetchJokeBatchh() {
+            var itemsToFetch = [String]()
+            guard let delegate2 = delegate else { return }
             
+            delegate2.fetchJokeBatch(success: { jokes in
+                for joke in jokes {
+                    itemsToFetch.append(joke.joke)
+                }
+                self.fetchedItems = itemsToFetch
+                print("")
+            }) {
+                
+            }
         }
-    }
+    
+    
+
+
 
 
 }
+
+
+

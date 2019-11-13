@@ -9,9 +9,14 @@
 import UIKit
 
 
-class AppCoordinator {
+class AppCoordinator: SegueDelegate {
+
     var rootViewController: UIViewController {
         return homeViewController
+    }
+    
+    var getNavigationController: UINavigationController {
+        return navViewController
     }
     
     
@@ -25,22 +30,20 @@ class AppCoordinator {
     let homePresenter: HomePresenter
     
     let jokesToolkitAdapter: JokesToolkitAdapter
+    let navViewController: UINavigationController
 
     init() {
-        let storyboard = UIStoryboard(name: "JokingAppStoryboard", bundle: nil)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
         homeViewController = storyboard.instantiateViewController(withIdentifier: "Home") as! HomeViewController
-        let homeNavigationController = UINavigationController(rootViewController: homeViewController)
         
-
         jokeSearchViewController = storyboard.instantiateViewController(withIdentifier: "JokeSearch") as! JokeSearchViewController
-        let jokeSearchNavigationController = UINavigationController(rootViewController: jokeSearchViewController)
         
         jokeListViewController = storyboard.instantiateViewController(withIdentifier: "JokeList") as! JokeListViewController
-        let jokeListNavigationController = UINavigationController(rootViewController: jokeListViewController)
+
+        navViewController = storyboard.instantiateViewController(withIdentifier: "NavController") as! UINavigationController
         
         jokesToolkitAdapter = JokesToolkitAdapter()
-//        jokesToolkitAdapter.getVersionNumber()
         
         homePresenter = HomePresenter(homeViewController, jokesToolkitAdapter)
         jokeSearchPresenter = JokeSearchPresenter(jokeSearchViewController, jokesToolkitAdapter)
@@ -49,9 +52,21 @@ class AppCoordinator {
     }
     
     func start() {
+        homeViewController.segueDelegate = self
         homeViewController.delegate = homePresenter
         jokeSearchViewController.delegate = jokeSearchPresenter
         jokeListViewController.delegate = jokeListPresenter
+        
+    }
+    
+    func searchButtonPressed() {
+        navViewController.popViewController(animated: false)
+        navViewController.pushViewController(jokeSearchViewController, animated: false)
+    }
+    
+    func listButtonPressed() {
+        navViewController.popViewController(animated: false)
+        navViewController.pushViewController(jokeListViewController, animated: false)
     }
     
 }

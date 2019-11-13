@@ -7,14 +7,24 @@
 //
 
 import Foundation
+import JokingFramework
 
 class HomePresenter: HomeViewDelegate {
-    
+
     let homeViewController: HomeViewController
     let jokesAdapter: JokesToolkitAdapter
     
     init(_ homeViewController: HomeViewController, _ jokesAdapter: JokesToolkitAdapter) {
         self.homeViewController = homeViewController
         self.jokesAdapter = jokesAdapter
+    }
+    
+    func randomJokeButtonPressed() {
+        jokesAdapter.getARandomJoke(success: { (joke) in
+            let messageToDisplay = joke.joke
+            self.homeViewController.presentOkDialog(title: "Heres a random joke!", messageToShow: messageToDisplay)
+        }) { (_) in
+            
+        }
     }
 }

@@ -13,21 +13,26 @@ import JokingFramework
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
-    //var coordinator: AppCoordinator?
+    var coordinator: AppCoordinator?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-//        let window = UIWindow(frame: UIScreen.main.bounds)
-        //let coordinator = AppCoordinator()
         
-        //window.rootViewController = coordinator.rootViewController
-        //window.makeKeyAndVisible()
-        
-        //coordinator.start()
-        
-        //self.window = window
-        //self.coordinator = coordinator
+        let coordinator = AppCoordinator()
+        let navigationController = coordinator.getNavigationController
 
+        navigationController.setViewControllers([coordinator.rootViewController], animated: false)
+        
+        coordinator.start()
+        
+        self.window?.rootViewController = navigationController
+        self.window?.makeKeyAndVisible()
+        
+        
+
+
+        self.coordinator = coordinator
+        
         
         return true
     }

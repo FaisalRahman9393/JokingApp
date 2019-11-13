@@ -10,57 +10,57 @@ import UIKit
 import JokingFramework
 
 protocol HomeViewDelegate: AnyObject {
-    
-    //TODO
+    func randomJokeButtonPressed()
+}
+
+protocol SegueDelegate: AnyObject {
+    func searchButtonPressed()
+    func listButtonPressed()
 }
 
 class HomeViewController: UIViewController {
     
     weak var delegate: HomeViewDelegate?
+    weak var segueDelegate: SegueDelegate?
     var jokesAdapter = JokesToolkitAdapter()
-        
-        override func viewDidLoad() {
-            
-            super.viewDidLoad()
-            // Do any additional setup after loading the view.
-        }
-        
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
     
     @IBAction func randomJokeButtonPressed(_ sender: Any) {
-        
-        jokesAdapter.getARandomJoke(success: { (joke) in
-            let messageToDisplay = joke.joke
-            
-            let alertController = UIAlertController(title: "Heres a random joke!", message: messageToDisplay, preferredStyle: .alert)
-            
-            // Create OK button
-            let OKAction = UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction!) in
-                // Code in this block will trigger when OK button tapped.
-                alertController.dismiss(animated: true, completion: nil)
-            }
-            alertController.addAction(OKAction)
-            
-            // Present Dialog message
-            self.present(alertController, animated: true, completion:nil)
-            
-            
-        }) { (_) in
-            
-        }
-        
-
-        
-//        randomJokePopUp.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
-//            print("Handle Ok logic here")
-//        }))
-
+        delegate?.randomJokeButtonPressed()
     }
     
     @IBAction func searchForJokeButtonPressed(_ sender: Any) {
-        print("hello")
     }
     
     @IBAction func listOfJokesButtonPressed(_ sender: Any) {
-        print("hello")
     }
+    
+    func presentOkDialog(title: String, messageToShow: String) {
+        let alertController = UIAlertController(title: title, message: messageToShow, preferredStyle: .alert)
+        let OKAction = UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction!) in
+            alertController.dismiss(animated: true, completion: nil)
+        }
+        alertController.addAction(OKAction)
+        
+        self.present(alertController, animated: true, completion:nil)
+    }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if identifier == "searchSegue"{
+            self.segueDelegate?.searchButtonPressed()
+            return false
+
+        }
+        if identifier == "listSegue"{
+            self.segueDelegate?.listButtonPressed()
+            return false
+        }
+        return false
+
+    }
+    
+    
 }

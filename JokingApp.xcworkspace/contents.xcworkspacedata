@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:JokingApp/JokingApp.xcodeproj">
+      location = "group:JokingFramework/JokingFramework.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:JokingFramework/JokingFramework.xcodeproj">
+      location = "group:JokingApp/JokingApp.xcodeproj">
    </FileRef>
 </Workspace>

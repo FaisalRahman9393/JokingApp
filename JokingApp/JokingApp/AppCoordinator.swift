@@ -60,13 +60,11 @@ class AppCoordinator: SegueDelegate {
     }
     
     func searchButtonPressed() {
-        navViewController.popViewController(animated: false)
-        navViewController.pushViewController(jokeSearchViewController, animated: false)
+        navViewController.pushViewController(jokeSearchViewController, animated: true)
     }
     
     func listButtonPressed() {
-        navViewController.popViewController(animated: false)
-        navViewController.pushViewController(jokeListViewController, animated: false)
+        navViewController.pushViewController(jokeListViewController, animated: true)
     }
     
 }

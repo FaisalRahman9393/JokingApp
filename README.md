@@ -1,5 +1,6 @@
 # JokingApp
-Joking App
+
+Please open the workspace file (JokingApp.xcworkspace). This will open both the framework and App. 
 
 # Developed and built 
 using XCode 10.3
@@ -11,4 +12,4 @@ on devices:
 *iPhone 8
 *iPhone 5SE
 
-Please open the workspace file (JokingApp.xcworkspace). This will open both the framework and App. 
+

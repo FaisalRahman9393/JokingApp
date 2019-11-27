@@ -38,7 +38,7 @@ class JokingAppTests: XCTestCase {
     func testHomePresenter_showsARandomJokeWhenRequested() {
         homePresenter.randomJokeButtonPressed()
         
-        XCTAssertTrue(dummyHomeViewController.titlePresented == "testRandomJoke")
+        XCTAssertTrue(dummyHomeViewController.messagePresented == "testRandomJoke")
     }
     
     func testSearchPresenter_showsACustomJokeWhenRequested() {

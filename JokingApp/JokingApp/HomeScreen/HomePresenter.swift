@@ -22,7 +22,7 @@ class HomePresenter: HomeViewDelegate {
     func randomJokeButtonPressed() {
         jokesAdapter.getARandomJoke(success: { (joke) in
             let messageToDisplay = joke.joke
-            self.homeViewController.presentMessage(messageToShow: "Heres a random joke!", title: messageToDisplay)
+            self.homeViewController.presentMessage(messageToShow: messageToDisplay, title: "Heres a random joke!")
         }) { (_) in
                 self.homeViewController.presentMessage(messageToShow: "Couldn't connect to the server", title: "Someone did an oopsie!")
         }

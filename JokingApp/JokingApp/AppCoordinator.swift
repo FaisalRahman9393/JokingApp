@@ -19,7 +19,6 @@ class AppCoordinator: SegueDelegate {
         return navViewController
     }
     
-    
     let jokeSearchViewController: JokeSearchViewController
     let jokeSearchPresenter: JokeSearchPresenter
     
@@ -30,6 +29,7 @@ class AppCoordinator: SegueDelegate {
     let homePresenter: HomePresenter
     
     let jokesToolkitAdapter: JokesToolkitAdapter
+    
     let navViewController: UINavigationController
 
     init() {
@@ -57,6 +57,7 @@ class AppCoordinator: SegueDelegate {
         jokeSearchViewController.delegate = jokeSearchPresenter
         jokeListViewController.delegate = jokeListPresenter
         
+        getNavigationController.setViewControllers([rootViewController], animated: true)
     }
     
     func searchButtonPressed() {

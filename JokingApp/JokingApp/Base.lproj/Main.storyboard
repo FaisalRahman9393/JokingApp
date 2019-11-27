@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="rwn-HJ-GvS">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="897"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="3bE-4h-Hqk" userLabel="jokes by ICNDB StackView">
                                 <rect key="frame" x="20" y="59" width="126" height="20.5"/>
@@ -161,15 +161,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="3bE-4h-Hqk" firstAttribute="top" secondItem="I5N-Zi-mcH" secondAttribute="top" constant="15" id="4q5-0H-wPQ"/>
-                            <constraint firstItem="rwn-HJ-GvS" firstAttribute="leading" secondItem="I5N-Zi-mcH" secondAttribute="leading" id="Be5-le-NKd"/>
-                            <constraint firstItem="rwn-HJ-GvS" firstAttribute="trailing" secondItem="I5N-Zi-mcH" secondAttribute="trailing" id="E3l-I5-iGo"/>
+                            <constraint firstItem="rwn-HJ-GvS" firstAttribute="top" secondItem="WxQ-UO-FFu" secondAttribute="top" id="B9M-pK-0mh"/>
                             <constraint firstItem="3bE-4h-Hqk" firstAttribute="leading" secondItem="WxQ-UO-FFu" secondAttribute="leadingMargin" id="JkZ-rZ-QgU"/>
                             <constraint firstItem="nTO-bK-T0D" firstAttribute="centerY" secondItem="WxQ-UO-FFu" secondAttribute="centerY" id="LgY-wD-8Vh"/>
-                            <constraint firstItem="rwn-HJ-GvS" firstAttribute="bottom" secondItem="I5N-Zi-mcH" secondAttribute="bottom" id="Ryf-KS-Jig">
-                                <variation key="heightClass=regular-widthClass=compact" constant="35"/>
-                            </constraint>
-                            <constraint firstItem="rwn-HJ-GvS" firstAttribute="top" secondItem="WxQ-UO-FFu" secondAttribute="top" id="ZAl-HH-AkO"/>
+                            <constraint firstItem="rwn-HJ-GvS" firstAttribute="leading" secondItem="I5N-Zi-mcH" secondAttribute="leading" id="aBs-qj-hYK"/>
+                            <constraint firstAttribute="bottom" secondItem="rwn-HJ-GvS" secondAttribute="bottom" id="wfc-Gp-B3i"/>
                             <constraint firstItem="nTO-bK-T0D" firstAttribute="centerX" secondItem="WxQ-UO-FFu" secondAttribute="centerX" id="yab-vt-yId"/>
+                            <constraint firstItem="rwn-HJ-GvS" firstAttribute="trailing" secondItem="I5N-Zi-mcH" secondAttribute="trailing" id="z3U-JQ-O4a"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="I5N-Zi-mcH"/>
                     </view>
@@ -223,7 +221,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.18549740310000001" green="0.1140552983" blue="0.41963434220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="7g2-vZ-1G1" firstAttribute="top" secondItem="i92-ZI-I5K" secondAttribute="bottom" constant="100" id="5Al-Jz-I2A"/>
                             <constraint firstItem="i92-ZI-I5K" firstAttribute="centerX" secondItem="V5V-cu-04I" secondAttribute="centerX" id="Fnp-nY-Gw5"/>
@@ -253,12 +251,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ff4-4O-TSb">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ff4-4O-TSb">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.18549740310000001" green="0.1140552983" blue="0.41963434220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="separatorColor" red="0.2949328423" green="0.23237335680000001" blue="0.49414390330000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <color key="sectionIndexBackgroundColor" red="0.18549740310000001" green="0.1140552983" blue="0.41963434220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.18549740310000001" green="0.1140552983" blue="0.41963434220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Jc-9H-Kdj" firstAttribute="trailing" secondItem="ff4-4O-TSb" secondAttribute="trailing" id="Ce1-Xb-hI7"/>
                             <constraint firstItem="6Jc-9H-Kdj" firstAttribute="bottom" secondItem="ff4-4O-TSb" secondAttribute="bottom" id="JrR-AL-FpP"/>

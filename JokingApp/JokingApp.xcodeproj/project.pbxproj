@@ -15,6 +15,8 @@
 		771CA0CC23785EC3002ABA71 /* JokeSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0CB23785EC3002ABA71 /* JokeSearchPresenter.swift */; };
 		771CA0CE23785ED8002ABA71 /* JokeListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0CD23785ED8002ABA71 /* JokeListPresenter.swift */; };
 		771CA0D023785F9F002ABA71 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CA0CF23785F9F002ABA71 /* HomePresenter.swift */; };
+		77883B5823902DB000475805 /* JokingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77883B5523902D9A00475805 /* JokingFramework.framework */; };
+		77883B5923902DB000475805 /* JokingFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77883B5523902D9A00475805 /* JokingFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7792E8D02379BEC4003DBEA9 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7792E8CF2379BEC4003DBEA9 /* LoadingCell.xib */; };
 		7792E8D22379C0B1003DBEA9 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7792E8D12379C0B1003DBEA9 /* LoadingCell.swift */; };
 		77C496DE237C83C6004BA7FE /* JokesToolkitPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C496DD237C83C6004BA7FE /* JokesToolkitPort.swift */; };
@@ -28,6 +30,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		77883B5423902D9A00475805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77883B4F23902D9A00475805 /* JokingFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 77DED0472376F65800F1B066;
+			remoteInfo = JokingFramework;
+		};
+		77883B5623902D9A00475805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77883B4F23902D9A00475805 /* JokingFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 77DED0502376F65900F1B066;
+			remoteInfo = JokingFrameworkTests;
+		};
+		77883B5A23902DB000475805 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77883B4F23902D9A00475805 /* JokingFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 77DED0462376F65800F1B066;
+			remoteInfo = JokingFramework;
+		};
 		77DED07F2376F69000F1B066 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 77DED0622376F69000F1B066 /* Project object */;
@@ -44,6 +67,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		77883B5C23902DB000475805 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				77883B5923902DB000475805 /* JokingFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		771CA0BD23785223002ABA71 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		771CA0BF23785576002ABA71 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +90,7 @@
 		771CA0CB23785EC3002ABA71 /* JokeSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeSearchPresenter.swift; sourceTree = "<group>"; };
 		771CA0CD23785ED8002ABA71 /* JokeListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeListPresenter.swift; sourceTree = "<group>"; };
 		771CA0CF23785F9F002ABA71 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		77883B4F23902D9A00475805 /* JokingFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JokingFramework.xcodeproj; path = ../JokingFramework/JokingFramework.xcodeproj; sourceTree = "<group>"; };
 		7792E8CF2379BEC4003DBEA9 /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 		7792E8D12379C0B1003DBEA9 /* LoadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
 		77C496DD237C83C6004BA7FE /* JokesToolkitPort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesToolkitPort.swift; sourceTree = "<group>"; };
@@ -76,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77883B5823902DB000475805 /* JokingFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +164,15 @@
 			path = JokeSearchScreen;
 			sourceTree = "<group>";
 		};
+		77883B5023902D9A00475805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77883B5523902D9A00475805 /* JokingFramework.framework */,
+				77883B5723902D9A00475805 /* JokingFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		77DED0612376F69000F1B066 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +180,7 @@
 				77DED0812376F69000F1B066 /* JokingAppTests */,
 				77DED08C2376F69000F1B066 /* JokingAppUITests */,
 				77DED06B2376F69000F1B066 /* Products */,
+				77883B4F23902D9A00475805 /* JokingFramework.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,10 +241,12 @@
 				77DED0662376F69000F1B066 /* Sources */,
 				77DED0672376F69000F1B066 /* Frameworks */,
 				77DED0682376F69000F1B066 /* Resources */,
+				77883B5C23902DB000475805 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				77883B5B23902DB000475805 /* PBXTargetDependency */,
 			);
 			name = JokingApp;
 			productName = JokingApp;
@@ -272,6 +323,12 @@
 			mainGroup = 77DED0612376F69000F1B066;
 			productRefGroup = 77DED06B2376F69000F1B066 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 77883B5023902D9A00475805 /* Products */;
+					ProjectRef = 77883B4F23902D9A00475805 /* JokingFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				77DED0692376F69000F1B066 /* JokingApp */,
@@ -280,6 +337,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		77883B5523902D9A00475805 /* JokingFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JokingFramework.framework;
+			remoteRef = 77883B5423902D9A00475805 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		77883B5723902D9A00475805 /* JokingFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JokingFrameworkTests.xctest;
+			remoteRef = 77883B5623902D9A00475805 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		77DED0682376F69000F1B066 /* Resources */ = {
@@ -348,6 +422,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		77883B5B23902DB000475805 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JokingFramework;
+			targetProxy = 77883B5A23902DB000475805 /* PBXContainerItemProxy */;
+		};
 		77DED0802376F69000F1B066 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 77DED0692376F69000F1B066 /* JokingApp */;
@@ -499,6 +578,7 @@
 		77DED0932376F69000F1B066 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";
@@ -518,6 +598,7 @@
 		77DED0942376F69000F1B066 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/Pods/**";

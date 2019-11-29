@@ -66,7 +66,6 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
             cell.textLabel?.numberOfLines = 0
             cell.textLabel?.lineBreakMode = .byWordWrapping
             cell.textLabel?.textColor = .white
-            cell.contentView.backgroundColor = UIColor(red: (47/255.0), green: (29/255.0), blue: (107/255.0), alpha: 1.0)
 
             return cell
         } else {

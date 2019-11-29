@@ -1,6 +1,6 @@
 # JokingApp
 
-This is a simple app that consumes a restful api from http://www.icndb.com/. This project was built using xCode 10.3 and refined for xCode 11.  
+This is a simple Chuck Norris jokes app that consumes a restful api from http://www.icndb.com/. This project was built using xCode 10.3 and refined for xCode 11.  
 
 ### To build the project:
 

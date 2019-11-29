@@ -1,6 +1,14 @@
 # JokingApp
 
-This is a simple app that consumes a restful api from http://www.icndb.com/. The project includes two parts:
+This is a simple app that consumes a restful api from http://www.icndb.com/. This project was built using xCode 10.3 and refined for xCode 11.  
+
+### To build the project:
+
+1. clone this repo 
+1. open either the xcodeproj files inside the JokingApp/JokingApp or JokingApp/JokingFramework
+Alternatively you can also open the xcworkspace file which will launch both the framework and the app. 
+
+### The project includes:
 
 # A JokingApp for iOS
 
@@ -43,3 +51,8 @@ numberOfJokes: An Int where you specify the amount of jokes to fetch from the IC
 on success, a provided Joke object is expected to be passed in
 
 on failure: a provided JokeFetchingError is expected to be passed in
+
+## Tests are located in:
+
+* JokingApp/JokingApp/JokingAppTests for the iOS App
+* JokingApp/JokingFramework/JokingFrameworkTests for the framework

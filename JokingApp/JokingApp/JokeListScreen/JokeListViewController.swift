@@ -26,6 +26,9 @@ class JokeListViewController: UIViewController, UITableViewDataSource, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Fix for XCode 11. Compiles the background colour to be white due to auto-dark-moding the app.
+        UITableViewCell.appearance().backgroundColor = .clear
+        
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "tableCell")
         let loadingNib = UINib(nibName: "LoadingCell", bundle: nil)
         tableView.register(loadingNib, forCellReuseIdentifier: "loadingCell")

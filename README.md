@@ -6,6 +6,7 @@ This is a simple Chuck Norris jokes app that consumes a restful api from http://
 
 1. clone this repo 
 1. open either the xcodeproj files inside the JokingApp/JokingApp or JokingApp/JokingFramework
+
 Alternatively you can also open the xcworkspace file which will launch both the framework and the app. 
 
 ### The project includes:
@@ -16,7 +17,7 @@ A simple iOS app that uses the iOS coordinator architecture. The app imports the
 
 # A JokingFramework
 
-An XCode framework which contains only business logic and no UI related code. This framework has an internal and an external initialism. The internal initialiser is used for TDD based tests. This accepts protocols so that objects can be mocked easily so that no "real" objects are being run in tests which should make the tests run faster. The purpose of the public initialiser is only for instantiation and injects "real" objects through to the internal initialiser. 
+An XCode framework which contains only business logic and no UI related code. This framework has an internal and an external initialiser. The internal initialiser is used for TDD based tests. This accepts protocols so that objects can be mocked easily and that no "real" objects are being run in tests which should make the tests run faster. The purpose of the public initialiser is only for instantiation and injects "real" objects through to the internal initialiser. 
 
 The framework provides a simple API that is used to communicate with ICNDB. To use the framework, simply clone this project and add the framework to your project. The framework can be used the following way after importing: 
 
